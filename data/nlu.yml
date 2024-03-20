@@ -1,0 +1,168 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - xin chào
+    - chào bạn
+    - hi
+    - hello 
+    - hey
+    - mình có vài câu hỏi
+    - có ai giúp mình không
+
+- intent: goodbye
+  examples: |
+    - tạm biệt
+    - chào tạm biệt
+    - chào tạm biệt admin
+    - chào tạm biệt ad
+    - chào nhé
+    - goodbye
+    - bye
+
+- intent: thank
+  examples: |
+    - tốt
+    - cảm ơn bạn
+    - đúng rồi
+    - chuẩn
+    - cảm ơn
+    - cảm ơn admin
+    - cảm ơn ad
+    - đúng nội dung mà mình cần
+
+- intent: ask_func_list
+  examples: |
+    - bạn có thể làm được gì
+    - bạn giúp được gì nào
+    - kể xem bạn làm được gì
+    - bạn hỗ trợ những gì 
+
+- intent: time_keeping
+  examples: |
+    - Báo cáo chấm công    
+
+- intent: timekeeping_formula
+  examples: |
+    - Công thức chấm công
+    - Mình muốn biết công thức chấm công của công ty
+    - Công thức chấm công
+    - Cách biết số ngày công trong tháng 
+    - Số ngày công mà mình đã làm được trong tháng vừa rồi
+
+- intent: types_of_applications
+  examples: |
+    - Tạo các loại đơn
+    - Mình muốn biết cách viết đơn 
+    - Bao gồm những loại đơn nào ?
+  
+- intent: app_1
+  examples: |
+    - 1
+    - Đơn 1
+    - Đơn xin nghỉ có tính lương
+    - Mình muốn form đơn xin nghỉ có tính lương (Chỉ dùng cho hiếu hỉ)
+
+- intent: app_1_1
+  examples: |
+    - Tên nhân viên, mã nhân viên, công ty, phòng ban, chức vụ
+
+- intent: app_1_2
+  examples: |
+    - Ngày tạo, ngày làm việc, thời gian xin nghỉ
+- intent: app_1_3
+  examples: |
+    - Số phút nghỉ
+
+- intent: app_1_4
+  examples: |
+    - Vì lý do
+
+- intent: app_1_5
+  examples: |
+    - Lý do
+
+- intent: app_2
+  examples: |
+    - 2
+    - Đơn 2
+    - Đơn xin tăng ca
+  
+- intent: app_2_1
+  examples: |
+    - Tên nhân viên, mã nhân viên, công ty, phòng ban, chức vụ
+
+- intent: app_2_2
+  examples: |
+    - Loại đơn tăng ca
+- intent: app_2_3
+  examples: |
+    - Ngày tăng ca, tăng ca từ và tăng ca đến
+
+- intent: app_2_4
+  examples: |
+    - Số phút tăng ca, hệ số công và hệ số lương
+
+- intent: app_2_5
+  examples: |
+    - Chuyển tăng ca
+
+- intent: app_2_6
+  examples: |
+    - Vì lý do
+
+- intent: app_2_7
+  examples: |
+    - Lý do
+  
+- intent: app_3
+  examples: |
+    - 3
+    - Đơn 3
+    - Đơn xin sử dụng chế độ con nhỏ
+
+- intent: app_4
+  examples: |
+    - 4
+    - Đơn 4
+    - Đơn xin nghỉ bù
+
+- intent: app_5
+  examples: |
+    - 5
+    - Đơn 5
+    - Đơn xin nghỉ phép
+
+- intent: app_6
+  examples: |
+    - 6
+    - Đơn 6
+    - Đơn xin đi muộn/ về sớm
+  
+- intent: app_7
+  examples: |
+    - 7
+    - Đơn 7
+    - Đơn xin ra ngoài
+
+- intent: app_8
+  examples: |
+    - 8
+    - Đơn 8
+    - Đơn thiếu chấm công
+  
+# - intent: time_entry
+#   examples: |
+#     - Tăng ca
+#     - Tôi muốn nhập giờ làm việc
+#     - Tôi muốn tăng ca
+#     - Cách đăng ký tăng ca là như thế nào     
+
+# - intent: time_off_request
+#   examples: |
+#     - Xin nghỉ đột xuất
+#     - Tôi muốn xin nghỉ làm
+#     - Bây giờ muốn nghỉ làm thì phải làm sao
+#     - Hôm nay tôi xin nghỉ  
+

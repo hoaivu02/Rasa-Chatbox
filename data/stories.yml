@@ -1,0 +1,76 @@
+version: "3.1"
+
+stories:
+
+- story: path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_func_list
+  - action: utter_ask_func_list
+  - intent: thank
+  - action: utter_thank
+  - intent: goodbye
+  - action: utter_goodbye
+  
+- story: path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: path 3
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: thank
+  - action: utter_thank
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: path 4
+  steps:
+  - intent: thank
+  - action: utter_thank
+
+- story: path 5
+  steps:
+  - intent: time_keeping
+  - action: utter_time_keeping
+  - intent: types_of_applications
+  - action: utter_types_of_applications
+
+- story: path 6
+  steps:
+  - intent: time_keeping
+  - action: utter_time_keeping
+  - intent: timekeeping_formula
+  - action: utter_timekeeping_formula
+
+- story: applications_form_1
+  steps:
+  - intent: app_1
+  - action: utter_app_1
+
+- story: applications_form_2
+  steps:
+  - intent: app_2
+  - action: utter_app_2
+
+- story: app_2_ask
+  steps:
+  - intent: app_2_1
+  - action: utter_app_2_1
+  - intent: app_2_2
+  - action: utter_app_2_2
+  - intent: app_2_3
+  - action: utter_app_2_3
+  - intent: app_2_4
+  - action: utter_app_2_4
+  - intent: app_2_5
+  - action: utter_app_2_5
+  - intent: app_2_6
+  - action: utter_app_2_6
+  - intent: app_2_7
+  - action: utter_app_2_7
