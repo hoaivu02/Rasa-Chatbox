@@ -16,6 +16,11 @@ intents:
   - timekeeping_formula
   - types_of_applications
   - app_1
+  - app_1_1
+  - app_1_2
+  - app_1_3
+  - app_1_4
+  - app_1_5
   - app_2
   - app_2_1
   - app_2_2
@@ -24,7 +29,37 @@ intents:
   - app_2_5
   - app_2_6
   - app_2_7
-
+  - app_3
+  - app_3_1
+  - app_3_2
+  - app_3_3
+  - app_4
+  - app_4_1
+  - app_4_2
+  - app_4_3
+  - app_4_4
+  - app_4_5
+  - app_4_6
+  - app_5
+  - app_5_1
+  - app_5_2
+  - app_5_3
+  - app_5_4
+  - app_5_5
+  - app_5_6
+  - app_6
+  - app_6_1
+  - app_6_2
+  - app_6_3
+  - app_6_4
+  - app_6_5
+  - app_6_6
+  - app_7
+  - app_7_1
+  - app_7_2
+  - app_7_3
+  - app_7_4
+  - app_7_5
 
 entities: 
   - user_name
@@ -134,57 +169,137 @@ responses:
   utter_app_2_7:
   - text: "Lý do là một ô Text cho phép bạn ghi rõ lý do tạo đơn"
 
-  # utter_app_3:
-  # - text: "Bạn vui lòng truy cập vào app hoặc web HRM, vào phần tạo đơn. 
-  # \nBạn lựa chọn đơn xin sử dụng chế độ con nhỏ. Hoàn thành các nội dung có trong popup theo quy ước
-  # \nCác nội dung có trong popup gồm:
-  # \n  - Tên nhân viên, mã nhân viên, công ty, phòng ban, chức vụ
-  # \n  - Ngày tạo, ngày làm việc, thời gian hưởng chế độ, thời gian nghỉ
-  # \n  - Lý do"
+  utter_app_3:
+  - text: "Bạn vui lòng truy cập vào app hoặc web HRM, vào phần tạo đơn. 
+  \nBạn lựa chọn đơn xin sử dụng chế độ con nhỏ. Hoàn thành các nội dung có trong popup theo quy ước
+  \nCác nội dung có trong popup gồm:
+  \n  - Tên nhân viên, mã nhân viên, công ty, phòng ban, chức vụ
+  \n  - Ngày tạo, ngày làm việc, thời gian hưởng chế độ, thời gian nghỉ
+  \n  - Lý do"
 
-  # utter_app_4:
-  # - text: "Bạn vui lòng truy cập vào app hoặc web HRM, vào phần tạo đơn. 
-  # \nBạn lựa chọn đơn xin nghỉ bù. Hoàn thành các nội dung có trong popup theo quy ước
-  # \nCác nội dung có trong popup gồm:
-  # \n  - Tên nhân viên, mã nhân viên, công ty, phòng ban, chức vụ
-  # \n  - Ngày tạo, ngày làm việc, thời gian nghỉ
-  # \n  - Quỹ bù
-  # \n  - Số phút nghỉ
-  # \n  - Vì lý do
-  # \n  - Lý do"
+  utter_app_3_1:
+  - text: "Tên nhân viên, mã nhân viên, công ty, phòng ban, chức vụ dạng Text được điền sẵn dựa vào tài khoản của bạn"
 
-  # utter_app_5:
-  # - text: "Bạn vui lòng truy cập vào app hoặc web HRM, vào phần tạo đơn. 
-  # \nBạn lựa chọn đơn xin nghỉ phép. Hoàn thành các nội dung có trong popup theo quy ước
-  # \nCác nội dung có trong popup gồm:
-  # \n  - Tên nhân viên, mã nhân viên, công ty, phòng ban, chức vụ
-  # \n  - Ngày tạo, ngày làm việc, thời gian nghỉ
-  # \n  - Quỹ phép
-  # \n  - Số phút nghỉ
-  # \n  - Vì lý do
-  # \n  - Lý do"
+  utter_app_3_2:
+  - text: "Ngày tạo, ngày làm việc, thời gian hưởng chế độ, thời gian nghỉ là các nội dung bắt buộc, phải được viết dưới
+  \ndạng Date dd/mm/yyyy"
+
+  utter_app_3_3:
+  - text: "Lý do là một ô Text cho phép bạn ghi rõ lý do tạo đơn"
+
+  utter_app_4:
+  - text: "Bạn vui lòng truy cập vào app hoặc web HRM, vào phần tạo đơn. 
+  \nBạn lựa chọn đơn xin nghỉ bù. Hoàn thành các nội dung có trong popup theo quy ước
+  \nCác nội dung có trong popup gồm:
+  \n  - Tên nhân viên, mã nhân viên, công ty, phòng ban, chức vụ
+  \n  - Ngày tạo, ngày làm việc, thời gian nghỉ
+  \n  - Quỹ bù
+  \n  - Số phút nghỉ
+  \n  - Vì lý do
+  \n  - Lý do"
+
+  utter_app_4_1:
+  - text: "Tên nhân viên, mã nhân viên, công ty, phòng ban, chức vụ dạng Text được điền sẵn dựa vào tài khoản của bạn"
   
-  # utter_app_6:
-  # - text: "Bạn vui lòng truy cập vào app hoặc web HRM, vào phần tạo đơn. 
-  # \nBạn lựa chọn đơn xin đi muộn/về sớm. Hoàn thành các nội dung có trong popup theo quy ước
-  # \nCác nội dung có trong popup gồm:
-  # \n  - Tên nhân viên, mã nhân viên, công ty, phòng ban, chức vụ
-  # \n  - Ngày tạo, ngày làm việc, thời gian nghỉ
-  # \n  - Quỹ phép, quỹ bù
-  # \n  - Số phút nghỉ
-  # \n  - Vì lý do
-  # \n  - Lý do"
+  utter_app_4_2:
+  - text: "Ngày tạo, ngày làm việc và thời gian nghỉ là các nội dung bắt buộc, phải được viết dưới dạng Date dd/mm/yyyy"
 
-  # utter_app_7:
-  # - text: "Bạn vui lòng truy cập vào app hoặc web HRM, vào phần tạo đơn. 
-  # \nBạn lựa chọn đơn xin ra ngoài. Hoàn thành các nội dung có trong popup theo quy ước
-  # \nCác nội dung có trong popup gồm:
-  # \n  - Tên nhân viên, mã nhân viên, công ty, phòng ban, chức vụ
-  # \n  - Ngày tạo, ngày làm việc
-  # \n  - Bắt đầu ra ngoài
-  # \n  - Kết thúc ra ngoài
-  # \n  - Vì lý do
-  # \n  - Lý do"
+  utter_app_4_3:
+  - text: "Quỹ bù dạng Number là số quỹ bù còn lại của nhân viên"
+
+  utter_app_4_4:
+  - text: "Số phút nghỉ dạng Number là số phút nghỉ bù trong đơn điền tự động hiển thị đúng số phút bù để tròn 480 phút
+  \n(tức 1 công)"
+
+  utter_app_4_5:
+  - text: "Vì lý do là ô checkbox, bạn hãy tích vào lý do xin nghỉ là Cá nhân hay Công việc"
+
+  utter_app_4_6:
+  - text: "Lý do là một ô Text cho phép bạn ghi rõ lý do tạo đơn"
+
+  utter_app_5:
+  - text: "Bạn vui lòng truy cập vào app hoặc web HRM, vào phần tạo đơn. 
+  \nBạn lựa chọn đơn xin nghỉ phép. Hoàn thành các nội dung có trong popup theo quy ước
+  \nCác nội dung có trong popup gồm:
+  \n  - Tên nhân viên, mã nhân viên, công ty, phòng ban, chức vụ
+  \n  - Ngày tạo, ngày làm việc 
+  \n  - Quỹ phép
+  \n  - Số phút nghỉ
+  \n  - Vì lý do
+  \n  - Lý do"
+
+  utter_app_5_1:
+  - text: "Tên nhân viên, mã nhân viên, công ty, phòng ban, chức vụ dạng Text được điền sẵn dựa vào tài khoản của bạn"
+  
+  utter_app_5_2:
+  - text: "Ngày tạo, ngày làm việc và thời gian nghỉ là các nội dung bắt buộc, phải được viết dưới dạng Date dd/mm/yyyy"
+
+  utter_app_5_3:
+  - text: "Quỹ phép dạng Number là số quỹ phép còn lại của nhân viên"
+
+  utter_app_5_4:
+  - text: "Số phút nghỉ dạng Number là số phút nghỉ phép của nhân viên"
+
+  utter_app_5_5:
+  - text: "Vì lý do là ô checkbox, bạn hãy tích vào lý do xin nghỉ là Cá nhân hay Công việc"
+
+  utter_app_5_6:
+  - text: "Lý do là một ô Text cho phép bạn ghi rõ lý do tạo đơn"
+  
+  utter_app_6:
+  - text: "Bạn vui lòng truy cập vào app hoặc web HRM, vào phần tạo đơn. 
+  \nBạn lựa chọn đơn xin đi muộn/về sớm. Hoàn thành các nội dung có trong popup theo quy ước
+  \nCác nội dung có trong popup gồm:
+  \n  - Tên nhân viên, mã nhân viên, công ty, phòng ban, chức vụ
+  \n  - Ngày tạo, ngày làm việc, thời gian nghỉ
+  \n  - Quỹ phép, quỹ bù 
+  \n  - Số phút nghỉ 
+  \n  - Vì lý do
+  \n  - Lý do"
+
+  utter_app_6_1:
+  - text: "Tên nhân viên, mã nhân viên, công ty, phòng ban, chức vụ dạng Text được điền sẵn dựa vào tài khoản của bạn"
+  
+  utter_app_6_2:
+  - text: "Ngày tạo, ngày làm việc và thời gian nghỉ là các nội dung bắt buộc, phải được viết dưới dạng Date dd/mm/yyyy"
+
+  utter_app_6_3:
+  - text: "Quỹ phép, quỹ bù dạng Number lần lượt là số quỹ phép, quỹ bù còn lại của nhân viên"
+
+  utter_app_6_4:
+  - text: "Số phút nghỉ dạng Number là số phút nghỉ phép của nhân viên"
+
+  utter_app_6_5:
+  - text: "Vì lý do là ô checkbox, bạn hãy tích vào lý do xin nghỉ là Cá nhân hay Công việc"
+
+  utter_app_6_6:
+  - text: "Lý do là một ô Text cho phép bạn ghi rõ lý do tạo đơn"
+
+  utter_app_7:
+  - text: "Bạn vui lòng truy cập vào app hoặc web HRM, vào phần tạo đơn. 
+  \nBạn lựa chọn đơn xin ra ngoài. Hoàn thành các nội dung có trong popup theo quy ước
+  \nCác nội dung có trong popup gồm:
+  \n  - Tên nhân viên, mã nhân viên, công ty, phòng ban, chức vụ
+  \n  - Ngày tạo, ngày làm việc
+  \n  - Bắt đầu ra ngoài
+  \n  - Kết thúc ra ngoài
+  \n  - Vì lý do
+  \n  - Lý do"
+  
+  utter_app_7_1:
+  - text: "Tên nhân viên, mã nhân viên, công ty, phòng ban, chức vụ dạng Text được điền sẵn dựa vào tài khoản của bạn"
+  
+  utter_app_7_2:
+  - text: "Ngày tạo, ngày làm việc là các nội dung bắt buộc, phải được viết dưới dạng Date dd/mm/yyyy"
+
+  utter_app_7_3:
+  - text: "Bắt đầu ra ngoài, kết thúc ra ngoài dạng Time lần lượt chỉ thời gian bắt đầu ra ngoài và kết thúc ra ngoài"
+
+  utter_app_7_4:
+  - text: "Vì lý do là ô checkbox, bạn hãy tích vào lý do xin nghỉ là Cá nhân hay Công việc"
+
+  utter_app_7_5:
+  - text: "Lý do là một ô Text cho phép bạn ghi rõ lý do tạo đơn"
 
   # utter_app_8:
   # - text:
