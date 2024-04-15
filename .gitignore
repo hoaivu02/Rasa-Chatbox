@@ -1,0 +1,5 @@
+# Ignore all files in the log directory
+/.rasa
+/actions/__pycache__/
+/models
+# Ignore specific file
