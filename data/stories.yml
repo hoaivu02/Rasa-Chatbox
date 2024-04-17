@@ -18,3 +18,171 @@ stories:
   - intent: more_dashboard
   - action: utter_more_dashboard
  
+- story: path 3 question about danh sach phong ban
+  steps:
+  - intent: quan_ly_nhan_vien
+  - action: utter_quan_ly_nhan_vien
+  - intent: function_danh_sach_phong_ban
+  - action: utter_function_danh_sach_phong_ban
+
+- story: path 3.1 question ve nut 1
+  steps:
+  - intent: function_danh_sach_phong_ban
+  - action: utter_function_danh_sach_phong_ban
+  - intent: button_page_1_export
+  - action: utter_button_page_1_export
+
+- story: path 3.2 question ve nut 2
+  steps:
+  - intent: function_danh_sach_phong_ban
+  - action: utter_function_danh_sach_phong_ban
+  - intent: button_page_1_import
+  - action: utter_button_page_1_import
+
+- story: path 3.3 question ve nut 3
+  steps:
+  - intent: function_danh_sach_phong_ban
+  - action: utter_function_danh_sach_phong_ban
+  - intent: button_page_1_them_moi
+  - action: utter_button_page_1_them_moi
+
+- story: path 3.4 question ve nut 4
+  steps:
+  - intent: function_danh_sach_phong_ban
+  - action: utter_function_danh_sach_phong_ban
+  - intent: button_page_1_xoa
+  - action: utter_button_page_1_xoa
+# 
+- story: path 4 question about quan ly hop dong
+  steps:
+  - intent: quan_ly_nhan_vien
+  - action: utter_quan_ly_nhan_vien
+  - intent: function_quan_ly_hop_dong
+  - action: utter_function_quan_ly_hop_dong
+
+- story: path 4.1 question ve nut 1
+  steps:
+  - intent: function_quan_ly_hop_dong
+  - action: utter_function_quan_ly_hop_dong
+  - intent: button_page_2_export
+  - action: utter_button_page_2_export
+
+- story: path 4.2 question ve nut 2
+  steps:
+  - intent: function_quan_ly_hop_dong
+  - action: utter_function_quan_ly_hop_dong
+  - intent: button_page_2_import
+  - action: utter_button_page_2_import
+
+- story: path 4.3 question ve nut 3
+  steps:
+  - intent: function_quan_ly_hop_dong
+  - action: utter_function_quan_ly_hop_dong
+  - intent: button_page_2_them_moi
+  - action: utter_button_page_2_them_moi
+
+- story: path 4.4 question ve nut 4
+  steps:
+  - intent: function_quan_ly_hop_dong
+  - action: utter_function_quan_ly_hop_dong
+  - intent: button_page_2_xoa
+  - action: utter_button_page_2_xoa
+# 
+- story: path 5 question about danh sach nhan vien
+  steps:
+  - intent: quan_ly_nhan_vien
+  - action: utter_quan_ly_nhan_vien
+  - intent: function_danh_sach_nhan_vien
+  - action: utter_function_danh_sach_nhan_vien
+
+- story: path 5.1 question ve nut 1
+  steps:
+  - intent: function_danh_sach_nhan_vien
+  - action: utter_function_danh_sach_nhan_vien
+  - intent: button_page_3_export
+  - action: utter_button_page_3_export
+
+- story: path 5.2 question ve nut 2
+  steps:
+  - intent: function_danh_sach_nhan_vien
+  - action: utter_function_danh_sach_nhan_vien
+  - intent: button_page_3_them_moi
+  - action: utter_button_page_3_them_moi
+
+- story: path 5.3 question ve nut 3
+  steps:
+  - intent: function_danh_sach_nhan_vien
+  - action: utter_function_danh_sach_nhan_vien
+  - intent: button_page_3_tao_tai_khoan
+  - action: utter_button_page_3_tao_tai_khoan
+
+- story: path 5.4 question ve nut 4
+  steps:
+  - intent: function_danh_sach_nhan_vien
+  - action: utter_function_danh_sach_nhan_vien
+  - intent: button_page_3_xoa
+  - action: utter_button_page_3_xoa
+
+- story: path 5.4 question ve nut 4
+  steps:
+  - intent: function_danh_sach_nhan_vien
+  - action: utter_function_danh_sach_nhan_vien
+  - intent: button_page_3_doi_mat_khau
+  - action: utter_button_page_3_doi_mat_khau
+# 
+- story: path 6 question about dia diem lam viec
+  steps:
+  - intent: quan_ly_nhan_vien
+  - action: utter_quan_ly_nhan_vien
+  - intent: function_dia_diem_lam_viec
+  - action: utter_function_dia_diem_lam_viec
+
+- story: path 6.1 question ve nut 1
+  steps:
+  - intent: function_dia_diem_lam_viec
+  - action: utter_function_dia_diem_lam_viec
+  - intent: button_page_4_export
+  - action: utter_button_page_4_export
+
+- story: path 6.2 question ve nut 2
+  steps:
+  - intent: function_dia_diem_lam_viec
+  - action: utter_function_dia_diem_lam_viec
+  - intent: button_page_4_them_moi
+  - action: utter_button_page_4_them_moi
+
+- story: path 6.3 question ve nut 3
+  steps:
+  - intent: function_dia_diem_lam_viec
+  - action: utter_function_dia_diem_lam_viec
+  - intent: button_page_4_xoa
+  - action: utter_button_page_4_xoa
+# 
+- story: path 7 question about cau hinh chuc vu
+  steps:
+  - intent: quan_ly_nhan_vien
+  - action: utter_quan_ly_nhan_vien
+  - intent: function_cau_hinh_chuc_vu
+  - action: utter_function_cau_hinh_chuc_vu
+
+
+- story: path 7.1 question ve nut 1
+  steps:
+  - intent: function_cau_hinh_chuc_vu
+  - action: utter_function_cau_hinh_chuc_vu
+  - intent: button_page_5_export
+  - action: utter_button_page_5_export
+
+- story: path 7.2 question ve nut 2
+  steps:
+  - intent: function_cau_hinh_chuc_vu
+  - action: utter_function_cau_hinh_chuc_vu
+  - intent: button_page_5_them_moi
+  - action: utter_button_page_5_them_moi
+
+- story: path 7.3 question ve nut 3
+  steps:
+  - intent: function_cau_hinh_chuc_vu
+  - action: utter_function_cau_hinh_chuc_vu
+  - intent: button_page_5_xoa
+  - action: utter_button_page_5_xoa
