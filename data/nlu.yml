@@ -46,3 +46,163 @@ nlu:
     - moredashboard
     - Tôi muốn biết rõ hơn về bảng Báo cáo nhân sự HRM trên Dashboard
     - Các nội dung trên báo cáo nhân sự HRM của trang Dashboard
+
+# --------------------------------------------------------------------------
+- intent: quan_ly_nhan_vien
+  examples: |
+    - Quản lý nhân viên
+    - Cho mình hỏi về trang Quản lý nhân viên
+    - Chức năng Quản lý nhân viên là gì
+    - Quản lý nhân viên ở lề bên trái Website
+    - Mình không rõ các nội dung của trang Quản lý nhân viên
+
+# --------------------------------------------------------------------------
+- intent: function_danh_sach_phong_ban
+  examples: | 
+    - Danh sách phòng ban
+    - Mình muốn hỏi về chức năng con Danh sách phòng ban
+    - Chức năng Danh sách phòng ban là gì
+    - Trang Danh sách phòng ban làm được gì 
+
+- intent: button_page_1_export
+  examples: | 
+    - Mình muốn hỏi về nút export dữ liệu của danh sách phòng ban
+    - Export của danh sách phòng ban
+    - Nút bấm export của danh sách phòng ban
+
+- intent: button_page_1_import
+  examples: |
+    - Mình muốn hỏi về nút import dữ liệu của danh sách phòng ban
+    - Import của danh sách phòng ban
+    - Nút bấm import của danh sách phòng ban
+
+- intent: button_page_1_them_moi
+  examples: |
+    - Mình muốn hỏi về nút Thêm mới của danh sách phòng ban
+    - Thêm mới của danh sách phòng ban
+    - Nút bấm Thêm mới của danh sách phòng ban
+
+- intent: button_page_1_xoa
+  examples: |
+    - Mình muốn hỏi về nút Xóa của danh sách phòng ban
+    - Xóa của danh sách phòng ban
+    - Nút bấm Xóa của danh sách phòng ban
+# --------------------------------------------------------------------------
+- intent: function_quan_ly_hop_dong
+  examples: | 
+    - Quản lý hợp đồng
+    - Mình muốn hỏi về chức năng con Quản lý hợp đồng
+    - Chức năng Quản lý hợp đồng là gì
+    - Trang Quản lý hợp đồng làm được gì 
+
+- intent: button_page_2_export
+  examples: | 
+    - Mình muốn hỏi về nút export dữ liệu của quản lý hợp đồng
+    - Export của quản lý hợp đồng
+    - Nút bấm export của quản lý hợp đồng
+
+- intent: button_page_2_import
+  examples: |
+    - Mình muốn hỏi về nút import dữ liệu của quản lý hợp đồng
+    - Import của quản lý hợp đồng
+    - Nút bấm import của quản lý hợp đồng
+
+- intent: button_page_2_them_moi
+  examples: |
+    - Mình muốn hỏi về nút Tạo mới của quản lý hợp đồng
+    - Tạo mới của quản lý hợp đồng
+    - Nút bấm Tạo  mới của quản lý hợp đồng
+
+- intent: button_page_2_xoa
+  examples: | 
+    - Mình muốn hỏi về nút Xóa của quản lý hợp đồng
+    - Xóa của quản lý hợp đồng
+    - Nút bấm Xóa của quản lý hợp đồng
+# --------------------------------------------------------------------------
+- intent: function_danh_sach_nhan_vien
+  examples: | 
+    - Danh sách nhân viên
+    - Mình muốn hỏi về chức năng con Danh sách nhân viên
+    - Chức năng Danh sách nhân viên là gì
+    - Trang Danh sách nhân viên làm được gì 
+
+- intent: button_page_3_export
+  examples: | 
+    - Mình muốn hỏi về nút export dữ liệu của danh sách nhân viên
+    - Export của danh sách nhân viên
+    - Nút bấm export của danh sách nhân viên
+
+- intent: button_page_3_them_moi
+  examples: |
+    - Mình muốn hỏi về nút Thêm mới của danh sách nhân viên
+    - Thêm mới của danh sách nhân viên
+    - Nút bấm Thêm mới của danh sách nhân viên
+
+- intent: button_page_3_tao_tai_khoan    
+  examples: |
+    - Mình muốn hỏi về nút Tạo tài khoản của danh sách nhân viên
+    - Tạo tài khoản của danh sách nhân viên
+    - Nút bấm Tạo tài khoản của danh sách nhân viên
+
+- intent: button_page_3_xoa
+  examples: |
+    - Mình muốn hỏi về nút Xóa của danh sách nhân viên
+    - Xóa của danh sách nhân viên
+    - Nút bấm Xóa của danh sách nhân viên
+
+- intent: button_page_3_doi_mat_khau
+  examples: |
+    - Mình muốn hỏi về đổi mật khẩu nhân viên của danh sách nhân viên
+    - Đổi mật khẩu của danh sách nhân viên
+    - Nút bấm đổi mật khẩu của danh sách nhân viên
+# ----------------------------- ---------------------------------------------
+- intent: function_dia_diem_lam_viec
+  examples: | 
+    - Địa điểm làm việc
+    - Mình muốn hỏi về chức năng con Địa điểm làm việc
+    - Chức năng Địa điểm làm việc là gì
+    - Trang Địa điểm làm việc làm được gì 
+
+- intent: button_page_4_export
+  examples: |  
+    - Mình muốn hỏi về nút export dữ liệu của Địa điểm làm việc
+    - Export của Địa điểm làm việc
+    - Nút bấm export của Địa điểm làm việc
+
+- intent: button_page_4_them_moi
+  examples: |
+    - Mình muốn hỏi về nút Tạo mới của Địa điểm làm việc
+    - Tạo mới của Địa điểm làm việc
+    - Nút bấm Tạo mới của Địa điểm làm việc
+
+- intent: button_page_4_xoa
+  examples: |
+    - Mình muốn hỏi về nút Xóa của Địa điểm làm việc
+    - Xóa của Địa điểm làm việc
+    - Nút bấm Xóa của Địa điểm làm việc
+# --------------------------------------------------------------------------
+- intent: function_cau_hinh_chuc_vu
+  examples: | 
+    - Cấu hình chức vụ
+    - Mình muốn hỏi về chức năng con Cấu hình chức vụ
+    - Chức năng Cấu hình chức vụ là gì
+    - Trang Cấu hình chức vụ làm được gì 
+
+- intent: button_page_5_export
+  examples: | 
+    - Mình muốn hỏi về nút export dữ liệu của cấu hình chức vụ
+    - Export của cấu hình chức vụ
+    - Nút bấm export của cấu hình chức vụ
+
+- intent: button_page_5_them_moi
+  examples: |
+    - Mình muốn hỏi về nút Tạo mới của cấu hình chức vụ
+    - Tạo mới của cấu hình chức vụ
+    - Nút bấm Tạo mới của cấu hình chức vụ
+
+- intent: button_page_5_xoa
+  examples: |
+    - Mình muốn hỏi về nút Xóa của cấu hình chức vụ
+    - Xóa của cấu hình chức vụ
+    - Nút bấm Xóa của cấu hình chức vụ
+  
