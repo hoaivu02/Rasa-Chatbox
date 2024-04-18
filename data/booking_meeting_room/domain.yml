@@ -1,0 +1,19 @@
+version: "3.1"
+
+intents:
+  - booking_room
+  - create_booking_room
+  - verify_booking_room_request
+  - reject_booking_room_request
+  - delete_booking_room_request
+  - create_booking_room_request
+  - update_booking_room
+  - delete_booking_room
+
+responses:
+  utter_booking_room:
+  - text: "Chức năng đặt phòng họp bao gồm : \n + Thêm, sửa, xóa phòng họp \n + Thêm, sửa, xóa, duyệt đơn đặt phòng họp"
+
+  utter_create_booking_room:
+  - text: "Nhập tên phòng họp và thực hiện tạo mới"
+
