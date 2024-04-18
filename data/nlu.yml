@@ -228,3 +228,127 @@ nlu:
     - Mình muốn hỏi về chức năng con Phân ca nhân viên
     - Chức năng Phân ca nhân viên là gì
     - Trang Phân ca nhân viên làm được gì
+# --------------------------------------------------------------------------
+- intent: bao_cao_cham_cong
+  examples: |
+    - Báo cáo chấm công
+    - Cho mình hỏi về trang Báo cáo chấm công
+    - Chức năng Báo cáo chấm công là gì
+    - Báo cáo chấm công ở lề bên trái Website
+    - Mình không rõ các nội dung của trang Báo cáo chấm công
+
+- intent: function_bao_cao_tuan
+  examples: |
+    - Báo cáo theo tuần
+    - Mình muốn hỏi về chức năng con Báo cáo theo tuần
+    - Chức năng Báo cáo theo tuần là gì
+    - Trang Báo cáo theo tuần làm được gì
+
+- intent: button_page_6_tinh_toan
+  examples: | 
+    - Mình muốn hỏi về nút Tính toán của Báo cáo theo tuần
+    - Tính toán của Báo cáo theo tuần
+    - Nút bấm Tính toán của Báo cáo theo tuần
+
+- intent: button_page_6_import
+  examples: |
+    - Mình muốn hỏi về nút Import của Báo cáo theo tuần
+    - Import của Báo cáo theo tuần
+    - Nút bấm Import của Báo cáo theo tuần
+
+- intent: button_page_6_xem_thong_tin
+  examples: |
+    - Mình muốn hỏi về cách xem thông tin của trang Báo cáo theo tuần
+    - Xem thông tin của Báo cáo theo tuần
+    - Nút bấm Thông tin của Báo cáo theo tuần
+
+- intent: button_page_6_sua_ca
+  examples: |
+    - Mình muốn hỏi về cách sửa ca của trang Báo cáo theo tuần
+    - Sửa ca của Báo cáo theo tuần
+    - Sửa ca trong Báo cáo theo tuần
+    - Nút bấm Sửa ca của Báo cáo theo tuần
+
+- intent: button_page_6_tao_don
+  examples: |
+    - Mình muốn hỏi về cách tạo đơn của trang Báo cáo theo tuần
+    - Đơn của Báo cáo theo tuần
+    - Đơn của Báo cáo theo tuần
+    - Nút bấm Đơn của Báo cáo theo tuần
+# --------------------------------------------------------------------------
+- intent: function_danh_sach_ca
+  examples: |
+    - Danh sách ca
+    - Mình muốn hỏi về chức năng con Danh sách ca
+    - Chức năng Danh sách ca là gì
+    - Trang Danh sách ca làm được gì
+
+- intent: button_page_7_export
+  examples: | 
+    - Mình muốn hỏi về nút Export của Danh sách ca
+    - Export của Danh sách ca
+    - Nút bấm Export của Danh sách ca
+
+- intent: button_page_7_them_moi
+  examples: |
+    - Mình muốn hỏi về nút Thêm mới của Danh sách ca
+    - Thêm mới của Danh sách ca
+    - Nút bấm Thêm mới của Danh sách ca
+
+- intent: button_page_7_xoa
+  examples: |
+    - Mình muốn hỏi về nút Xóa của trang Danh sách ca
+    - Xóa của Danh sách ca
+    - Nút bấm Xóa của Danh sách ca
+# --------------------------------------------------------------------------
+
+- intent: function_bao_cao_thang
+  examples: |
+    - Báo cáo theo tháng
+    - Mình muốn hỏi về chức năng con Báo cáo theo tháng
+    - Chức năng Báo cáo theo tháng là gì
+    - Trang Báo cáo theo tháng làm được gì
+
+- intent: button_page_8_tinh_toan
+  examples: | 
+    - Mình muốn hỏi về nút Tính toán của Báo cáo theo tháng
+    - Tính toán của Báo cáo theo tháng
+    - Nút bấm Tính toán của Báo cáo theo tháng
+
+- intent: button_page_8_import
+  examples: |
+    - Mình muốn hỏi về nút Import của Báo cáo theo tháng
+    - Import của Báo cáo theo tháng
+    - Nút bấm Import của Báo cáo theo tháng
+
+- intent: button_page_8_xem_thong_tin
+  examples: |
+    - Mình muốn hỏi về cách xem thông tin của trang Báo cáo theo tháng
+    - Xem thông tin của Báo cáo theo tháng
+    - Nút bấm Thông tin của Báo cáo theo tháng
+
+- intent: button_page_8_sua_ca
+  examples: |
+    - Mình muốn hỏi về cách sửa ca của trang Báo cáo theo tháng
+    - Sửa ca của Báo cáo theo tháng
+    - Sửa ca trong Báo cáo theo tháng
+    - Nút bấm Sửa ca của Báo cáo theo tháng
+- intent: button_page_8_tao_don
+  examples: |
+    - Mình muốn hỏi về cách tạo đơn của trang Báo cáo theo tháng
+    - Đơn của Báo cáo theo tháng
+    - Đơn của Báo cáo theo tháng
+    - Nút bấm Đơn của Báo cáo theo tháng
+# --------------------------------------------------------------------------
+
+- intent: function_danh_sach_cham_cong
+  examples: |
+    - Danh sách chấm công
+    - Mình muốn hỏi về chức năng con Danh sách chấm công
+    - Chức năng Danh sách chấm công là gì
+    - Trang Danh sách chấm công làm được gì
+  
+- intent: button_page_9_export
+    - Mình muốn hỏi về nút Export của Danh sách chấm công
+    - Export của Danh sách chấm công
+    - Nút bấm Export của Danh sách chấm công

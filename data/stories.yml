@@ -200,3 +200,130 @@ stories:
   - action: utter_phan_ca_xuat_bao_cao
   - intent: function_phan_ca
   - action: utter_function_phan_ca
+# 
+- story: path 10 question ve bao cao tuan
+  steps:
+  - intent: bao_cao_cham_cong
+  - action: utter_bao_cao_cham_cong
+  - intent: function_bao_cao_tuan
+  - action: utter_function_bao_cao_tuan
+
+- story: path 10.1 question ve nut 1
+  steps:
+  - intent: function_bao_cao_tuan
+  - action: utter_function_bao_cao_tuan
+  - intent: button_page_6_tinh_toan
+  - action: utter_button_page_6_tinh_toan
+
+- story: path 10.2 question ve nut 2
+  steps:
+  - intent: function_bao_cao_tuan
+  - action: utter_function_bao_cao_tuan
+  - intent: button_page_6_import
+  - action: utter_button_page_6_import
+
+- story: path 10.3 question ve nut 3
+  steps:
+  - intent: function_bao_cao_tuan
+  - action: utter_function_bao_cao_tuan
+  - intent: button_page_6_xem_thong_tin
+  - action: utter_button_page_6_xem_thong_tin
+
+- story: path 10.4 question ve nut 4
+  steps:
+  - intent: function_bao_cao_tuan
+  - action: utter_function_bao_cao_tuan
+  - intent: button_page_6_sua_ca
+  - action: utter_button_page_6_sua_ca
+
+- story: path 10.5 question ve nut 5
+  steps:
+  - intent: function_bao_cao_tuan
+  - action: utter_function_bao_cao_tuan
+  - intent: button_page_6_tao_don
+  - action: utter_button_page_6_tao_don
+# 
+- story: path 11 question ve danh sach ca
+  steps:
+  - intent: bao_cao_cham_cong
+  - action: utter_bao_cao_cham_cong
+  - intent: function_danh_sach_ca
+  - action: utter_function_danh_sach_ca
+
+- story: path 11.1 question ve nut 1
+  steps:
+  - intent: function_danh_sach_ca
+  - action: utter_function_danh_sach_ca
+  - intent: button_page_7_export
+  - action: utter_button_page_7_export
+
+- story: path 11.2 question ve nut 2
+  steps:
+  - intent: function_danh_sach_ca
+  - action: utter_function_danh_sach_ca
+  - intent: button_page_7_them_moi
+  - action: utter_button_page_7_them_moi
+
+
+- story: path 11.3 question ve nut 3
+  steps:
+  - intent: function_danh_sach_ca
+  - action: utter_function_danh_sach_ca
+  - intent: button_page_7_xoa
+  - action: utter_button_page_7_xoa
+#  
+- story: path 12 question ve bao cao thang
+  steps:
+  - intent: bao_cao_cham_cong
+  - action: utter_bao_cao_cham_cong
+  - intent: function_bao_cao_thang
+  - action: utter_function_bao_cao_thang
+
+- story: path 12.1 question ve nut 1
+  steps:
+  - intent: function_bao_cao_thang
+  - action: utter_function_bao_cao_thang
+  - intent: button_page_8_tinh_toan
+  - action: utter_button_page_8_tinh_toan
+
+- story: path 12.2 question ve nut 2
+  steps:
+  - intent: function_bao_cao_thang
+  - action: utter_function_bao_cao_thang
+  - intent: button_page_8_import
+  - action: utter_button_page_8_import
+
+- story: path 12.3 question ve nut 3
+  steps:
+  - intent: function_bao_cao_thang
+  - action: utter_function_bao_cao_thang
+  - intent: button_page_8_xem_thong_tin
+  - action: utter_button_page_8_xem_thong_tin
+
+- story: path 12.4 question ve nut 4
+  steps:
+  - intent: function_bao_cao_thang
+  - action: utter_function_bao_cao_thang
+  - intent: button_page_8_sua_ca
+  - action: utter_button_page_8_sua_ca
+
+- story: path 12.5 question ve nut 5
+  steps:
+  - intent: function_bao_cao_thang
+  - action: utter_function_bao_cao_thang
+  - intent: button_page_8_tao_don
+  - action: utter_button_page_8_tao_don
+  # 
+- story: path 13 question ve danh sach cham cong
+  steps:
+  - intent: bao_cao_cham_cong
+  - action: utter_bao_cao_cham_cong
+  - intent: function_danh_sach_cham_cong
+  - action: utter_function_danh_sach_cham_cong
+
+- story: path 13.1 question ve nut 1
+  steps:
+  - intent: function_danh_sach_cham_cong
+  - action: utter_function_danh_sach_cham_cong
+  - intent: button_page_9_export
+  - action: utter_button_page_9_export
