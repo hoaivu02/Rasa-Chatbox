@@ -6,6 +6,31 @@ intents:
   - thank
   - ask_about_dashboard
   - more_dashboard
+  - quan_ly_nhan_vien
+  - function_danh_sach_phong_ban
+  - button_page_1_export
+  - button_page_1_import
+  - button_page_1_them_moi
+  - button_page_1_xoa
+  - function_quan_ly_hop_dong
+  - button_page_2_export
+  - button_page_2_import
+  - button_page_2_them_moi
+  - button_page_2_xoa
+  - function_danh_sach_nhan_vien
+  - button_page_3_export
+  - button_page_3_them_moi
+  - button_page_3_tao_tai_khoan
+  - button_page_3_xoa
+  - button_page_3_doi_mat_khau
+  - function_dia_diem_lam_viec
+  - button_page_4_export
+  - button_page_4_them_moi
+  - button_page_4_xoa
+  - function_cau_hinh_chuc_vu
+  - button_page_5_export
+  - button_page_5_them_moi
+  - button_page_5_xoa
 
 responses:
   utter_greet:
@@ -37,6 +62,98 @@ responses:
   \n - Hợp đồng mới.
   \n - Các đơn từ giải trình của nhân viên trong trạng thái chờ duyệt.
   \n Bạn có cần thêm sự trợ giúp tới từ tôi?"
+
+  utter_quan_ly_nhan_vien:
+  - text: "Cảm ơn bạn đã hỏi về nội dung chức năng Quản lý nhân viên của chúng tôi. Chức năng này cho phép người dùng quản lý các nội dung trong công ty (Phòng ban, nhân sự, chức vụ, hợp đồng). Những chức năng hỗ trợ khả năng quản lý bao gồm:
+  \n - Danh sách phòng ban. 
+  \n - Quản lý hợp đồng.
+  \n - Danh sách nhân viên.
+  \n - Địa điểm làm việc.
+  \n - Điều chuyển nhân viên.
+  \n - Cấu hình chức vụ. 
+  \n Nếu bạn muốn tìm hiểu rõ về từng chức năng trên vui lòng tiếp tục đặt câu hỏi."
+# 
+  utter_function_danh_sach_phong_ban:
+  - text: "Về trang Danh sách phòng ban, trang có chức năng cho phép nhân sự quản lý phòng ban trực tiếp trên hệ thống. Nhân sự quản lý phòng ban thông qua các chức năng: thêm mới, cập nhật, xóa với điều kiện hệ thống cho phép, tìm kiếm thông tin. Bạn có câu hỏi gì về các nút chức năng xuất hiện trên trang Danh sách phòng ban không?"
+
+  utter_button_page_1_export:
+  - text: "Nút bấm export có dạng trang giấy với dấu mũi tên ở góc trên bên phải.Người dùng lựa chọn các nội dung cần xuất ra tài liệu và ấn nút mũi tên hướng phải để đưa nội dung qua các trường đã chọn. Sau đó nhấn nút 'Xuất' để đưa các nội dung đã chọn ra tài liệu Excel."
+
+  utter_button_page_1_import:
+  - text: "Nút bấm mang tên 'Import' cho phép người dùng thêm dữ liệu phòng ban bằng cách import tài liệu Excel đúng template. Người dùng nhấn 'Tải xuống Template' để lấy mẫu điền dạng file Excel. Sau đó tiến hành sửa dữ liệu trong file, rồi đưa file Excel lên bằng nút 'Click to Upload'. Cuối cùng xác nhận thêm mới bằng việc nhấn nút 'Lưu', hoặc 'Hủy' nếu không muốn cập nhật"
+
+  utter_button_page_1_them_moi:
+  - text: "Nút bấm mang tên 'Thêm mới' cho phép người dùng thêm mới phòng ban trực tiếp trên ứng dụng bằng cách hoàn thiện popup hiện ra sau đó. Sau khi hoàn tất việc điền dữ liệu, người dùng lựa chọn 'Lưu' để thêm mới dữ liệu hoặc nhấn 'Hủy' để từ chối cập nhật"
+  
+  utter_button_page_1_xoa:
+  - text: "Nút bấm mang tên 'Xóa' cho phép người dùng xóa bỏ một hoặc nhiều phòng ban trong danh sách. Lựa chọn những phòng ban mà người dùng muốn xóa bỏ, sau đó nhấn nút 'Xóa' để hoàn toàn loại bỏ phòng ban."
+# 
+  utter_function_quan_ly_hop_dong: 
+  - text: "Về trang Quản lý hợp đồng, trang có chức năng cho phép nhân sự quản lý trực tiếp hợp đồng nhân viên trên hệ thống. Nhân sự quản lý hợp đồng thông qua các chức năng thêm mới, cập nhật, xóa với điều kiện hệ thống cho phép, tìm kiếm thông tin. 
+  \n Trạng thái hợp đồng gồm: 
+  \n - Hợp đồng mới
+  \n - Đang chạy: trong thời gian hợp đồng còn hiệu nghiệm
+  \n - Sắp hết hạn: Hợp đồng sắp hết hạn, thời gian là một tuần trước khi kết thúc dự án
+  \n - Dự án đã hết hạn
+  \n Bạn có câu hỏi gì về các nút chức năng xuất hiện trên trang Quản lý hợp đồng không?"
+
+  utter_button_page_2_export:
+  - text: "Nút bấm export có dạng trang giấy với dấu mũi tên ở góc trên bên phải. Người dùng lựa chọn các nội dung cần xuất ra tài liệu và ấn nút mũi tên hướng phải để đưa nội dung qua các trường đã chọn. Sau đó nhấn nút 'Xuất' để đưa các nội dung đã chọn ra tài liệu Excel."
+
+  utter_button_page_2_import:
+  - text: "Nút bấm mang tên 'Import' cho phép người dùng thêm dữ liệu hợp đồng bằng cách import tài liệu Excel đúng template. Người dùng nhấn 'Tải xuống Template' để lấy mẫu điền dạng file Excel. Sau đó tiến hành sửa dữ liệu trong file, rồi đưa file Excel lên bằng nút 'Click to Upload'. Cuối cùng xác nhận thêm mới bằng việc nhấn nút 'Lưu', hoặc 'Hủy' nếu không muốn cập nhật"
+
+  utter_button_page_2_them_moi:
+  - text: "Nút bấm mang tên 'Tạo mới' cho phép người dùng thêm mới hợp đồng trực tiếp trên ứng dụng bằng cách hoàn thiện popup hiện ra sau đó. Sau khi hoàn tất việc điền dữ liệu, người dùng lựa chọn 'Lưu' để thêm mới dữ liệu hoặc nhấn 'Hủy' để từ chối cập nhật"
+  
+  utter_button_page_2_xoa:
+  - text: "Nút bấm mang tên 'Xóa' cho phép người dùng xóa bỏ một hoặc nhiều hợp đồng trong danh sách. Lựa chọn những hợp đồng mà người dùng muốn xóa bỏ, sau đó nhấn nút 'Xóa' để hoàn toàn loại bỏ"
+# 
+  utter_function_danh_sach_nhan_vien: 
+  - text: "Về trang Danh sách nhân viên, trang có chức năng cho phép nhân sự quản lý danh sách nhân viên trực tiếp trên hệ thống. Nhân sự quản lý danh sách nhân viên qua các chức năng thêm mới, quản lý thông tin, tạo mới tài khoản, xóa, kiểm tra lịch sử thao tác, xuất báo cáo danh sách nhân viên. 
+  \n Bạn có câu hỏi gì về các nút chức năng xuất hiện trên trang Danh sách nhân viên không?"
+
+  utter_button_page_3_export:
+  - text: "Nút bấm export có dạng trang giấy với dấu mũi tên ở góc trên bên phải. Người dùng lựa chọn các nội dung cần xuất ra tài liệu và ấn nút mũi tên hướng phải để đưa nội dung qua các trường đã chọn. Sau đó nhấn nút 'Xuất' để đưa các nội dung đã chọn ra tài liệu Excel."
+
+  utter_button_page_3_them_moi:
+  - text: "Nút bấm mang tên 'Thêm mới' cho phép người dùng thêm mới nhân viên trực tiếp trên ứng dụng bằng cách hoàn thiện popup hiện ra sau đó. Sau khi hoàn tất việc điền dữ liệu, người dùng Sau khi hoàn tất việc điền dữ liệu, người dùng lựa chọn 'Lưu' để thêm mới dữ liệu hoặc nhấn 'Hủy' để từ chối cập nhật"
+
+  utter_button_page_3_tao_tai_khoan:
+  - text: "Nút bấm mang tên 'Tạo tài khoản' cho phép người dùng tạo tài khoản trực tiếp cho nhân viên. Lựa chọn nhân viên muốn tạo tài khoản (với điều kiện nhân viên này chưa có tài khoản trước đó) và bấm nút 'Tạo tài khoản', hệ thống sẽ tạo ngay một tài khoản cho nhân viên yêu cầu."
+
+  utter_button_page_3_xoa:
+  - text: "Nút bấm mang tên 'Xóa' cho phép người dùng xóa bỏ một hoặc nhiều dữ liệu nhân viên trong danh sách. Lựa chọn những trường nhân viên mà người dùng muốn xóa bỏ, sau đó nhấn nút 'Xóa' để hoàn toàn loại bỏ"
+
+  utter_button_page_3_doi_mat_khau:
+  - text: "Nút bấm thay đổi mật khẩu nằm bên phải từng thông tin nhân viên, có dạng ổ khóa. Người dùng bấm vào nút đổi mật khẩu và điền mật khẩu mong muốn vào trường Mật khẩu mới, sau đó nhấn nút 'Lưu' để xác nhận cập nhật mật khẩu hoặc nhấn 'Hủy' để từ chối thay đổi"
+# 
+  utter_function_dia_diem_lam_viec:
+  - text: "Về trang Địa điểm làm việc, trang có chức năng cho phép nhân sự quản lý danh sách địa điểm làm việc. Nhân sự quản lý nội dung qua các chức năng thêm mới, xóa, xuất báo cáo danh sách địa điểm làm việc. 
+  \n Bạn có câu hỏi gì về các nút chức năng xuất hiện trên trang Địa điểm làm việc không?"
+  
+  utter_button_page_4_export:
+  - text: "Nút bấm export có dạng trang giấy với dấu mũi tên ở góc trên bên phải. Người dùng lựa chọn các nội dung cần xuất ra tài liệu và ấn nút mũi tên hướng phải để đưa nội dung qua các trường đã chọn. Sau đó nhấn nút 'Xuất' để đưa các nội dung đã chọn ra tài liệu Excel."
+
+  utter_button_page_4_them_moi:
+  - text: "Nút bấm mang tên 'Tạo mới' cho phép người dùng thêm mới địa điểm làm việc trực tiếp trên ứng dụng bằng cách hoàn thiện popup hiện ra sau đó. Sau khi hoàn tất việc điền dữ liệu, người dùng Sau khi hoàn tất việc điền dữ liệu, người dùng lựa chọn 'Lưu' để thêm mới dữ liệu hoặc nhấn 'Hủy' để từ chối cập nhật"
+
+  utter_button_page_4_xoa:
+  - text: "Nút bấm mang tên 'Xóa' cho phép người dùng xóa bỏ một hoặc nhiều dữ liệu địa điểm làm việc trong danh sách. Lựa chọn những trường địa điểm mà người dùng muốn xóa bỏ, sau đó nhấn nút 'Xóa' để hoàn toàn loại bỏ"
+# 
+  utter_function_cau_hinh_chuc_vu:
+  - text: "Về trang Cấu hình chức vụ, trang có chức năng cho phép nhân sự quản lý danh sách chức vụ của công ty. Nhân sự quản lý nội dung qua các chức năng thêm mới, xóa, xuất báo cáo danh sách địa điểm làm việc. 
+  \n Bạn có câu hỏi gì về các nút chức năng xuất hiện trên trang Cấu hình chức vụ không?"
+  
+  utter_button_page_5_export:
+  - text: "Nút bấm export có dạng trang giấy với dấu mũi tên ở góc trên bên phải. Người dùng lựa chọn các nội dung cần xuất ra tài liệu và ấn nút mũi tên hướng phải để đưa nội dung qua các trường đã chọn. Sau đó nhấn nút 'Xuất' để đưa các nội dung đã chọn ra tài liệu Excel."
+
+  utter_button_page_5_them_moi:
+  - text: "Nút bấm mang tên 'Tạo mới' cho phép người dùng thêm chức vụ mới trực tiếp trên ứng dụng bằng cách hoàn thiện popup hiện ra sau đó. Sau khi hoàn tất việc điền dữ liệu, người dùng Sau khi hoàn tất việc điền dữ liệu, người dùng lựa chọn 'Lưu' để thêm mới dữ liệu hoặc nhấn 'Hủy' để từ chối cập nhật"
+
+  utter_button_page_5_xoa:
+  - text: "Nút bấm mang tên 'Xóa' cho phép người dùng xóa bỏ một hoặc nhiều dữ liệu về chức vụ trong danh sách. Lựa chọn những trường chức vụ mà người dùng muốn xóa bỏ, sau đó nhấn nút 'Xóa' để hoàn toàn loại bỏ"
+
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
