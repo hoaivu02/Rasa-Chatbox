@@ -186,3 +186,17 @@ stories:
   - action: utter_function_cau_hinh_chuc_vu
   - intent: button_page_5_xoa
   - action: utter_button_page_5_xoa
+# 
+- story: path 8 question ve xuat bao cao
+  steps:
+  - intent: phan_ca_xuat_bao_cao
+  - action: utter_phan_ca_xuat_bao_cao
+  - intent: function_xuat_bao_cao
+  - action: utter_function_xuat_bao_cao
+
+- story: path 9 question ve phan ca
+  steps:
+  - intent: phan_ca_xuat_bao_cao
+  - action: utter_phan_ca_xuat_bao_cao
+  - intent: function_phan_ca
+  - action: utter_function_phan_ca

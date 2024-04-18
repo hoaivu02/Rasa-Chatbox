@@ -31,6 +31,9 @@ intents:
   - button_page_5_export
   - button_page_5_them_moi
   - button_page_5_xoa
+  - phan_ca_xuat_bao_cao
+  - function_xuat_bao_cao
+  - function_phan_ca
 
 responses:
   utter_greet:
@@ -69,7 +72,6 @@ responses:
   \n - Quản lý hợp đồng.
   \n - Danh sách nhân viên.
   \n - Địa điểm làm việc.
-  \n - Điều chuyển nhân viên.
   \n - Cấu hình chức vụ. 
   \n Nếu bạn muốn tìm hiểu rõ về từng chức năng trên vui lòng tiếp tục đặt câu hỏi."
 # 
@@ -153,6 +155,23 @@ responses:
 
   utter_button_page_5_xoa:
   - text: "Nút bấm mang tên 'Xóa' cho phép người dùng xóa bỏ một hoặc nhiều dữ liệu về chức vụ trong danh sách. Lựa chọn những trường chức vụ mà người dùng muốn xóa bỏ, sau đó nhấn nút 'Xóa' để hoàn toàn loại bỏ"
+# 
+  utter_phan_ca_xuat_bao_cao:
+  - text: "Cảm ơn bạn đã hỏi về nội dung chức năng Phân ca và xuất báo cáo của chúng tôi. Chức năng này cho phép người dùng quản lý việc phân ca nhân viên và danh sách xuất báo cáo trực tiếp trên hệ thống. Những chức năng hỗ trợ khả năng quản lý này bao gồm:
+  \n - Xuất báo cáo.
+  \n - Phân ca nhân viên.
+  \n Nếu bạn muốn tìm hiểu rõ về từng chức năng trên vui lòng tiếp tục đặt câu hỏi."
+
+  utter_function_xuat_bao_cao:
+  - text: "Về trang Xuất báo cáo, trang có chức năng cho phép nhân sự quản lý danh sách xuất báo cáo trực tiếp trên hệ thống. Nhân sự có quyền bấm chọn tải xuống báo cáo mà mình muốn sử dụng. Các báo cáo được thêm theo dữ liệu từng tháng của công ty."
+  utter_function_phan_ca:
+  - text: "Về trang Phân ca nhân viên, trang có chức năng quản lý việc phân ca trực tiếp trên hệ thống. Hệ thống cho phép người dùng thêm dữ liệu bằng cách import file đúng mẫu template.
+  \n Người dùng thực hiện việc import phân ca qua các bước
+  \n Bước 1: Tải file excel mẫu import phân ca tại nút 'File import mẫu'
+  \n Bước 2: Chỉnh sửa file excel muốn import giống với file excel mẫu
+  \n Bước 3: Chọn file excel muốn import tại nút 'Chọn file import'"
+
+
 
 session_config:
   session_expiration_time: 60

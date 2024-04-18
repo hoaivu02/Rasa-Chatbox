@@ -205,4 +205,26 @@ nlu:
     - Mình muốn hỏi về nút Xóa của cấu hình chức vụ
     - Xóa của cấu hình chức vụ
     - Nút bấm Xóa của cấu hình chức vụ
-  
+# --------------------------------------------------------------------------
+- intent: phan_ca_xuat_bao_cao
+  examples: |
+    - Phân ca xuất báo cáo
+    - Phân ca và xuất báo cáo
+    - Cho mình hỏi về trang Phân ca và xuất báo cáo
+    - Chức năng Phân ca và xuất báo cáo là gì
+    - Phân ca xuất báo cáo ở lề bên trái Website
+    - Mình không rõ các nội dung của trang Phân ca và xuất báo cáo  
+
+- intent: function_xuat_bao_cao
+  examples: |
+    - Xuất báo cáo
+    - Mình muốn hỏi về chức năng con Xuất báo cáo
+    - Chức năng Xuất báo cáo là gì
+    - Trang Xuất báo cáo làm được gì
+
+- intent: function_phan_ca
+  examples: |
+    - Phân ca nhân viên
+    - Mình muốn hỏi về chức năng con Phân ca nhân viên
+    - Chức năng Phân ca nhân viên là gì
+    - Trang Phân ca nhân viên làm được gì
