@@ -20,27 +20,46 @@ nlu:
 
 - intent: verify_booking_room_request
   examples: |
-    - chọn đơn muốn duyệt và thực hiện duyệt
+    - Tôi muốn duyệt phòng họp
+    - duyệt phòng họp
+    - duyet phong hop
+    - toi muon duyet phong hop
 
 - intent: reject_booking_room_request
   examples: |
-    - chọn đơn muốn từ chối và thực hiện từ chối
+    - Tôi muốn từ chối phòng họp
+    - từ chối phòng họp
+    - tu choi phong hop
+    - toi muon tu choi phong hop
+    - huy phong hop
+    - Hủy phòng họp
   
 - intent: delete_booking_room_request
   examples: |
-    - chọn đơn muốn xóa và thực hiện xóa
+    - Tôi muốn xóa phòng họp
+    - xóa phòng họp
+    - xoa phong hop
+    - toi muon xoa phong hop
 
 - intent: create_booking_room_request
   examples: |
-    - chọn tạo mới và điền thông tin vào đơn
+    - toi muon dat phong hop
+    - Tôi muốn đặt phòng hop
+    - dat phong hop
+    - đặt phòng họp
 
 - intent: update_booking_room
   examples : |
-    - chọn phòng họp muốn cập nhật và sửa thông tin
+    - toi muon sửa phòng họp
+    - tôi muốn sửa phòng họp
+    - sua phong hop
+
 
 - intent: delete_booking_room
   examples: |
-    - chọn phòng họp , đồng thời thực hiện xóa
+    - toi muon xoa phòng họp
+    - tôi muốn xóa phòng họp
+    - xóa phong hop
   
 
 
