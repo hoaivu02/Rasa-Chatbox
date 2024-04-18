@@ -34,6 +34,25 @@ intents:
   - phan_ca_xuat_bao_cao
   - function_xuat_bao_cao
   - function_phan_ca
+  - bao_cao_cham_cong
+  - function_bao_cao_tuan
+  - button_page_6_tinh_toan
+  - button_page_6_import
+  - button_page_6_xem_thong_tin
+  - button_page_6_sua_ca
+  - button_page_6_tao_don
+  - function_danh_sach_ca
+  - button_page_7_export
+  - button_page_7_them_moi
+  - button_page_7_xoa
+  - function_bao_cao_thang
+  - button_page_8_tinh_toan
+  - button_page_8_import
+  - button_page_8_xem_thong_tin
+  - button_page_8_sua_ca
+  - button_page_8_tao_don
+  - function_danh_sach_cham_cong
+  - button_page_9_export
 
 responses:
   utter_greet:
@@ -170,9 +189,108 @@ responses:
   \n Bước 1: Tải file excel mẫu import phân ca tại nút 'File import mẫu'
   \n Bước 2: Chỉnh sửa file excel muốn import giống với file excel mẫu
   \n Bước 3: Chọn file excel muốn import tại nút 'Chọn file import'"
+# 
+  utter_bao_cao_cham_cong:
+  - text: "Cảm ơn bạn đã hỏi về nội dung chức năng Báo cáo chấm công của chúng tôi. Chức năng này cho phép người dùng xem cũng như quản lý thời gian, hiệu suất làm việc của nhân viên trực tiếp trên hệ thống. Những chức năng hỗ trợ khả năng quản lý này bao gồm:
+  \n - Báo cáo theo tuần.
+  \n - Danh sách ca.
+  \n - Báo cáo theo tháng.
+  \n - Danh sách chấm công.
+  \n Nếu bạn muốn tìm hiểu rõ về từng chức năng trên vui lòng tiếp tục đặt câu hỏi."
 
+  utter_function_bao_cao_tuan:
+  - text: "Về trang Báo cáo theo tuần, trang có chức năng cho phép nhân sự kiểm tra công ca làm việc nhân viên và cấp quyền chỉnh sửa ca nhân viên tùy trường hợp. Nhân sự quản lý trang qua các thao tác import dữ liệu chấm công, xem thông tin trong ca làm của nhân viên, sửa ca, và tạo đơn cho nhân viên. 
+  \n Các trường hợp ca làm cần lưu ý bao gồm:
+  \n - Hiện icon chấm than đỏ => thời gian làm việc thực tế của nhân viên so với thời gian của ca lớn hơn 30 phút. 
+  \n - Không hiện icon chấm than đỏ => nhân viên đi làm đúng thời gian ca đã phân.
+  \n - Thời gian làm việc nhân viên hiển thị màu đỏ => nhân viên đi làm không đủ thời gian ca đã phân.
+  \n - Ô phân ca ghi 'OFF 0' => ngày nghỉ của nhân viên, không hiển thị dữ liệu chấm công. 
+  \n Chú ý nếu ô phân ca này có nền màu vàng, nhân viên được phân ca OFF nhưng lại có dữ liệu chấm công.
+  \n - Ô phân ca ghi 'AL' => nhân viên đang nghỉ phép năm.
+  \n - Ô phân ca ghi 'CL' => nhân viên đang nghỉ phép bù.
+  \n Bạn có câu hỏi gì về các nút chức năng xuất hiện trên trang Báo cáo theo tuần không?"
 
+  utter_button_page_6_tinh_toan:
+  - text: "Nút bấm mang tên 'Tính toán' cho phép người dùng tính thời gian thực tế đi làm của nhân viên trong ca dựa vào ca đã được phân công."
 
+  utter_button_page_6_import:
+  - text: "Nút bấm mang tên 'Import' cho phép người dùng thêm dữ liệu chấm công bằng cách import tài liệu Excel đúng template. Người dùng nhấn 'Tải xuống Template' để lấy mẫu điền dạng file Excel. Sau đó tiến hành sửa dữ liệu trong file, rồi đưa file Excel lên bằng nút 'Click to Upload'. Cuối cùng xác nhận thêm mới bằng việc nhấn nút 'Lưu', hoặc 'Hủy' nếu không muốn cập nhật"
+
+  utter_button_page_6_xem_thong_tin:
+  - text: "Thao tác xem thông tin cho phép người dùng xem sidebar thông tin ca làm của nhân viên. Các nội dung liên quan tới ca làm, lịch sử chấm công nhân viên và lịch sử sửa ca của quản lý. Người dùng muốn xem trang Thông tin thực hiện lựa chọn ca nhân viên trong bảng báo cáo và ấn vào 'Thông tin' trên popup vừa xuất hiện." 
+
+  utter_button_page_6_sua_ca:
+  - text: "Thao tác sửa ca cho phép người dùng sửa dữ liệu trong ca làm của nhân viên. Người dùng muốn sửa ca thực hiện theo các bước sau:
+  \n Bước 1: Lựa chọn ca nhân viên cần thay đổi, chọn ca phù hợp (Ca chính, ca nghỉ, ca gãy, ca ghép) 
+  \n Chú ý Ca ghép có 2 cách tạo, bằng cách tích chọn đồng thời ca chính và ca gãy hoặc tích chọn ca ghép
+  \n Bước 2: Xác nhận thay đổi ca làm của nhân viên bằng việc nhấn nút 'Cập nhật' hoặc bỏ dữ liệu ca làm của nhân viên bằng nút 'Bỏ ca'" 
+
+  utter_button_page_6_tao_don:
+  - text: "Người dùng muốn tạo đơn thực hiện theo các bước sau:
+  \n Bước 1: Lựa chọn ca nhân viên cần tạo đơn, nhấn vào 'Đơn' của nội dung trang bên phải.
+  \n Bước 2: Hoàn thành các nội dung trong popup tạo đơn vừa xuất hiện. Cần lựa chọn loại đơn phù hợp, nội dung phía dưới sẽ thay đổi dựa vào tên loại đơn.
+  \n Chú ý thời gian nghỉ phép mỗi tháng 480 phút(tương ứng một ngày). Thời gian tăng ca sẽ được đưa vào quỹ nghỉ bù.
+  \n Các đơn không hiện quỹ bù hay quỹ phép được tính là nghỉ hợp pháp (Ex: Đơn sử dụng chế độ con nhỏ...)"
+# 
+  utter_function_danh_sach_ca:
+  - text: "Về trang Danh sách ca, trang có chức năng cho phép nhân sự, TBP quản lý danh sách ca trực tiếp trên hệ thống. Nhân sự quản lý trang qua các thao tác tạo mới, sửa và xóa ca trên hệ thống.
+  \n Bạn có câu hỏi gì về các nút chức năng xuất hiện trên trang Danh sách ca hông?"
+  
+  utter_button_page_7_export:
+  - text: "Nút bấm export có dạng trang giấy với dấu mũi tên ở góc trên bên phải. Người dùng lựa chọn các nội dung cần xuất ra tài liệu và ấn nút mũi tên hướng phải để đưa nội dung qua các trường đã chọn. Sau đó nhấn nút 'Xuất' để đưa các nội dung đã chọn ra tài liệu Excel."
+
+  utter_button_page_7_them_moi:
+  - text: "Nút bấm mang tên 'Thêm mới' cho phép người dùng thêm mới ca làm việc trực tiếp trên ứng dụng bằng cách hoàn thiện popup hiện ra sau đó. Sau khi hoàn tất việc điền dữ liệu, người dùng lựa chọn 'Lưu' để thêm mới dữ liệu hoặc nhấn 'Hủy' để từ chối cập nhật
+  \n Chú ý 
+  \n - Ca nghỉ là ca làm việc mà nhân viên được miễn làm việc, thường là vào các ngày nghỉ lễ hoặc ngày nghỉ theo lịch của tổ chức.
+  \n - Ca đêm là ca làm việc trong khoảng thời gian từ buổi tối đến buổi sáng.
+  \n - Ca gãy là ca làm việc mà thời gian làm việc được chia thành hai phần không liên tục."
+
+  utter_button_page_7_xoa:
+  - text: "Nút bấm mang tên 'Xóa' cho phép người dùng xóa bỏ một hoặc nhiều dữ liệu ca làm việc ra khỏi danh sách ca. Lựa chọn những ca làm việc mà người dùng muốn xóa bỏ, sau đó nhấn nút 'Xóa' để hoàn toàn loại bỏ"
+
+  utter_function_bao_cao_thang:
+  - text: "Về trang Báo cáo theo tháng, trang có chức năng cho phép nhân sự kiểm tra công ca làm việc nhân viên theo tháng và cấp quyền chỉnh sửa ca nhân viên tùy trường hợp. Nhân sự quản lý trang qua các thao tác import dữ liệu chấm công, xem thông tin trong ca làm của nhân viên, sửa ca, và tạo đơn cho nhân viên. 
+  \n Các trường hợp ca làm cần lưu ý bao gồm:
+  \n - Hiện icon chấm than đỏ => thời gian làm việc thực tế của nhân viên so với thời gian của ca lớn hơn 30 phút. 
+  \n - Không hiện icon chấm than đỏ => nhân viên đi làm đúng thời gian ca đã phân.
+  \n - Thời gian làm việc nhân viên hiển thị màu đỏ => nhân viên đi làm không đủ thời gian ca đã phân.
+  \n - Ô phân ca ghi 'OFF 0' => ngày nghỉ của nhân viên, không hiển thị dữ liệu chấm công. 
+  \n Chú ý nếu ô phân ca này có nền màu vàng, nhân viên được phân ca OFF nhưng lại có dữ liệu chấm công.
+  \n - Ô phân ca ghi 'AL' => nhân viên đang nghỉ phép năm.
+  \n - Ô phân ca ghi 'CL' => nhân viên đang nghỉ phép bù.
+  \n Bạn có câu hỏi gì về các nút chức năng xuất hiện trên trang Báo cáo theo tháng không?"
+
+  utter_button_page_8_tinh_toan:
+  - text: "Nút bấm mang tên 'Tính toán' cho phép người dùng tính thời gian thực tế đi làm của nhân viên trong ca dựa vào ca đã được phân công."
+
+  utter_button_page_8_import:
+  - text: "Nút bấm mang tên 'Import' cho phép người dùng thêm dữ liệu chấm công bằng cách import tài liệu Excel đúng template. Người dùng nhấn 'Tải xuống Template' để lấy mẫu điền dạng file Excel. Sau đó tiến hành sửa dữ liệu trong file, rồi đưa file Excel lên bằng nút 'Click to Upload'. Cuối cùng xác nhận thêm mới bằng việc nhấn nút 'Lưu', hoặc 'Hủy' nếu không muốn cập nhật"
+
+  utter_button_page_8_xem_thong_tin:
+  - text: "Thao tác xem thông tin cho phép người dùng xem sidebar thông tin ca làm của nhân viên. Các nội dung liên quan tới ca làm, lịch sử chấm công nhân viên và lịch sử sửa ca của quản lý. Người dùng muốn xem trang Thông tin thực hiện lựa chọn ca nhân viên trong bảng báo cáo và ấn vào 'Thông tin' trên popup vừa xuất hiện." 
+
+  utter_button_page_8_sua_ca:
+  - text: "Thao tác sửa ca cho phép người dùng sửa dữ liệu trong ca làm của nhân viên. Người dùng muốn sửa ca thực hiện theo các bước sau:
+  \n Bước 1: Lựa chọn ca nhân viên cần thay đổi, chọn ca phù hợp (Ca chính, ca nghỉ, ca gãy, ca ghép) 
+  \n Chú ý Ca ghép có 2 cách tạo, bằng cách tích chọn đồng thời ca chính và ca gãy hoặc tích chọn ca ghép
+  \n Bước 2: Xác nhận thay đổi ca làm của nhân viên bằng việc nhấn nút 'Cập nhật' hoặc bỏ dữ liệu ca làm của nhân viên bằng nút 'Bỏ ca'" 
+
+  utter_button_page_8_tao_don:
+  - text: "Người dùng muốn tạo đơn thực hiện theo các bước sau:
+  \n Bước 1: Lựa chọn ca nhân viên cần tạo đơn, nhấn vào 'Đơn' của nội dung trang bên phải.
+  \n Bước 2: Hoàn thành các nội dung trong popup tạo đơn vừa xuất hiện. Cần lựa chọn loại đơn phù hợp, nội dung phía dưới sẽ thay đổi dựa vào tên loại đơn.
+  \n Chú ý thời gian nghỉ phép mỗi tháng 480 phút(tương ứng một ngày). Thời gian tăng ca sẽ được đưa vào quỹ nghỉ bù.
+  \n Các đơn không hiện quỹ bù hay quỹ phép được tính là nghỉ hợp pháp (Ex: Đơn sử dụng chế độ con nhỏ...)"
+
+  utter_function_danh_sach_cham_cong:
+  - text: "Về trang Danh sách chấm công, trang có chức năng quản lý danh sách chấm công của nhân viên trực tiếp trên hệ thống. Nhân sự được phép thực hiện thao tác xem dữ liệu chấm công và xuất báo cáo danh sách chấm công. 
+  \n Bạn có câu hỏi gì về các nút chức năng xuất hiện trên trang Danh sách chấm công không?"
+
+  utter_button_page_9_export:
+  - text: "Nút bấm export có dạng trang giấy với dấu mũi tên ở góc trên bên phải. Người dùng lựa chọn các nội dung cần xuất ra tài liệu và ấn nút mũi tên hướng phải để đưa nội dung qua các trường đã chọn. Sau đó nhấn nút 'Xuất' để đưa các nội dung đã chọn ra tài liệu Excel."
+
+  
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
