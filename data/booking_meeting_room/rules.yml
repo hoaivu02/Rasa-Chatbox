@@ -1,0 +1,12 @@
+version: "3.1"
+
+rules:
+- rule: Answer about booking room
+  steps:
+  - intent: booking_room
+  - action: utter_booking_room
+
+- rule: Answer about create booking room
+  steps:
+  - intent: create_booking_room
+  - action : utter_create_booking_room

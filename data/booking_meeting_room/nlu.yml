@@ -1,0 +1,47 @@
+version: "3.1"
+
+nlu:
+- intent: booking_room
+  examples: |
+    - Chức năng đặt phòng họp
+    - Đặt phòng họp là gì
+    - chuc nang dat phong hop
+    - dat phong hop la gi
+
+- intent: create_booking_room
+  examples: |
+    - Tạo phòng họp
+    - thêm mới phòng họp
+    - tao phong hop
+    - them moi phong hop
+    - Thêm phòng họp
+    - them phong hop
+    
+
+- intent: verify_booking_room_request
+  examples: |
+    - chọn đơn muốn duyệt và thực hiện duyệt
+
+- intent: reject_booking_room_request
+  examples: |
+    - chọn đơn muốn từ chối và thực hiện từ chối
+  
+- intent: delete_booking_room_request
+  examples: |
+    - chọn đơn muốn xóa và thực hiện xóa
+
+- intent: create_booking_room_request
+  examples: |
+    - chọn tạo mới và điền thông tin vào đơn
+
+- intent: update_booking_room
+  examples : |
+    - chọn phòng họp muốn cập nhật và sửa thông tin
+
+- intent: delete_booking_room
+  examples: |
+    - chọn phòng họp , đồng thời thực hiện xóa
+  
+
+
+

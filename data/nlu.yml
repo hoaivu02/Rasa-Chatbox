@@ -41,7 +41,7 @@ nlu:
     - Mình không rõ các nội dung của trang Dashboard
 
 - intent: more_dashboard
-  examples: | 
+  examples: |
     - !moredashboard
     - moredashboard
     - Tôi muốn biết rõ hơn về bảng Báo cáo nhân sự HRM trên Dashboard
