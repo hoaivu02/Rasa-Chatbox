@@ -327,3 +327,108 @@ stories:
   - action: utter_function_danh_sach_cham_cong
   - intent: button_page_9_export
   - action: utter_button_page_9_export
+  # 
+- story: path 14 question ve quan ly don yeu cau
+  steps:
+  - intent: don_va_giai_trinh
+  - action: utter_don_va_giai_trinh
+  - intent: function_quan_ly_don_yeu_cau
+  - action: utter_function_quan_ly_don_yeu_cau
+
+# - story: path 14.1 question ve nut 1
+#   steps:
+#   - intent: function_quan_ly_don_yeu_cau
+#   - action: utter_function_quan_ly_don_yeu_cau
+#   - intent: button_page_10_export
+#   - action: utter_button_page_10_export
+
+# - story: path 14.2 question ve nut 2
+#   steps:
+#   - intent: function_quan_ly_don_yeu_cau
+#   - action: utter_function_quan_ly_don_yeu_cau
+#   - intent: button_page_10_duyet_don
+#   - action: utter_button_page_10_duyet_don
+
+# - story: path 14.3 question ve nut 3
+#   steps:
+#   - intent: function_quan_ly_don_yeu_cau
+#   - action: utter_function_quan_ly_don_yeu_cau
+#   - intent: button_page_10_huy_don
+#   - action: utter_button_page_10_huy_don
+
+# - story: path 14.4 question ve nut 4
+#   steps:
+#   - intent: function_quan_ly_don_yeu_cau
+#   - action: utter_function_quan_ly_don_yeu_cau
+#   - intent: button_page_10_xoa_don
+#   - action: utter_button_page_10_xoa_don
+
+# - story: path 15 question ve quan ly don yeu cau cap 1
+#   steps:
+#   - intent: don_va_giai_trinh
+#   - action: utter_don_va_giai_trinh
+#   - intent: function_quan_ly_don_yeu_cau_cap_1
+#   - action: utter_function_quan_ly_don_yeu_cau_cap_1
+
+# - story: path 15.1 question ve nut 1
+#   steps:
+#   - intent: function_quan_ly_don_yeu_cau_cap_1
+#   - action: utter_function_quan_ly_don_yeu_cau_cap_1
+#   - intent: button_page_11_export
+#   - action: utter_button_page_11_export
+
+# - story: path 15.2 question ve nut 2
+#   steps:
+#   - intent: function_quan_ly_don_yeu_cau_cap_1
+#   - action: utter_function_quan_ly_don_yeu_cau_cap_1
+#   - intent: button_page_11_duyet_don
+#   - action: utter_button_page_11_duyet_don
+
+# - story: path 15.3 question ve nut 3
+#   steps:
+#   - intent: function_quan_ly_don_yeu_cau_cap_1
+#   - action: utter_function_quan_ly_don_yeu_cau_cap_1
+#   - intent: button_page_11_huy_don
+#   - action: utter_button_page_11_huy_don
+
+# - story: path 15.4 question ve nut 4
+#   steps:
+#   - intent: function_quan_ly_don_yeu_cau_cap_1
+#   - action: utter_function_quan_ly_don_yeu_cau_cap_1
+#   - intent: button_page_11_xoa_don
+#   - action: utter_button_page_11_xoa_don
+
+# - story: path 16 question ve quan ly don yeu cau cap 2
+#   steps:
+#   - intent: don_va_giai_trinh
+#   - action: utter_don_va_giai_trinh
+#   - intent: function_quan_ly_don_yeu_cau_cap_2
+#   - action: utter_function_quan_ly_don_yeu_cau_cap_2
+
+# - story: path 16.1 question ve nut 1
+#   steps:
+#   - intent: function_quan_ly_don_yeu_cau_cap_2
+#   - action: utter_function_quan_ly_don_yeu_cau_cap_2
+#   - intent: button_page_12_export
+#   - action: utter_button_page_12_export
+
+# - story: path 16.2 question ve nut 2
+#   steps:
+#   - intent: function_quan_ly_don_yeu_cau_cap_2
+#   - action: utter_function_quan_ly_don_yeu_cau_cap_2
+#   - intent: button_page_12_duyet_don
+#   - action: utter_button_page_12_duyet_don
+
+# - story: path 16.3 question ve nut 3
+#   steps:
+#   - intent: function_quan_ly_don_yeu_cau_cap_2
+#   - action: utter_function_quan_ly_don_yeu_cau_cap_2
+#   - intent: button_page_12_huy_don
+#   - action: utter_button_page_12_huy_don
+
+# - story: path 16.4 question ve nut 4
+#   steps:
+#   - intent: function_quan_ly_don_yeu_cau_cap_2
+#   - action: utter_function_quan_ly_don_yeu_cau_cap_2
+#   - intent: button_page_12_xoa_don
+#   - action: utter_button_page_12_xoa_don

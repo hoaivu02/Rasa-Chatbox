@@ -53,6 +53,22 @@ intents:
   - button_page_8_tao_don
   - function_danh_sach_cham_cong
   - button_page_9_export
+  - don_va_giai_trinh
+  - function_quan_ly_don_yeu_cau
+  - button_page_10_export
+  - button_page_10_duyet_don
+  - button_page_10_huy_don
+  - button_page_10_xoa_don
+  - function_quan_ly_don_yeu_cau_cap_1
+  - button_page_11_export
+  - button_page_11_duyet_don
+  - button_page_11_huy_don
+  - button_page_11_xoa_don
+  - function_quan_ly_don_yeu_cau_cap_2
+  - button_page_12_export
+  - button_page_12_duyet_don
+  - button_page_12_huy_don
+  - button_page_12_xoa_don
 
 responses:
   utter_greet:
@@ -289,8 +305,78 @@ responses:
 
   utter_button_page_9_export:
   - text: "Nút bấm export có dạng trang giấy với dấu mũi tên ở góc trên bên phải. Người dùng lựa chọn các nội dung cần xuất ra tài liệu và ấn nút mũi tên hướng phải để đưa nội dung qua các trường đã chọn. Sau đó nhấn nút 'Xuất' để đưa các nội dung đã chọn ra tài liệu Excel."
+#
+  utter_don_va_giai_trinh:
+  - text: "Cảm ơn bạn đã hỏi về nội dung chức năng Đơn và giải trình của chúng tôi. Chức năng này cho phép người dùng xem và quản lý các loại đơn theo cấp độ. Những chức năng hỗ trợ khả năng quản lý đơn yêu cầu bao gồm:
+  \n - Quản lý đơn yêu cầu.
+  \n - Quản lý đơn yêu cầu cấp 1.
+  \n - Quản lý đơn yêu cầu cấp 2.
+  \n Nếu bạn muốn tìm hiểu rõ về từng chức năng trên vui lòng tiếp tục đặt câu hỏi."
 
+  utter_function_quan_ly_don_yeu_cau:
+  - text: "Về trang Quản lý đơn yêu cầu, trang có chức năng cho phép nhân sự quản lý danh sách đơn yêu cầu trực tuyến trên hệ thống. Nhân sự quản lý trang qua các thao tác duyệt đơn, hủy đơn, xóa đơn và xuất danh sách đơn yêu cầu.
+  \n Các trạng thái đơn cần lưu ý bao gồm:
+  \n - Chờ duyệt => các đơn chưa được duyệt
+  \n - Duyệt cấp 1 => các đơn cần duyệt hai cấp và đã được Trưởng bộ phận duyệt cấp 1
+  \n - Đã duyệt => các đơn chờ duyệt(cần duyệt một cấp) và các đơn duyệt cấp 1 được Admin duyệt
+  \n - Các đơn bị từ chối
+  \n Bạn có câu hỏi gì về các nút chức năng xuất hiện trên trang Quản lý đơn yêu cầu không?"
+
+  # utter_button_page_10_export:
+  # - text: "Nút bấm export có dạng trang giấy với dấu mũi tên ở góc trên bên phải. Người dùng lựa chọn các nội dung cần xuất ra tài liệu và ấn nút mũi tên hướng phải để đưa nội dung qua các trường đã chọn. Sau đó nhấn nút 'Xuất' để đưa các nội dung đã chọn ra tài liệu Excel."
+
+  # utter_button_page_10_duyet_don:
+  # - text: "Nút bấm mang tên 'Duyệt đơn' cho phép người dùng thao tác duyệt đơn trên hệ thống. Lựa chọn những đơn yêu cầu mà người dùng muốn duyệt, sau đó nhấn nút 'Duyệt đơn' để hoàn thành tác vụ. Đơn được phép duyệt không bao gồm đơn có trạng thái Từ chối"
   
+  # utter_button_page_10_huy_don:
+  # - text: "Nút bấm mang tên 'Hủy đơn' cho phép người dùng hủy đơn yêu cầu trên hệ thống. Lựa chọn những đơn yêu cầu mà người dùng muốn hủy, sau đó nhấn nút 'Hủy đơn' để hoàn thành tác vụ. 
+  # \n Chú ý đơn được phép hủy không bao gồm đơn có trạng thái Từ chối. Những đơn bị hủy sẽ chuyển sang trạng thái Từ chối"
+
+  # utter_button_page_10_xoa_don:
+  # - text: "Nút bấm mang tên 'Xóa đơn' cho phép người dùng xóa đơn yêu cầu. Lựa chọn những đơn yêu cầu mà người dùng muốn xóa, sau đó nhấn nút 'Xóa đơn' để hoàn thành tác vụ. 
+  # \n Những đơn bị xóa bỏ sẽ hoàn toàn biến mất khỏi hệ thống."
+
+  # utter_function_quan_ly_don_yeu_cau_cap_1:
+  # - text: "Về trang Quản lý đơn yêu cầu, trang có chức năng cho phép nhân sự quản lý danh sách đơn yêu cầu trực tuyến trên hệ thống. Nhân sự quản lý trang qua các thao tác duyệt đơn, hủy đơn, xóa đơn và xuất danh sách đơn yêu cầu.
+  # \n Lưu ý trạng thái đơn yêu cầu cấp 1 được áp dụng cho loại đơn tăng ca và đơn thiếu chấm công. Đơn yêu cầu cấp 1 là những đơn chờ duyệt 
+  # \n Bạn có câu hỏi gì về các nút chức năng xuất hiện trên trang Quản lý đơn yêu cầu cấp 1 không?"
+
+  # utter_button_page_11_export:
+  # - text: "Nút bấm export có dạng trang giấy với dấu mũi tên ở góc trên bên phải. Người dùng lựa chọn các nội dung cần xuất ra tài liệu và ấn nút mũi tên hướng phải để đưa nội dung qua các trường đã chọn. Sau đó nhấn nút 'Xuất' để đưa các nội dung đã chọn ra tài liệu Excel."
+
+  # utter_button_page_11_duyet_don:
+  # - text: "Nút bấm mang tên 'Duyệt đơn' cho phép người dùng thao tác duyệt đơn trên hệ thống. Lựa chọn những đơn yêu cầu mà người dùng muốn duyệt, sau đó nhấn nút 'Duyệt đơn' để hoàn thành tác vụ. Đơn được phép duyệt không bao gồm đơn có trạng thái Từ chối"
+  
+  # utter_button_page_11_huy_don:
+  # - text: "Nút bấm mang tên 'Hủy đơn' cho phép người dùng hủy đơn yêu cầu trên hệ thống. Lựa chọn những đơn yêu cầu mà người dùng muốn hủy, sau đó nhấn nút 'Hủy đơn' để hoàn thành tác vụ. 
+  # \n Chú ý đơn được phép hủy không bao gồm đơn có trạng thái Từ chối. Những đơn bị hủy sẽ chuyển sang trạng thái Từ chối"
+
+  # utter_button_page_11_xoa_don:
+  # - text: "Nút bấm mang tên 'Xóa đơn' cho phép người dùng xóa đơn yêu cầu. Lựa chọn những đơn yêu cầu mà người dùng muốn xóa, sau đó nhấn nút 'Xóa đơn' để hoàn thành tác vụ. 
+  # \n Những đơn bị xóa bỏ sẽ hoàn toàn biến mất khỏi hệ thống."
+
+  # utter_function_quan_ly_don_yeu_cau_cap_2:
+  # - text: "Về trang Quản lý đơn yêu cầu, trang có chức năng cho phép nhân sự quản lý danh sách đơn yêu cầu trực tuyến trên hệ thống. Nhân sự quản lý trang qua các thao tác duyệt đơn, hủy đơn, xóa đơn và xuất danh sách đơn yêu cầu.
+  # \n Lưu ý trạng thái đơn yêu cầu cấp 2 được áp dụng cho loại đơn tăng ca và đơn thiếu chấm công. Đơn yêu cầu cấp 2 là bao gồm đơn chưa duyệt và đơn chờ duyệt cấp 1.
+  # \n Bạn có câu hỏi gì về các nút chức năng xuất hiện trên trang Quản lý đơn yêu cầu cấp 2 không?"
+
+  # utter_button_page_12_export:
+  # - text: "Nút bấm export có dạng trang giấy với dấu mũi tên ở góc trên bên phải. Người dùng lựa chọn các nội dung cần xuất ra tài liệu và ấn nút mũi tên hướng phải để đưa nội dung qua các trường đã chọn. Sau đó nhấn nút 'Xuất' để đưa các nội dung đã chọn ra tài liệu Excel."
+
+  # utter_button_page_12_duyet_don:
+  # - text: "Nút bấm mang tên 'Duyệt đơn' cho phép người dùng thao tác duyệt đơn trên hệ thống. Lựa chọn những đơn yêu cầu mà người dùng muốn duyệt, sau đó nhấn nút 'Duyệt đơn' để hoàn thành tác vụ. Đơn được phép duyệt không bao gồm đơn có trạng thái Từ chối"
+  
+  # utter_button_page_12_huy_don:
+  # - text: "Nút bấm mang tên 'Hủy đơn' cho phép người dùng hủy đơn yêu cầu trên hệ thống. Lựa chọn những đơn yêu cầu mà người dùng muốn hủy, sau đó nhấn nút 'Hủy đơn' để hoàn thành tác vụ. 
+  # \n Chú ý đơn được phép hủy không bao gồm đơn có trạng thái Từ chối. Những đơn bị hủy sẽ chuyển sang trạng thái Từ chối"
+
+  # utter_button_page_12_xoa_don:
+  # - text: "Nút bấm mang tên 'Xóa đơn' cho phép người dùng xóa đơn yêu cầu. Lựa chọn những đơn yêu cầu mà người dùng muốn xóa, sau đó nhấn nút 'Xóa đơn' để hoàn thành tác vụ. 
+  # \n Những đơn bị xóa bỏ sẽ hoàn toàn biến mất khỏi hệ thống."
+
+
+
+
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
