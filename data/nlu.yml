@@ -273,7 +273,6 @@ nlu:
   examples: |
     - Mình muốn hỏi về cách tạo đơn của trang Báo cáo theo tuần
     - Đơn của Báo cáo theo tuần
-    - Đơn của Báo cáo theo tuần
     - Nút bấm Đơn của Báo cáo theo tuần
 # --------------------------------------------------------------------------
 - intent: function_danh_sach_ca
@@ -337,10 +336,8 @@ nlu:
   examples: |
     - Mình muốn hỏi về cách tạo đơn của trang Báo cáo theo tháng
     - Đơn của Báo cáo theo tháng
-    - Đơn của Báo cáo theo tháng
     - Nút bấm Đơn của Báo cáo theo tháng
 # --------------------------------------------------------------------------
-
 - intent: function_danh_sach_cham_cong
   examples: |
     - Danh sách chấm công
@@ -349,6 +346,96 @@ nlu:
     - Trang Danh sách chấm công làm được gì
   
 - intent: button_page_9_export
+  examples: |
     - Mình muốn hỏi về nút Export của Danh sách chấm công
     - Export của Danh sách chấm công
     - Nút bấm Export của Danh sách chấm công
+# # --------------------------------------------------------------------------
+- intent: don_va_giai_trinh
+  examples: |
+    - Đơn và giải trình
+    - Cho mình hỏi về trang Đơn và giải trình
+    - Chức năng Đơn và giải trình là gì
+    - Đơn và giải trình ở lề bên trái Website
+    - Mình không rõ các nội dung của trang Đơn và giải trình
+
+- intent: function_quan_ly_don_yeu_cau
+  examples: |
+    - Quản lý đơn yêu cầu
+    - Mình muốn hỏi về chức năng con Quản lý đơn yêu cầu
+    - Chức năng Quản lý đơn yêu cầu là gì
+    - Trang Quản lý đơn yêu cầu làm được gì
+
+# - intent: button_page_10_export
+#     - Mình muốn hỏi về nút Export của Quản lý đơn yêu cầu
+#     - Export của Quản lý đơn yêu cầu
+#     - Nút bấm Export của Quản lý đơn yêu cầu
+
+# - intent: button_page_10_duyet_don
+#     - Mình muốn hỏi về nút Duyệt đơn của Quản lý đơn yêu cầu
+#     - Duyệt đơn của Quản lý đơn yêu cầu
+#     - Nút bấm Duyệt đơn của Quản lý đơn yêu cầu
+
+# - intent: button_page_10_huy_don
+#     - Mình muốn hỏi về nút Hủy đơn của Quản lý đơn yêu cầu
+#     - Hủy đơn của Quản lý đơn yêu cầu
+#     - Nút bấm Hủy đơn của Quản lý đơn yêu cầu
+
+# - intent: button_page_10_xoa_don
+#     - Mình muốn hỏi về nút Xóa đơn của Quản lý đơn yêu cầu 
+#     - Xóa đơn của Quản lý đơn yêu cầu
+#     - Nút bấm Xóa đơn của Quản lý đơn yêu cầu
+
+# - intent: function_quan_ly_don_yeu_cau_cap_1
+#   examples: |
+#     - Quản lý đơn yêu cầu cấp 1
+#     - Mình muốn hỏi về chức năng con Quản lý đơn yêu cầu cấp 1
+#     - Chức năng Quản lý đơn yêu cầu cấp 1
+#     - Trang Quản lý đơn yêu cầu cấp 1 làm được gì    
+
+# - intent: button_page_11_export
+#     - Mình muốn hỏi về nút Export của Quản lý đơn yêu cầu cấp 1
+#     - Export của Quản lý đơn yêu cầu cấp 1
+#     - Nút bấm Export của Quản lý đơn yêu cầu cấp 1
+
+# - intent: button_page_11_duyet_don
+#     - Mình muốn hỏi về nút Duyệt đơn của Quản lý đơn yêu cầu cấp 1
+#     - Duyệt đơn của Quản lý đơn yêu cầu cấp 1
+#     - Nút bấm Duyệt đơn của Quản lý đơn yêu cầu cấp 1
+
+# - intent: button_page_11_huy_don
+#     - Mình muốn hỏi về nút Hủy đơn của Quản lý đơn yêu cầu cấp 1
+#     - Hủy đơn của Quản lý đơn yêu cầu cấp 1
+#     - Nút bấm Hủy đơn của Quản lý đơn yêu cầu cấp 1
+
+# - intent: button_page_11_xoa_don
+#     - Mình muốn hỏi về nút Xóa đơn của Quản lý đơn yêu cầu cấp 1
+#     - Xóa đơn của Quản lý đơn yêu cầu cấp 1
+#     - Nút bấm Xóa đơn của Quản lý đơn yêu cầu cấp 1
+
+# - intent: function_quan_ly_don_yeu_cau_cap_2
+#   examples: |
+#     - Quản lý đơn yêu cầu cấp 2
+#     - Mình muốn hỏi về chức năng con Quản lý đơn yêu cầu cấp 2
+#     - Chức năng Quản lý đơn yêu cầu cấp 2
+#     - Trang Quản lý đơn yêu cầu cấp 2 làm được gì    
+
+# - intent: button_page_12_export
+#     - Mình muốn hỏi về nút Export của Quản lý đơn yêu cầu cấp 2
+#     - Export của Quản lý đơn yêu cầu cấp 2
+#     - Nút bấm Export của Quản lý đơn yêu cầu cấp 2
+
+# - intent: button_page_12_duyet_don
+#     - Mình muốn hỏi về nút Duyệt đơn của Quản lý đơn yêu cầu cấp 2
+#     - Duyệt đơn của Quản lý đơn yêu cầu cấp 2
+#     - Nút bấm Duyệt đơn của Quản lý đơn yêu cầu cấp 2
+
+# - intent: button_page_11_huy_don
+#     - Mình muốn hỏi về nút Hủy đơn của Quản lý đơn yêu cầu cấp 2
+#     - Hủy đơn của Quản lý đơn yêu cầu cấp 2
+#     - Nút bấm Hủy đơn của Quản lý đơn yêu cầu cấp 2
+
+# - intent: button_page_11_xoa_don
+#     - Mình muốn hỏi về nút Xóa đơn của Quản lý đơn yêu cầu cấp 2
+#     - Xóa đơn của Quản lý đơn yêu cầu cấp 2
+#     - Nút bấm Xóa đơn của Quản lý đơn yêu cầu cấp 2
