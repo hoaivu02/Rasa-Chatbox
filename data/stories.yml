@@ -335,100 +335,339 @@ stories:
   - intent: function_quan_ly_don_yeu_cau
   - action: utter_function_quan_ly_don_yeu_cau
 
-# - story: path 14.1 question ve nut 1
-#   steps:
-#   - intent: function_quan_ly_don_yeu_cau
-#   - action: utter_function_quan_ly_don_yeu_cau
-#   - intent: button_page_10_export
-#   - action: utter_button_page_10_export
+- story: path 14.1 question ve nut 1
+  steps:
+  - intent: function_quan_ly_don_yeu_cau
+  - action: utter_function_quan_ly_don_yeu_cau
+  - intent: button_page_10_export
+  - action: utter_button_page_10_export
 
-# - story: path 14.2 question ve nut 2
-#   steps:
-#   - intent: function_quan_ly_don_yeu_cau
-#   - action: utter_function_quan_ly_don_yeu_cau
-#   - intent: button_page_10_duyet_don
-#   - action: utter_button_page_10_duyet_don
+- story: path 14.2 question ve nut 2
+  steps:
+  - intent: function_quan_ly_don_yeu_cau
+  - action: utter_function_quan_ly_don_yeu_cau
+  - intent: button_page_10_duyet_don
+  - action: utter_button_page_10_duyet_don
 
-# - story: path 14.3 question ve nut 3
-#   steps:
-#   - intent: function_quan_ly_don_yeu_cau
-#   - action: utter_function_quan_ly_don_yeu_cau
-#   - intent: button_page_10_huy_don
-#   - action: utter_button_page_10_huy_don
+- story: path 14.3 question ve nut 3
+  steps:
+  - intent: function_quan_ly_don_yeu_cau
+  - action: utter_function_quan_ly_don_yeu_cau
+  - intent: button_page_10_huy_don
+  - action: utter_button_page_10_huy_don
 
-# - story: path 14.4 question ve nut 4
-#   steps:
-#   - intent: function_quan_ly_don_yeu_cau
-#   - action: utter_function_quan_ly_don_yeu_cau
-#   - intent: button_page_10_xoa_don
-#   - action: utter_button_page_10_xoa_don
+- story: path 14.4 question ve nut 4
+  steps:
+  - intent: function_quan_ly_don_yeu_cau
+  - action: utter_function_quan_ly_don_yeu_cau
+  - intent: button_page_10_xoa_don
+  - action: utter_button_page_10_xoa_don
 
-# - story: path 15 question ve quan ly don yeu cau cap 1
-#   steps:
-#   - intent: don_va_giai_trinh
-#   - action: utter_don_va_giai_trinh
-#   - intent: function_quan_ly_don_yeu_cau_cap_1
-#   - action: utter_function_quan_ly_don_yeu_cau_cap_1
+- story: path 15 question ve quan ly don yeu cau cap 1
+  steps:
+  - intent: don_va_giai_trinh
+  - action: utter_don_va_giai_trinh
+  - intent: function_quan_ly_don_yeu_cau_cap_1
+  - action: utter_function_quan_ly_don_yeu_cau_cap_1
 
-# - story: path 15.1 question ve nut 1
-#   steps:
-#   - intent: function_quan_ly_don_yeu_cau_cap_1
-#   - action: utter_function_quan_ly_don_yeu_cau_cap_1
-#   - intent: button_page_11_export
-#   - action: utter_button_page_11_export
+- story: path 15.1 question ve nut 1
+  steps:
+  - intent: function_quan_ly_don_yeu_cau_cap_1
+  - action: utter_function_quan_ly_don_yeu_cau_cap_1
+  - intent: button_page_11_export
+  - action: utter_button_page_11_export
 
-# - story: path 15.2 question ve nut 2
-#   steps:
-#   - intent: function_quan_ly_don_yeu_cau_cap_1
-#   - action: utter_function_quan_ly_don_yeu_cau_cap_1
-#   - intent: button_page_11_duyet_don
-#   - action: utter_button_page_11_duyet_don
+- story: path 15.2 question ve nut 2
+  steps:
+  - intent: function_quan_ly_don_yeu_cau_cap_1
+  - action: utter_function_quan_ly_don_yeu_cau_cap_1
+  - intent: button_page_11_duyet_don
+  - action: utter_button_page_11_duyet_don
 
-# - story: path 15.3 question ve nut 3
-#   steps:
-#   - intent: function_quan_ly_don_yeu_cau_cap_1
-#   - action: utter_function_quan_ly_don_yeu_cau_cap_1
-#   - intent: button_page_11_huy_don
-#   - action: utter_button_page_11_huy_don
+- story: path 15.3 question ve nut 3
+  steps:
+  - intent: function_quan_ly_don_yeu_cau_cap_1
+  - action: utter_function_quan_ly_don_yeu_cau_cap_1
+  - intent: button_page_11_huy_don
+  - action: utter_button_page_11_huy_don
 
-# - story: path 15.4 question ve nut 4
-#   steps:
-#   - intent: function_quan_ly_don_yeu_cau_cap_1
-#   - action: utter_function_quan_ly_don_yeu_cau_cap_1
-#   - intent: button_page_11_xoa_don
-#   - action: utter_button_page_11_xoa_don
+- story: path 15.4 question ve nut 4
+  steps:
+  - intent: function_quan_ly_don_yeu_cau_cap_1
+  - action: utter_function_quan_ly_don_yeu_cau_cap_1
+  - intent: button_page_11_xoa_don
+  - action: utter_button_page_11_xoa_don
 
-# - story: path 16 question ve quan ly don yeu cau cap 2
-#   steps:
-#   - intent: don_va_giai_trinh
-#   - action: utter_don_va_giai_trinh
-#   - intent: function_quan_ly_don_yeu_cau_cap_2
-#   - action: utter_function_quan_ly_don_yeu_cau_cap_2
+- story: path 16 question ve quan ly don yeu cau cap 2
+  steps:
+  - intent: don_va_giai_trinh
+  - action: utter_don_va_giai_trinh
+  - intent: function_quan_ly_don_yeu_cau_cap_2
+  - action: utter_function_quan_ly_don_yeu_cau_cap_2
 
-# - story: path 16.1 question ve nut 1
-#   steps:
-#   - intent: function_quan_ly_don_yeu_cau_cap_2
-#   - action: utter_function_quan_ly_don_yeu_cau_cap_2
-#   - intent: button_page_12_export
-#   - action: utter_button_page_12_export
+- story: path 16.1 question ve nut 1
+  steps:
+  - intent: function_quan_ly_don_yeu_cau_cap_2
+  - action: utter_function_quan_ly_don_yeu_cau_cap_2
+  - intent: button_page_12_export
+  - action: utter_button_page_12_export
 
-# - story: path 16.2 question ve nut 2
-#   steps:
-#   - intent: function_quan_ly_don_yeu_cau_cap_2
-#   - action: utter_function_quan_ly_don_yeu_cau_cap_2
-#   - intent: button_page_12_duyet_don
-#   - action: utter_button_page_12_duyet_don
+- story: path 16.2 question ve nut 2
+  steps:
+  - intent: function_quan_ly_don_yeu_cau_cap_2
+  - action: utter_function_quan_ly_don_yeu_cau_cap_2
+  - intent: button_page_12_duyet_don
+  - action: utter_button_page_12_duyet_don
 
-# - story: path 16.3 question ve nut 3
-#   steps:
-#   - intent: function_quan_ly_don_yeu_cau_cap_2
-#   - action: utter_function_quan_ly_don_yeu_cau_cap_2
-#   - intent: button_page_12_huy_don
-#   - action: utter_button_page_12_huy_don
+- story: path 16.3 question ve nut 3
+  steps:
+  - intent: function_quan_ly_don_yeu_cau_cap_2
+  - action: utter_function_quan_ly_don_yeu_cau_cap_2
+  - intent: button_page_12_huy_don
+  - action: utter_button_page_12_huy_don
 
-# - story: path 16.4 question ve nut 4
-#   steps:
-#   - intent: function_quan_ly_don_yeu_cau_cap_2
-#   - action: utter_function_quan_ly_don_yeu_cau_cap_2
-#   - intent: button_page_12_xoa_don
-#   - action: utter_button_page_12_xoa_don
+- story: path 16.4 question ve nut 4
+  steps:
+  - intent: function_quan_ly_don_yeu_cau_cap_2
+  - action: utter_function_quan_ly_don_yeu_cau_cap_2
+  - intent: button_page_12_xoa_don
+  - action: utter_button_page_12_xoa_don
+
+- story: path 17 question ve quan ly phep
+  steps:
+  - intent: phep_va_bu
+  - action: utter_phep_va_bu
+  - intent: function_quan_ly_phep
+  - action: utter_function_quan_ly_phep
+
+- story: path 17.1 question ve nut 1
+  steps:
+  - intent: function_quan_ly_phep
+  - action: utter_function_quan_ly_phep
+  - intent: button_page_13_export
+  - action: utter_button_page_13_export
+
+- story: path 17.2 question ve nut 2
+  steps:
+  - intent: function_quan_ly_phep
+  - action: utter_function_quan_ly_phep
+  - intent: button_page_13_import
+  - action: utter_button_page_13_import
+
+- story: path 18 question ve quan ly bu
+  steps:
+  - intent: phep_va_bu
+  - action: utter_phep_va_bu
+  - intent: function_quan_ly_bu
+  - action: utter_function_quan_ly_bu
+
+- story: path 17.1 question ve nut 1
+  steps:
+  - intent: function_quan_ly_bu
+  - action: utter_function_quan_ly_bu
+  - intent: button_page_14_export
+  - action: utter_button_page_14_export
+
+- story: path 17.2 question ve nut 2
+  steps:
+  - intent: function_quan_ly_bu
+  - action: utter_function_quan_ly_bu
+  - intent: button_page_14_import
+  - action: utter_button_page_14_import
+
+#
+- story: path 18 question ve kpi bao cao tuan
+  steps:
+  - intent: kpis
+  - action: utter_kpis
+  - intent: function_kpi_bao_cao_tuan
+  - action: utter_function_kpi_bao_cao_tuan
+
+- story: path 18.1 question ve nut 1
+  steps:
+  - intent: function_kpi_bao_cao_tuan
+  - action: utter_function_kpi_bao_cao_tuan
+  - intent: button_page_15_export
+  - action: utter_button_page_15_export
+
+- story: path 19 question ve cau hinh vi pham
+  steps:
+  - intent: kpis
+  - action: utter_kpis
+  - intent: function_cau_hinh_vi_pham
+  - action: utter_function_cau_hinh_vi_pham
+
+- story: path 19.1 question ve nut 1
+  steps:
+  - intent: function_cau_hinh_vi_pham
+  - action: utter_function_cau_hinh_vi_pham
+  - intent: button_page_16_export
+  - action: utter_button_page_16_export
+
+- story: path 19.2 question ve nut 2
+  steps:
+  - intent: function_cau_hinh_vi_pham
+  - action: utter_function_cau_hinh_vi_pham
+  - intent: button_page_16_them_moi
+  - action: utter_button_page_16_them_moi
+
+- story: path 19.3 question ve nut 3
+  steps:
+  - intent: function_cau_hinh_vi_pham
+  - action: utter_function_cau_hinh_vi_pham
+  - intent: button_page_16_xoa
+  - action: utter_button_page_16_xoa
+
+- story: path 20 question ve cau hinh kpi
+  steps:
+  - intent: kpis
+  - action: utter_kpis
+  - intent: function_cau_hinh_kpi
+  - action: utter_function_cau_hinh_kpi
+
+- story: path 20.1 question ve nut 1
+  steps:
+  - intent: function_cau_hinh_kpi
+  - action: utter_function_cau_hinh_kpi
+  - intent: button_page_17_export
+  - action: utter_button_page_17_export
+
+- story: path 20.2 question ve nut 2
+  steps:
+  - intent: function_cau_hinh_kpi
+  - action: utter_function_cau_hinh_kpi
+  - intent: button_page_17_them_moi
+  - action: utter_button_page_17_them_moi
+
+- story: path 20.3 question ve nut 3
+  steps:
+  - intent: function_cau_hinh_kpi
+  - action: utter_function_cau_hinh_kpi
+  - intent: button_page_17_xoa
+  - action: utter_button_page_17_xoa
+#
+- story: path 21.1 question ve nut 1
+  steps:
+  - intent: cau_hinh_khoa
+  - action: utter_cau_hinh_khoa
+  - intent: button_page_18_export
+  - action: utter_button_page_18_export
+
+- story: path 21.2 question ve nut 2
+  steps:
+  - intent: cau_hinh_khoa
+  - action: utter_cau_hinh_khoa
+  - intent: button_page_18_them_moi
+  - action: utter_button_page_18_them_moi
+
+- story: path 21.3 question ve nut 3
+  steps:
+  - intent: cau_hinh_khoa
+  - action: utter_cau_hinh_khoa
+  - intent: button_page_18_xoa
+  - action: utter_button_page_18_xoa
+
+- story: path 22.1 question ve nut 1
+  steps:
+  - intent: cau_hinh_ngay_le
+  - action: utter_cau_hinh_ngay_le
+  - intent: button_page_19_export
+  - action: utter_button_page_19_export
+
+- story: path 22.2 question ve nut 2
+  steps:
+  - intent: cau_hinh_ngay_le
+  - action: utter_cau_hinh_ngay_le
+  - intent: button_page_19_them_moi
+  - action: utter_button_page_19_them_moi
+
+- story: path 22.3 question ve nut 3
+  steps:
+  - intent: cau_hinh_ngay_le
+  - action: utter_cau_hinh_ngay_le
+  - intent: button_page_19_xoa
+  - action: utter_button_page_19_xoa
+
+- story: path 23.1 question ve nut 1
+  steps:
+  - intent: don_xin_van_phong_pham
+  - action: utter_don_xin_van_phong_pham
+  - intent: button_page_20_export
+  - action: utter_button_page_20_export
+
+- story: path 23.2 question ve nut 2
+  steps:
+  - intent: don_xin_van_phong_pham
+  - action: utter_don_xin_van_phong_pham
+  - intent: button_page_20_danh_sach_vpp
+  - action: utter_button_page_20_danh_sach_vpp
+
+- story: path 23.3 question ve nut 3
+  steps:
+  - intent: don_xin_van_phong_pham
+  - action: utter_don_xin_van_phong_pham
+  - intent: button_page_20_duyet_don
+  - action: utter_button_page_20_duyet_don
+
+- story: path 23.4 question ve nut 4
+  steps:
+  - intent: don_xin_van_phong_pham
+  - action: utter_don_xin_van_phong_pham
+  - intent: button_page_20_huy_don
+  - action: utter_button_page_20_huy_don
+
+- story: path 23.5 question ve nut 5
+  steps:
+  - intent: don_xin_van_phong_pham
+  - action: utter_don_xin_van_phong_pham
+  - intent: button_page_20_xoa_don
+  - action: utter_button_page_20_xoa_don
+
+- story: path 23.6 question ve nut 6
+  steps:
+  - intent: don_xin_van_phong_pham
+  - action: utter_don_xin_van_phong_pham
+  - intent: button_page_20_tao_don
+  - action: utter_button_page_20_tao_don
+
+- story: path 24.1 question ve nut 1
+  steps:
+  - intent: dat_phong_hop
+  - action: utter_dat_phong_hop
+  - intent: button_page_21_export
+  - action: utter_button_page_21_export
+
+- story: path 24.2 question ve nut 2
+  steps:
+  - intent: dat_phong_hop
+  - action: utter_dat_phong_hop
+  - intent: button_page_21_them_phong_hop
+  - action: utter_button_page_21_them_phong_hop
+
+- story: path 24.3 question ve nut 3
+  steps:
+  - intent: dat_phong_hop
+  - action: utter_dat_phong_hop
+  - intent: button_page_21_duyet_don
+  - action: utter_button_page_21_duyet_don
+
+- story: path 24.4 question ve nut 4
+  steps:
+  - intent: dat_phong_hop
+  - action: utter_dat_phong_hop
+  - intent: button_page_21_huy_don
+  - action: utter_button_page_21_huy_don
+
+- story: path 24.5 question ve nut 5
+  steps:
+  - intent: dat_phong_hop
+  - action: utter_dat_phong_hop
+  - intent: button_page_21_xoa_don
+  - action: utter_button_page_21_xoa_don
+
+- story: path 24.6 question ve nut 6
+  steps:
+  - intent: dat_phong_hop
+  - action: utter_dat_phong_hop
+  - intent: button_page_21_tao_don
+  - action: utter_button_page_21_tao_don
