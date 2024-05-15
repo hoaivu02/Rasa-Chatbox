@@ -350,7 +350,7 @@ nlu:
     - Mình muốn hỏi về nút Export của Danh sách chấm công
     - Export của Danh sách chấm công
     - Nút bấm Export của Danh sách chấm công
-# # --------------------------------------------------------------------------
+# --------------------------------------------------------------------------
 - intent: don_va_giai_trinh
   examples: |
     - Đơn và giải trình
@@ -366,76 +366,348 @@ nlu:
     - Chức năng Quản lý đơn yêu cầu là gì
     - Trang Quản lý đơn yêu cầu làm được gì
 
-# - intent: button_page_10_export
-#     - Mình muốn hỏi về nút Export của Quản lý đơn yêu cầu
-#     - Export của Quản lý đơn yêu cầu
-#     - Nút bấm Export của Quản lý đơn yêu cầu
+- intent: button_page_10_export
+  examples: |
+    - Mình muốn hỏi về nút Export của Quản lý đơn yêu cầu
+    - Export của Quản lý đơn yêu cầu
+    - Nút bấm Export của Quản lý đơn yêu cầu
 
-# - intent: button_page_10_duyet_don
-#     - Mình muốn hỏi về nút Duyệt đơn của Quản lý đơn yêu cầu
-#     - Duyệt đơn của Quản lý đơn yêu cầu
-#     - Nút bấm Duyệt đơn của Quản lý đơn yêu cầu
+- intent: button_page_10_duyet_don
+  examples: |
+    - Mình muốn hỏi về nút Duyệt đơn của Quản lý đơn yêu cầu
+    - Duyệt đơn của Quản lý đơn yêu cầu
+    - Nút bấm Duyệt đơn của Quản lý đơn yêu cầu
 
-# - intent: button_page_10_huy_don
-#     - Mình muốn hỏi về nút Hủy đơn của Quản lý đơn yêu cầu
-#     - Hủy đơn của Quản lý đơn yêu cầu
-#     - Nút bấm Hủy đơn của Quản lý đơn yêu cầu
+- intent: button_page_10_huy_don
+  examples: |
+    - Mình muốn hỏi về nút Hủy đơn của Quản lý đơn yêu cầu
+    - Hủy đơn của Quản lý đơn yêu cầu
+    - Nút bấm Hủy đơn của Quản lý đơn yêu cầu
 
-# - intent: button_page_10_xoa_don
-#     - Mình muốn hỏi về nút Xóa đơn của Quản lý đơn yêu cầu 
-#     - Xóa đơn của Quản lý đơn yêu cầu
-#     - Nút bấm Xóa đơn của Quản lý đơn yêu cầu
+- intent: button_page_10_xoa_don
+  examples: |
+    - Mình muốn hỏi về nút Xóa đơn của Quản lý đơn yêu cầu 
+    - Xóa đơn của Quản lý đơn yêu cầu
+    - Nút bấm Xóa đơn của Quản lý đơn yêu cầu
 
-# - intent: function_quan_ly_don_yeu_cau_cap_1
-#   examples: |
-#     - Quản lý đơn yêu cầu cấp 1
-#     - Mình muốn hỏi về chức năng con Quản lý đơn yêu cầu cấp 1
-#     - Chức năng Quản lý đơn yêu cầu cấp 1
-#     - Trang Quản lý đơn yêu cầu cấp 1 làm được gì    
+- intent: function_quan_ly_don_yeu_cau_cap_1
+  examples: |
+    - Quản lý đơn yêu cầu cấp một 
+    - Mình muốn hỏi về chức năng con Quản lý đơn yêu cầu cấp một
+    - Chức năng Quản lý đơn yêu cầu cấp một là gì
+    - Trang Quản lý đơn yêu cầu cấp một làm được gì
 
-# - intent: button_page_11_export
-#     - Mình muốn hỏi về nút Export của Quản lý đơn yêu cầu cấp 1
-#     - Export của Quản lý đơn yêu cầu cấp 1
-#     - Nút bấm Export của Quản lý đơn yêu cầu cấp 1
+- intent: button_page_11_export
+  examples: |
+    - Mình muốn hỏi về nút Export của Quản lý đơn yêu cầu cấp một
+    - Export của Quản lý đơn yêu cầu cấp một
+    - Nút bấm Export của Quản lý đơn yêu cầu cấp một
 
-# - intent: button_page_11_duyet_don
-#     - Mình muốn hỏi về nút Duyệt đơn của Quản lý đơn yêu cầu cấp 1
-#     - Duyệt đơn của Quản lý đơn yêu cầu cấp 1
-#     - Nút bấm Duyệt đơn của Quản lý đơn yêu cầu cấp 1
+- intent: button_page_11_duyet_don
+  examples: |
+    - Mình muốn hỏi về nút Duyệt đơn của Quản lý đơn yêu cầu cấp một
+    - Duyệt đơn của Quản lý đơn yêu cầu cấp một
+    - Nút bấm Duyệt đơn của Quản lý đơn yêu cầu cấp một
 
-# - intent: button_page_11_huy_don
-#     - Mình muốn hỏi về nút Hủy đơn của Quản lý đơn yêu cầu cấp 1
-#     - Hủy đơn của Quản lý đơn yêu cầu cấp 1
-#     - Nút bấm Hủy đơn của Quản lý đơn yêu cầu cấp 1
+- intent: button_page_11_huy_don
+  examples: |
+    - Mình muốn hỏi về nút Hủy đơn của Quản lý đơn yêu cầu cấp một
+    - Hủy đơn của Quản lý đơn yêu cầu cấp một
+    - Nút bấm Hủy đơn của Quản lý đơn yêu cầu cấp một
 
-# - intent: button_page_11_xoa_don
-#     - Mình muốn hỏi về nút Xóa đơn của Quản lý đơn yêu cầu cấp 1
-#     - Xóa đơn của Quản lý đơn yêu cầu cấp 1
-#     - Nút bấm Xóa đơn của Quản lý đơn yêu cầu cấp 1
+- intent: button_page_11_xoa_don
+  examples: |
+    - Mình muốn hỏi về nút Xóa đơn của Quản lý đơn yêu cầu cấp một
+    - Nút bấm Xóa đơn của Quản lý đơn yêu cầu cấp một
 
-# - intent: function_quan_ly_don_yeu_cau_cap_2
-#   examples: |
-#     - Quản lý đơn yêu cầu cấp 2
-#     - Mình muốn hỏi về chức năng con Quản lý đơn yêu cầu cấp 2
-#     - Chức năng Quản lý đơn yêu cầu cấp 2
-#     - Trang Quản lý đơn yêu cầu cấp 2 làm được gì    
+- intent: function_quan_ly_don_yeu_cau_cap_2
+  examples: |
+    - Quản lý đơn yêu cầu cấp hai
+    - Mình muốn hỏi về chức năng con Quản lý đơn yêu cầu cấp hai
+    - Chức năng Quản lý đơn yêu cầu cấp hai là gì
+    - Trang Quản lý đơn yêu cầu cấp hai làm được gì
 
-# - intent: button_page_12_export
-#     - Mình muốn hỏi về nút Export của Quản lý đơn yêu cầu cấp 2
-#     - Export của Quản lý đơn yêu cầu cấp 2
-#     - Nút bấm Export của Quản lý đơn yêu cầu cấp 2
+- intent: button_page_12_export
+  examples: |
+    - Mình muốn hỏi về nút Export của Quản lý đơn yêu cầu cấp hai
+    - Export của Quản lý đơn yêu cầu cấp hai
+    - Nút bấm Export của Quản lý đơn yêu cầu cấp hai
 
-# - intent: button_page_12_duyet_don
-#     - Mình muốn hỏi về nút Duyệt đơn của Quản lý đơn yêu cầu cấp 2
-#     - Duyệt đơn của Quản lý đơn yêu cầu cấp 2
-#     - Nút bấm Duyệt đơn của Quản lý đơn yêu cầu cấp 2
+- intent: button_page_12_duyet_don
+  examples: |
+    - Mình muốn hỏi về nút Duyệt đơn của Quản lý đơn yêu cầu cấp hai
+    - Duyệt đơn của Quản lý đơn yêu cầu cấp hai
+    - Nút bấm Duyệt đơn của Quản lý đơn yêu cầu cấp hai
 
-# - intent: button_page_11_huy_don
-#     - Mình muốn hỏi về nút Hủy đơn của Quản lý đơn yêu cầu cấp 2
-#     - Hủy đơn của Quản lý đơn yêu cầu cấp 2
-#     - Nút bấm Hủy đơn của Quản lý đơn yêu cầu cấp 2
+- intent: button_page_12_huy_don
+  examples: |
+    - Mình muốn hỏi về nút Hủy đơn của Quản lý đơn yêu cầu cấp hai
+    - Hủy đơn của Quản lý đơn yêu cầu cấp hai
+    - Nút bấm Hủy đơn của Quản lý đơn yêu cầu cấp hai
 
-# - intent: button_page_11_xoa_don
-#     - Mình muốn hỏi về nút Xóa đơn của Quản lý đơn yêu cầu cấp 2
-#     - Xóa đơn của Quản lý đơn yêu cầu cấp 2
-#     - Nút bấm Xóa đơn của Quản lý đơn yêu cầu cấp 2
+- intent: button_page_12_xoa_don
+  examples: |
+    - Mình muốn hỏi về nút Xóa đơn của Quản lý đơn yêu cầu cấp hai
+    - Xóa đơn của Quản lý đơn yêu cầu cấp hai
+    - Nút bấm Xóa đơn của Quản lý đơn yêu cầu cấp hai
+  
+# --------------------------------------------------------------------------
+- intent: phep_va_bu
+  examples: |
+    - Phép và bù
+    - Cho mình hỏi về trang Phép và bù
+    - Chức năng Phép và bù là gì
+    - Phép và bù ở lề bên trái Website
+    - Mình không rõ các nội dung của trang Phép và bù
+
+- intent: function_quan_ly_phep
+  examples: |
+    - Quản lý phép
+    - Mình muốn hỏi về chức năng con Quản lý phép
+    - Chức năng Quản lý phép là gì
+    - Trang Quản lý phép làm được gì
+
+- intent: button_page_13_export
+  examples: |
+    - Mình muốn hỏi về nút Export của Quản lý phép
+    - Export của Quản lý phép
+    - Nút bấm Export của Quản lý phép
+  
+- intent: button_page_13_import
+  examples: |
+    - Mình muốn hỏi về nút Import của Quản lý phép
+    - Import của Quản lý phép
+    - Nút bấm Import của Quản lý phép
+  
+- intent: function_quan_ly_bu
+  examples: |
+    - Quản lý bù
+    - Mình muốn hỏi về chức năng con Quản lý bù
+    - Chức năng Quản lý bù là gì
+    - Trang Quản lý bù làm được gì
+
+- intent: button_page_14_export
+  examples: |
+    - Mình muốn hỏi về nút Export của Quản lý bù
+    - Export của Quản lý bù
+    - Nút bấm Export của Quản lý bù
+  
+- intent: button_page_14_import
+  examples: |
+    - Mình muốn hỏi về nút Import của Quản lý bù
+    - Import của Quản lý bù
+    - Nút bấm Import của Quản lý bù
+
+# --------------------------------------------------------------------------
+- intent: kpis
+  examples: |
+    - KPIs
+    - Cho mình hỏi về trang KPIs
+    - Chức năng KPIs là gì
+    - KPIs ở lề bên trái Website
+    - Mình không rõ các nội dung của trang KPIs
+
+- intent: function_kpi_bao_cao_tuan
+  examples: |
+    - KPI báo cáo tuần
+    - Mình muốn hỏi về chức năng con KPI báo cáo tuần
+    - Chức năng KPI báo cáo tuần là gì
+    - Trang KPI báo cáo tuần làm được gì
+
+- intent: button_page_15_export
+  examples: |
+    - Mình muốn hỏi về nút Export của KPI báo cáo tuần
+    - Export của KPI báo cáo tuần
+    - Nút bấm Export của KPI báo cáo tuần
+  
+- intent: function_cau_hinh_vi_pham
+  examples: |
+    - Cấu hình vi phạm
+    - Mình muốn hỏi về chức năng con Cấu hình vi phạm
+    - Chức năng Cấu hình vi phạm là gì
+    - Trang Cấu hình vi phạm làm được gì
+
+- intent: button_page_16_export
+  examples: |
+    - Mình muốn hỏi về nút Export của Cấu hình vi phạm
+    - Export của Cấu hình vi phạm
+    - Nút bấm Export của Cấu hình vi phạm
+  
+- intent: button_page_16_them_moi
+  examples: |
+    - Mình muốn hỏi về nút tạo mới của Cấu hình vi phạm
+    - Tạo mới của Cấu hình vi phạm
+    - Nút bấm Tạo mới của Cấu hình vi phạm
+
+- intent: button_page_16_xoa
+  examples: |
+    - Mình muốn hỏi về nút Xóa của Cấu hình vi phạm
+    - Xóa của Cấu hình vi phạm
+    - Nút bấm Xóa của Cấu hình vi phạm
+  
+- intent: function_cau_hinh_kpi
+  examples: |
+    - Cấu hình KPI
+    - Mình muốn hỏi về chức năng con Cấu hình KPI
+    - Chức năng Cấu hình KPI là gì
+    - Trang Cấu hình KPI làm được gì
+
+- intent: button_page_17_export
+  examples: |
+    - Mình muốn hỏi về nút Export của Cấu hình KPI
+    - Export của Cấu hình KPI
+    - Nút bấm Export của Cấu hình KPI
+  
+- intent: button_page_17_them_moi
+  examples: |
+    - Mình muốn hỏi về nút tạo mới của Cấu hình KPI
+    - Tạo mới của Cấu hình KPI
+    - Nút bấm Tạo mới của Cấu hình KPI
+
+- intent: button_page_17_xoa
+  examples: |
+    - Mình muốn hỏi về nút Xóa của Cấu hình KPI
+    - Xóa của Cấu hình KPI
+    - Nút bấm Xóa của Cấu hình KPI
+
+# --------------------------------------------------------------------------
+- intent: cau_hinh_khoa
+  examples: |
+    - Cấu hình khóa
+    - Cho mình hỏi về trang Cấu hình khóa
+    - Chức năng Cấu hình khóa là gì
+    - Cấu hình khóa ở lề bên trái Website
+    - Mình không rõ các nội dung của trang Cấu hình khóa
+
+- intent: button_page_18_export
+  examples: |
+    - Mình muốn hỏi về nút Export của Cấu hình khóa
+    - Export của Cấu hình khóa
+    - Nút bấm Export của Cấu hình khóa
+  
+- intent: button_page_18_them_moi
+  examples: |
+    - Mình muốn hỏi về nút thêm mới của Cấu hình khóa
+    - Thêm mới của Cấu hình khóa
+    - Nút bấm Thêm mới của Cấu hình khóa
+
+- intent: button_page_18_xoa
+  examples: |
+    - Mình muốn hỏi về nút Xóa của Cấu hình khóa
+    - Xóa của Cấu hình khóa
+    - Nút bấm Xóa của Cấu hình khóa
+  
+#--------------------------------------------------------------------------
+- intent: cau_hinh_ngay_le
+  examples: |
+    - Cấu hình ngày lễ
+    - Cho mình hỏi về trang Cấu hình ngày lễ
+    - Chức năng Cấu hình ngày lễ là gì
+    - Cấu hình ngày lễ ở lề bên trái Website
+    - Mình không rõ các nội dung của trang Cấu hình ngày lễ
+
+- intent: button_page_19_export
+  examples: |
+    - Mình muốn hỏi về nút Export của Cấu hình ngày lễ
+    - Export của Cấu hình ngày lễ
+    - Nút bấm Export của Cấu hình ngày lễ
+  
+- intent: button_page_19_them_moi
+  examples: |
+    - Mình muốn hỏi về nút thêm mới của Cấu hình ngày lễ
+    - Thêm mới của Cấu hình ngày lễ
+    - Nút bấm Thêm mới của Cấu hình ngày lễ
+
+- intent: button_page_19_xoa
+  examples: |
+    - Mình muốn hỏi về nút Xóa của Cấu hình ngày lễ
+    - Xóa của Cấu hình ngày lễ
+    - Nút bấm Xóa của Cấu hình ngày lễ
+  
+# --------------------------------------------------------------------------
+- intent: don_xin_van_phong_pham
+  examples: |
+    - Đơn xin văn phòng phẩm
+    - Cho mình hỏi về trang Đơn xin văn phòng phẩm
+    - Chức năng Đơn xin văn phòng phẩm là gì
+    - Đơn xin văn phòng phẩm ở lề bên trái Website
+    - Mình không rõ các nội dung của trang Đơn xin văn phòng phẩm
+
+- intent: button_page_20_export
+  examples: |
+    - Mình muốn hỏi về nút Export của Đơn xin văn phòng phẩm
+    - Export của Đơn xin văn phòng phẩm
+    - Nút bấm Export của Đơn xin văn phòng phẩm
+  
+- intent: button_page_20_danh_sach_vpp
+  examples: |
+    - Mình muốn hỏi về nút Danh sách văn phòng phẩm của Đơn xin văn phòng phẩm
+    - Danh sách văn phòng phẩm của Đơn xin văn phòng phẩm
+    - Nút bấm Danh sách văn phòng phẩm của Đơn xin văn phòng phẩm
+
+- intent: button_page_20_duyet_don
+  examples: |
+    - Mình muốn hỏi về nút Duyệt đơn của Đơn xin văn phòng phẩm
+    - Duyệt đơn của Đơn xin văn phòng phẩm
+    - Nút bấm Duyệt đơn của Đơn xin văn phòng phẩm
+
+- intent: button_page_20_huy_don
+  examples: |
+    - Mình muốn hỏi về nút Từ chối của Đơn xin văn phòng phẩm
+    - Từ chối của Đơn xin văn phòng phẩm
+    - Nút bấm Từ chối của Đơn xin văn phòng phẩm
+
+- intent: button_page_20_xoa_don
+  examples: |
+    - Mình muốn hỏi về nút Xóa của Đơn xin văn phòng phẩm
+    - Nút bấm Xóa của Đơn xin văn phòng phẩm
+
+- intent: button_page_20_tao_don
+  examples: |
+    - Mình muốn hỏi về cách tạo đơn của trang Đơn xin văn phòng phẩm
+    - Tạo đơn của Đơn xin văn phòng phẩm
+    - Nút bấm Tạo đơn của Đơn xin văn phòng phẩm
+ 
+# --------------------------------------------------------------------------
+- intent: dat_phong_hop
+  examples: |
+    - Đặt phòng họp
+    - Cho mình hỏi về trang Đặt phòng họp
+    - Chức năng Đặt phòng họp là gì
+    - Đặt phòng họp ở lề bên trái Website
+    - Mình không rõ các nội dung của trang Đặt phòng họp
+
+- intent: button_page_21_export
+  examples: |
+    - Mình muốn hỏi về nút Export của Đặt phòng họp
+    - Export của Đặt phòng họp
+    - Nút bấm Export của Đặt phòng họp
+  
+- intent: button_page_21_them_phong_hop
+  examples: |
+    - Mình muốn hỏi về nút Thêm phòng họp của Đặt phòng họp
+    - Thêm phòng họp của Đặt phòng họp
+    - Nút bấm Thêm phòng họp của Đặt phòng họp
+
+- intent: button_page_21_duyet_don
+  examples: |
+    - Mình muốn hỏi về nút Duyệt đơn của Đặt phòng họp
+    - Duyệt đơn của Đặt phòng họp
+    - Nút bấm Duyệt đơn của Đặt phòng họp
+
+- intent: button_page_21_huy_don
+  examples: |
+    - Mình muốn hỏi về nút Từ chối của Đặt phòng họp
+    - Từ chối của Đặt phòng họp
+    - Nút bấm Từ chối của Đặt phòng họp
+
+- intent: button_page_21_xoa_don
+  examples: |
+    - Mình muốn hỏi về nút Xóa của Đặt phòng họp
+    - Nút bấm Xóa của Đặt phòng họp
+
+- intent: button_page_21_tao_don
+  examples: |
+    - Mình muốn hỏi về cách tạo mới của trang Đặt phòng họp
+    - Tạo mới của Đặt phòng họp
+    - Nút bấm Tạo mới của Đặt phòng họp
