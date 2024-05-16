@@ -31,9 +31,9 @@ intents:
   - button_page_5_export
   - button_page_5_them_moi
   - button_page_5_xoa
-  - phan_ca_xuat_bao_cao
-  - function_xuat_bao_cao
-  - function_phan_ca
+  - phan_ca_nhan_vien
+  # - function_xuat_bao_cao
+  # - function_phan_ca
   - bao_cao_cham_cong
   - function_bao_cao_tuan
   - button_page_6_tinh_toan
@@ -51,8 +51,8 @@ intents:
   - button_page_8_xem_thong_tin
   - button_page_8_sua_ca
   - button_page_8_tao_don
-  - function_danh_sach_cham_cong
-  - button_page_9_export
+  # - function_danh_sach_cham_cong
+  # - button_page_9_export
   - don_va_giai_trinh
   - function_quan_ly_don_yeu_cau
   - button_page_10_export
@@ -76,17 +76,17 @@ intents:
   - function_quan_ly_bu
   - button_page_14_export
   - button_page_14_import
-  - kpis
-  - function_kpi_bao_cao_tuan
-  - button_page_15_export
-  - function_cau_hinh_vi_pham
-  - button_page_16_export
-  - button_page_16_them_moi
-  - button_page_16_xoa
-  - function_cau_hinh_kpi
-  - button_page_17_export
-  - button_page_17_them_moi
-  - button_page_17_xoa
+  # - kpis
+  # - function_kpi_bao_cao_tuan
+  # - button_page_15_export
+  # - function_cau_hinh_vi_pham
+  # - button_page_16_export
+  # - button_page_16_them_moi
+  # - button_page_16_xoa
+  # - function_cau_hinh_kpi
+  # - button_page_17_export
+  # - button_page_17_them_moi
+  # - button_page_17_xoa
   - cau_hinh_khoa 
   - button_page_18_export
   - button_page_18_them_moi
@@ -113,16 +113,16 @@ intents:
 responses:
   utter_greet:
   - text: "Chào bạn! Bạn cần trò chuyện về chuyện gì hôm nay?"
-  - text: "Xin chào! Chào mừng bạn đến với hệ thống quản lý nhân sự của chúng tôi. Tôi có thể giúp gì được cho bạn ngày hôm nay?"
+  - text: "Xin chào! Chào mừng bạn đến với hệ thống quản lý nhân sự của chúng tôi. \nTôi có thể giúp gì được cho bạn ngày hôm nay?"
 
   utter_goodbye:
-  - text: "Chào bạn! Nếu bạn cần bất kỳ sự trợ giúp nào khác, đừng ngần ngại liên hệ. Chúc bạn một ngày tốt lành!"
-  - text: "Chào tạm biệt! Hãy nhớ rằng nếu bạn có bất kỳ câu hỏi nào khác, tôi sẽ luôn sẵn lòng hỗ trợ. Hẹn gặp lại bạn sau!"
+  - text: "Chào bạn! Nếu bạn cần bất kỳ sự trợ giúp nào khác, đừng ngần ngại liên hệ. \nChúc bạn một ngày tốt lành!"
+  - text: "Chào tạm biệt! Hãy nhớ rằng nếu bạn có bất kỳ câu hỏi nào khác, tôi sẽ luôn sẵn lòng hỗ trợ. \nHẹn gặp lại bạn sau!"
 
   utter_thank:
-  - text: "Không có gì, rất vui được giúp bạn! Nếu bạn cần thêm sự hỗ trợ nào khác, đừng ngần ngại liên hệ."
-  - text: "Rất vui được biết bạn cảm thấy như vậy! Chúng tôi luôn ở đây để hỗ trợ bạn trong mọi vấn đề liên quan đến phần mềm quản lý nhân sự."
-  - text: "Đây là niềm vinh hạnh của chúng tôi khi được phục vụ bạn! Nếu có bất kỳ câu hỏi hoặc yêu cầu nào khác, xin đừng ngần ngại liên hệ."
+  - text: "Không có gì, rất vui được giúp bạn! \nNếu bạn cần thêm sự hỗ trợ nào khác, đừng ngần ngại liên hệ."
+  - text: "Rất vui được biết bạn cảm thấy như vậy! \nChúng tôi luôn ở đây để hỗ trợ bạn trong mọi vấn đề liên quan đến phần mềm quản lý nhân sự."
+  - text: "Đây là niềm vinh hạnh của chúng tôi khi được phục vụ bạn! \nNếu có bất kỳ câu hỏi hoặc yêu cầu nào khác, xin đừng ngần ngại liên hệ."
 
   utter_ask_about_dashboard:
   - text: "Cảm ơn bạn đã hỏi về nội dung trang dashboard của chúng tôi. Trang gồm bốn phần chính:
@@ -130,7 +130,7 @@ responses:
   \n - Thông báo: Đây là nơi bạn có thể nhận thông báo về kiểm tra chấm công theo tháng.
   \n - Chúc mừng sinh nhật: Phần này hiển thị danh sách những người có sinh nhật vào hôm nay.
   \n - Đặt lịch phòng họp: Ở đây, bạn có thể xem lịch trình đặt phòng họp trong tháng, là các cuộc họp được lập kế hoạch và đã được duyệt.
-  \n Nếu bạn muốn tìm hiểu thêm về nội dung Báo cáo nhân sự HRM trên trang Dashboard vui lòng gõ lệnh !moredashboard"
+  \n\nNếu bạn muốn tìm hiểu thêm về nội dung Báo cáo nhân sự HRM trên trang Dashboard vui lòng gõ lệnh !moredashboard"
 
   utter_more_dashboard:
   - text: "Dưới đây là nội dung từng mục có trong Báo cáo nhân sự HRM thuộc trang Dashboard:
@@ -139,7 +139,7 @@ responses:
   \n - Hợp đồng sắp hết hạn: Số lượng hợp đồng sắp hết hạn, thời gian còn lại một tuần trước khi kết thúc.
   \n - Hợp đồng mới.
   \n - Các đơn từ giải trình của nhân viên trong trạng thái chờ duyệt.
-  \n Bạn có cần thêm sự trợ giúp tới từ tôi?"
+  \n\nBạn có cần thêm sự trợ giúp tới từ tôi?"
 
   utter_quan_ly_nhan_vien:
   - text: "Cảm ơn bạn đã hỏi về nội dung chức năng Quản lý nhân viên của chúng tôi. Chức năng này cho phép người dùng quản lý các nội dung trong công ty (Phòng ban, nhân sự, chức vụ, hợp đồng). Những chức năng hỗ trợ khả năng quản lý bao gồm:
@@ -148,13 +148,13 @@ responses:
   \n - Danh sách nhân viên.
   \n - Địa điểm làm việc.
   \n - Cấu hình chức vụ. 
-  \n Nếu bạn muốn tìm hiểu rõ về từng chức năng trên vui lòng tiếp tục đặt câu hỏi."
+  \n\nNếu bạn muốn tìm hiểu rõ về từng chức năng trên vui lòng tiếp tục đặt câu hỏi."
 # 
   utter_function_danh_sach_phong_ban:
-  - text: "Về trang Danh sách phòng ban, trang có chức năng cho phép nhân sự quản lý phòng ban trực tiếp trên hệ thống. Nhân sự quản lý phòng ban thông qua các chức năng: thêm mới, cập nhật, xóa với điều kiện hệ thống cho phép, tìm kiếm thông tin. Bạn có câu hỏi gì về các nút chức năng xuất hiện trên trang Danh sách phòng ban không?"
+  - text: "Về trang Danh sách phòng ban, trang có chức năng cho phép nhân sự quản lý phòng ban trực tiếp trên hệ thống. Nhân sự quản lý phòng ban thông qua các chức năng: thêm mới, cập nhật, xóa với điều kiện hệ thống cho phép, tìm kiếm thông tin. \n\nBạn có câu hỏi gì về các nút chức năng xuất hiện trên trang Danh sách phòng ban không?"
 
   utter_button_page_1_export:
-  - text: "Nút bấm export có dạng trang giấy với dấu mũi tên ở góc trên bên phải.Người dùng lựa chọn các nội dung cần xuất ra tài liệu và ấn nút mũi tên hướng phải để đưa nội dung qua các trường đã chọn. Sau đó nhấn nút 'Xuất' để đưa các nội dung đã chọn ra tài liệu Excel."
+  - text: "Nút bấm export có dạng trang giấy với dấu mũi tên ở góc trên bên phải. Người dùng lựa chọn các nội dung cần xuất ra tài liệu và ấn nút mũi tên hướng phải để đưa nội dung qua các trường đã chọn. Sau đó nhấn nút 'Xuất' để đưa các nội dung đã chọn ra tài liệu Excel."
 
   utter_button_page_1_import:
   - text: "Nút bấm mang tên 'Import' cho phép người dùng thêm dữ liệu phòng ban bằng cách import tài liệu Excel đúng template. Người dùng nhấn 'Tải xuống Template' để lấy mẫu điền dạng file Excel. Sau đó tiến hành sửa dữ liệu trong file, rồi đưa file Excel lên bằng nút 'Click to Upload'. Cuối cùng xác nhận thêm mới bằng việc nhấn nút 'Lưu', hoặc 'Hủy' nếu không muốn cập nhật"
@@ -172,7 +172,7 @@ responses:
   \n - Đang chạy: trong thời gian hợp đồng còn hiệu nghiệm
   \n - Sắp hết hạn: Hợp đồng sắp hết hạn, thời gian là một tuần trước khi kết thúc dự án
   \n - Dự án đã hết hạn
-  \n Bạn có câu hỏi gì về các nút chức năng xuất hiện trên trang Quản lý hợp đồng không?"
+  \n\nBạn có câu hỏi gì về các nút chức năng xuất hiện trên trang Quản lý hợp đồng không?"
 
   utter_button_page_2_export:
   - text: "Nút bấm export có dạng trang giấy với dấu mũi tên ở góc trên bên phải. Người dùng lựa chọn các nội dung cần xuất ra tài liệu và ấn nút mũi tên hướng phải để đưa nội dung qua các trường đã chọn. Sau đó nhấn nút 'Xuất' để đưa các nội dung đã chọn ra tài liệu Excel."
@@ -188,7 +188,7 @@ responses:
 # 
   utter_function_danh_sach_nhan_vien: 
   - text: "Về trang Danh sách nhân viên, trang có chức năng cho phép nhân sự quản lý danh sách nhân viên trực tiếp trên hệ thống. Nhân sự quản lý danh sách nhân viên qua các chức năng thêm mới, quản lý thông tin, tạo mới tài khoản, xóa, kiểm tra lịch sử thao tác, xuất báo cáo danh sách nhân viên. 
-  \n Bạn có câu hỏi gì về các nút chức năng xuất hiện trên trang Danh sách nhân viên không?"
+  \n\nBạn có câu hỏi gì về các nút chức năng xuất hiện trên trang Danh sách nhân viên không?"
 
   utter_button_page_3_export:
   - text: "Nút bấm export có dạng trang giấy với dấu mũi tên ở góc trên bên phải. Người dùng lựa chọn các nội dung cần xuất ra tài liệu và ấn nút mũi tên hướng phải để đưa nội dung qua các trường đã chọn. Sau đó nhấn nút 'Xuất' để đưa các nội dung đã chọn ra tài liệu Excel."
@@ -207,7 +207,7 @@ responses:
 # 
   utter_function_dia_diem_lam_viec:
   - text: "Về trang Địa điểm làm việc, trang có chức năng cho phép nhân sự quản lý danh sách địa điểm làm việc. Nhân sự quản lý nội dung qua các chức năng thêm mới, xóa, xuất báo cáo danh sách địa điểm làm việc. 
-  \n Bạn có câu hỏi gì về các nút chức năng xuất hiện trên trang Địa điểm làm việc không?"
+  \n\nBạn có câu hỏi gì về các nút chức năng xuất hiện trên trang Địa điểm làm việc không?"
   
   utter_button_page_4_export:
   - text: "Nút bấm export có dạng trang giấy với dấu mũi tên ở góc trên bên phải. Người dùng lựa chọn các nội dung cần xuất ra tài liệu và ấn nút mũi tên hướng phải để đưa nội dung qua các trường đã chọn. Sau đó nhấn nút 'Xuất' để đưa các nội dung đã chọn ra tài liệu Excel."
@@ -220,7 +220,7 @@ responses:
 # 
   utter_function_cau_hinh_chuc_vu:
   - text: "Về trang Cấu hình chức vụ, trang có chức năng cho phép nhân sự quản lý danh sách chức vụ của công ty. Nhân sự quản lý nội dung qua các chức năng thêm mới, xóa, xuất báo cáo danh sách địa điểm làm việc. 
-  \n Bạn có câu hỏi gì về các nút chức năng xuất hiện trên trang Cấu hình chức vụ không?"
+  \n\nBạn có câu hỏi gì về các nút chức năng xuất hiện trên trang Cấu hình chức vụ không?"
   
   utter_button_page_5_export:
   - text: "Nút bấm export có dạng trang giấy với dấu mũi tên ở góc trên bên phải. Người dùng lựa chọn các nội dung cần xuất ra tài liệu và ấn nút mũi tên hướng phải để đưa nội dung qua các trường đã chọn. Sau đó nhấn nút 'Xuất' để đưa các nội dung đã chọn ra tài liệu Excel."
@@ -231,17 +231,9 @@ responses:
   utter_button_page_5_xoa:
   - text: "Nút bấm mang tên 'Xóa' cho phép người dùng xóa bỏ một hoặc nhiều dữ liệu về chức vụ trong danh sách. Lựa chọn những trường chức vụ mà người dùng muốn xóa bỏ, sau đó nhấn nút 'Xóa' để hoàn toàn loại bỏ"
 # 
-  utter_phan_ca_xuat_bao_cao:
-  - text: "Cảm ơn bạn đã hỏi về nội dung chức năng Phân ca và xuất báo cáo của chúng tôi. Chức năng này cho phép người dùng quản lý việc phân ca nhân viên và danh sách xuất báo cáo trực tiếp trên hệ thống. Những chức năng hỗ trợ khả năng quản lý này bao gồm:
-  \n - Xuất báo cáo.
-  \n - Phân ca nhân viên.
-  \n Nếu bạn muốn tìm hiểu rõ về từng chức năng trên vui lòng tiếp tục đặt câu hỏi."
-
-  utter_function_xuat_bao_cao:
-  - text: "Về trang Xuất báo cáo, trang có chức năng cho phép nhân sự quản lý danh sách xuất báo cáo trực tiếp trên hệ thống. Nhân sự có quyền bấm chọn tải xuống báo cáo mà mình muốn sử dụng. Các báo cáo được thêm theo dữ liệu từng tháng của công ty."
-  utter_function_phan_ca:
-  - text: "Về trang Phân ca nhân viên, trang có chức năng quản lý việc phân ca trực tiếp trên hệ thống. Hệ thống cho phép người dùng thêm dữ liệu bằng cách import file đúng mẫu template.
-  \n Người dùng thực hiện việc import phân ca qua các bước
+  utter_phan_ca_nhan_vien:
+  - text: "Cảm ơn bạn đã hỏi về nội dung chức năng Phân ca nhân viên của chúng tôi. Chức năng này cho phép người dùng quản lý việc phân ca nhân viên và danh sách báo cáo trực tiếp trên hệ thống. 
+  \n\nVề trang Phân ca nhân viên, trang có chức năng quản lý việc phân ca trực tiếp trên hệ thống. Hệ thống cho phép người dùng thêm dữ liệu bằng cách import file đúng mẫu template. \n\nNgười dùng thực hiện việc import phân ca qua các bước
   \n Bước 1: Tải file excel mẫu import phân ca tại nút 'File import mẫu'
   \n Bước 2: Chỉnh sửa file excel muốn import giống với file excel mẫu
   \n Bước 3: Chọn file excel muốn import tại nút 'Chọn file import'"
@@ -251,20 +243,19 @@ responses:
   \n - Báo cáo theo tuần.
   \n - Danh sách ca.
   \n - Báo cáo theo tháng.
-  \n - Danh sách chấm công.
-  \n Nếu bạn muốn tìm hiểu rõ về từng chức năng trên vui lòng tiếp tục đặt câu hỏi."
+  \n\nNếu bạn muốn tìm hiểu rõ về từng chức năng trên vui lòng tiếp tục đặt câu hỏi."
 
   utter_function_bao_cao_tuan:
   - text: "Về trang Báo cáo theo tuần, trang có chức năng cho phép nhân sự kiểm tra công ca làm việc nhân viên và cấp quyền chỉnh sửa ca nhân viên tùy trường hợp. Nhân sự quản lý trang qua các thao tác import dữ liệu chấm công, xem thông tin trong ca làm của nhân viên, sửa ca, và tạo đơn cho nhân viên. 
-  \n Các trường hợp ca làm cần lưu ý bao gồm:
+  \nCác trường hợp ca làm cần lưu ý bao gồm:
   \n - Hiện icon chấm than đỏ => thời gian làm việc thực tế của nhân viên so với thời gian của ca lớn hơn 30 phút. 
   \n - Không hiện icon chấm than đỏ => nhân viên đi làm đúng thời gian ca đã phân.
   \n - Thời gian làm việc nhân viên hiển thị màu đỏ => nhân viên đi làm không đủ thời gian ca đã phân.
   \n - Ô phân ca ghi 'OFF 0' => ngày nghỉ của nhân viên, không hiển thị dữ liệu chấm công. 
-  \n Chú ý nếu ô phân ca này có nền màu vàng, nhân viên được phân ca OFF nhưng lại có dữ liệu chấm công.
+  \n * Chú ý: Nếu ô phân ca này có nền màu vàng, nhân viên được phân ca OFF nhưng lại có dữ liệu chấm công.
   \n - Ô phân ca ghi 'AL' => nhân viên đang nghỉ phép năm.
   \n - Ô phân ca ghi 'CL' => nhân viên đang nghỉ phép bù.
-  \n Bạn có câu hỏi gì về các nút chức năng xuất hiện trên trang Báo cáo theo tuần không?"
+  \n\nBạn có câu hỏi gì về các nút chức năng xuất hiện trên trang Báo cáo theo tuần không?"
 
   utter_button_page_6_tinh_toan:
   - text: "Nút bấm mang tên 'Tính toán' cho phép người dùng tính thời gian thực tế đi làm của nhân viên trong ca dựa vào ca đã được phân công."
@@ -278,26 +269,26 @@ responses:
   utter_button_page_6_sua_ca:
   - text: "Thao tác sửa ca cho phép người dùng sửa dữ liệu trong ca làm của nhân viên. Người dùng muốn sửa ca thực hiện theo các bước sau:
   \n Bước 1: Lựa chọn ca nhân viên cần thay đổi, chọn ca phù hợp (Ca chính, ca nghỉ, ca gãy, ca ghép) 
-  \n Chú ý Ca ghép có 2 cách tạo, bằng cách tích chọn đồng thời ca chính và ca gãy hoặc tích chọn ca ghép
+  \n * Chú ý: Ca ghép có 2 cách tạo, bằng cách tích chọn đồng thời ca chính và ca gãy hoặc tích chọn ca ghép
   \n Bước 2: Xác nhận thay đổi ca làm của nhân viên bằng việc nhấn nút 'Cập nhật' hoặc bỏ dữ liệu ca làm của nhân viên bằng nút 'Bỏ ca'" 
 
   utter_button_page_6_tao_don:
   - text: "Người dùng muốn tạo đơn thực hiện theo các bước sau:
   \n Bước 1: Lựa chọn ca nhân viên cần tạo đơn, nhấn vào 'Đơn' của nội dung trang bên phải.
   \n Bước 2: Hoàn thành các nội dung trong popup tạo đơn vừa xuất hiện. Cần lựa chọn loại đơn phù hợp, nội dung phía dưới sẽ thay đổi dựa vào tên loại đơn.
-  \n Chú ý thời gian nghỉ phép mỗi tháng 480 phút(tương ứng một ngày). Thời gian tăng ca sẽ được đưa vào quỹ nghỉ bù.
-  \n Các đơn không hiện quỹ bù hay quỹ phép được tính là nghỉ hợp pháp (Ex: Đơn sử dụng chế độ con nhỏ...)"
+  \n * Chú ý: Thời gian nghỉ phép mỗi tháng 480 phút(tương ứng một ngày). Thời gian tăng ca sẽ được đưa vào quỹ nghỉ bù.
+  \n\nCác đơn không hiện quỹ bù hay quỹ phép được tính là nghỉ hợp pháp (Ex: Đơn sử dụng chế độ con nhỏ...)"
 # 
   utter_function_danh_sach_ca:
   - text: "Về trang Danh sách ca, trang có chức năng cho phép nhân sự, TBP quản lý danh sách ca trực tiếp trên hệ thống. Nhân sự quản lý trang qua các thao tác tạo mới, sửa và xóa ca trên hệ thống.
-  \n Bạn có câu hỏi gì về các nút chức năng xuất hiện trên trang Danh sách ca hông?"
+  \n\nBạn có câu hỏi gì về các nút chức năng xuất hiện trên trang Danh sách ca hông?"
   
   utter_button_page_7_export:
   - text: "Nút bấm export có dạng trang giấy với dấu mũi tên ở góc trên bên phải. Người dùng lựa chọn các nội dung cần xuất ra tài liệu và ấn nút mũi tên hướng phải để đưa nội dung qua các trường đã chọn. Sau đó nhấn nút 'Xuất' để đưa các nội dung đã chọn ra tài liệu Excel."
 
   utter_button_page_7_them_moi:
   - text: "Nút bấm mang tên 'Thêm mới' cho phép người dùng thêm mới ca làm việc trực tiếp trên ứng dụng bằng cách hoàn thiện popup hiện ra sau đó. Sau khi hoàn tất việc điền dữ liệu, người dùng lựa chọn 'Lưu' để thêm mới dữ liệu hoặc nhấn 'Hủy' để từ chối cập nhật
-  \n Chú ý 
+  \n * Chú ý: 
   \n - Ca nghỉ là ca làm việc mà nhân viên được miễn làm việc, thường là vào các ngày nghỉ lễ hoặc ngày nghỉ theo lịch của tổ chức.
   \n - Ca đêm là ca làm việc trong khoảng thời gian từ buổi tối đến buổi sáng.
   \n - Ca gãy là ca làm việc mà thời gian làm việc được chia thành hai phần không liên tục."
@@ -307,15 +298,15 @@ responses:
 
   utter_function_bao_cao_thang:
   - text: "Về trang Báo cáo theo tháng, trang có chức năng cho phép nhân sự kiểm tra công ca làm việc nhân viên theo tháng và cấp quyền chỉnh sửa ca nhân viên tùy trường hợp. Nhân sự quản lý trang qua các thao tác import dữ liệu chấm công, xem thông tin trong ca làm của nhân viên, sửa ca, và tạo đơn cho nhân viên. 
-  \n Các trường hợp ca làm cần lưu ý bao gồm:
+  \nCác trường hợp ca làm cần lưu ý bao gồm:
   \n - Hiện icon chấm than đỏ => thời gian làm việc thực tế của nhân viên so với thời gian của ca lớn hơn 30 phút. 
   \n - Không hiện icon chấm than đỏ => nhân viên đi làm đúng thời gian ca đã phân.
   \n - Thời gian làm việc nhân viên hiển thị màu đỏ => nhân viên đi làm không đủ thời gian ca đã phân.
   \n - Ô phân ca ghi 'OFF 0' => ngày nghỉ của nhân viên, không hiển thị dữ liệu chấm công. 
-  \n Chú ý nếu ô phân ca này có nền màu vàng, nhân viên được phân ca OFF nhưng lại có dữ liệu chấm công.
+  \n * Chú ý: Nếu ô phân ca này có nền màu vàng, nhân viên được phân ca OFF nhưng lại có dữ liệu chấm công.
   \n - Ô phân ca ghi 'AL' => nhân viên đang nghỉ phép năm.
   \n - Ô phân ca ghi 'CL' => nhân viên đang nghỉ phép bù.
-  \n Bạn có câu hỏi gì về các nút chức năng xuất hiện trên trang Báo cáo theo tháng không?"
+  \n\nBạn có câu hỏi gì về các nút chức năng xuất hiện trên trang Báo cáo theo tháng không?"
 
   utter_button_page_8_tinh_toan:
   - text: "Nút bấm mang tên 'Tính toán' cho phép người dùng tính thời gian thực tế đi làm của nhân viên trong ca dựa vào ca đã được phân công."
@@ -329,38 +320,38 @@ responses:
   utter_button_page_8_sua_ca:
   - text: "Thao tác sửa ca cho phép người dùng sửa dữ liệu trong ca làm của nhân viên. Người dùng muốn sửa ca thực hiện theo các bước sau:
   \n Bước 1: Lựa chọn ca nhân viên cần thay đổi, chọn ca phù hợp (Ca chính, ca nghỉ, ca gãy, ca ghép) 
-  \n Chú ý Ca ghép có 2 cách tạo, bằng cách tích chọn đồng thời ca chính và ca gãy hoặc tích chọn ca ghép
+  \n * Chú ý: Ca ghép có 2 cách tạo, bằng cách tích chọn đồng thời ca chính và ca gãy hoặc tích chọn ca ghép
   \n Bước 2: Xác nhận thay đổi ca làm của nhân viên bằng việc nhấn nút 'Cập nhật' hoặc bỏ dữ liệu ca làm của nhân viên bằng nút 'Bỏ ca'" 
 
   utter_button_page_8_tao_don:
   - text: "Người dùng muốn tạo đơn thực hiện theo các bước sau:
   \n Bước 1: Lựa chọn ca nhân viên cần tạo đơn, nhấn vào 'Đơn' của nội dung trang bên phải.
   \n Bước 2: Hoàn thành các nội dung trong popup tạo đơn vừa xuất hiện. Cần lựa chọn loại đơn phù hợp, nội dung phía dưới sẽ thay đổi dựa vào tên loại đơn.
-  \n Chú ý thời gian nghỉ phép mỗi tháng 480 phút(tương ứng một ngày). Thời gian tăng ca sẽ được đưa vào quỹ nghỉ bù.
-  \n Các đơn không hiện quỹ bù hay quỹ phép được tính là nghỉ hợp pháp (Ex: Đơn sử dụng chế độ con nhỏ...)"
+  \n * Chú ý: Thời gian nghỉ phép mỗi tháng 480 phút(tương ứng một ngày). Thời gian tăng ca sẽ được đưa vào quỹ nghỉ bù.
+  \nCác đơn không hiện quỹ bù hay quỹ phép được tính là nghỉ hợp pháp (Ex: Đơn sử dụng chế độ con nhỏ...)"
 
-  utter_function_danh_sach_cham_cong:
-  - text: "Về trang Danh sách chấm công, trang có chức năng quản lý danh sách chấm công của nhân viên trực tiếp trên hệ thống. Nhân sự được phép thực hiện thao tác xem dữ liệu chấm công và xuất báo cáo danh sách chấm công. 
-  \n Bạn có câu hỏi gì về các nút chức năng xuất hiện trên trang Danh sách chấm công không?"
+  # utter_function_danh_sach_cham_cong:
+  # - text: "Về trang Danh sách chấm công, trang có chức năng quản lý danh sách chấm công của nhân viên trực tiếp trên hệ thống. Nhân sự được phép thực hiện thao tác xem dữ liệu chấm công và xuất báo cáo danh sách chấm công. 
+  # \n Bạn có câu hỏi gì về các nút chức năng xuất hiện trên trang Danh sách chấm công không?"
 
-  utter_button_page_9_export:
-  - text: "Nút bấm export có dạng trang giấy với dấu mũi tên ở góc trên bên phải. Người dùng lựa chọn các nội dung cần xuất ra tài liệu và ấn nút mũi tên hướng phải để đưa nội dung qua các trường đã chọn. Sau đó nhấn nút 'Xuất' để đưa các nội dung đã chọn ra tài liệu Excel."
+  # utter_button_page_9_export:
+  # - text: "Nút bấm export có dạng trang giấy với dấu mũi tên ở góc trên bên phải. Người dùng lựa chọn các nội dung cần xuất ra tài liệu và ấn nút mũi tên hướng phải để đưa nội dung qua các trường đã chọn. Sau đó nhấn nút 'Xuất' để đưa các nội dung đã chọn ra tài liệu Excel."
 #
   utter_don_va_giai_trinh:
   - text: "Cảm ơn bạn đã hỏi về nội dung chức năng Đơn và giải trình của chúng tôi. Chức năng này cho phép người dùng xem và quản lý các loại đơn theo cấp độ. Những chức năng hỗ trợ khả năng quản lý đơn yêu cầu bao gồm:
   \n - Quản lý đơn yêu cầu.
   \n - Quản lý đơn yêu cầu cấp 1.
   \n - Quản lý đơn yêu cầu cấp 2.
-  \n Nếu bạn muốn tìm hiểu rõ về từng chức năng trên vui lòng tiếp tục đặt câu hỏi."
+  \n\nNếu bạn muốn tìm hiểu rõ về từng chức năng trên vui lòng tiếp tục đặt câu hỏi."
 
   utter_function_quan_ly_don_yeu_cau:
   - text: "Về trang Quản lý đơn yêu cầu, trang có chức năng cho phép nhân sự quản lý danh sách đơn yêu cầu trực tuyến trên hệ thống. Nhân sự quản lý trang qua các thao tác duyệt đơn, hủy đơn, xóa đơn và xuất danh sách đơn yêu cầu.
-  \n Các trạng thái đơn cần lưu ý bao gồm:
+  \nCác trạng thái đơn cần lưu ý bao gồm:
   \n - Chờ duyệt => các đơn chưa được duyệt
   \n - Duyệt cấp 1 => các đơn cần duyệt hai cấp và đã được Trưởng bộ phận duyệt cấp 1
   \n - Đã duyệt => các đơn chờ duyệt(cần duyệt một cấp) và các đơn duyệt cấp 1 được Admin duyệt
   \n - Các đơn bị từ chối
-  \n Bạn có câu hỏi gì về các nút chức năng xuất hiện trên trang Quản lý đơn yêu cầu không?"
+  \n\nBạn có câu hỏi gì về các nút chức năng xuất hiện trên trang Quản lý đơn yêu cầu không?"
 
   utter_button_page_10_export:
   - text: "Nút bấm export có dạng trang giấy với dấu mũi tên ở góc trên bên phải. Người dùng lựa chọn các nội dung cần xuất ra tài liệu và ấn nút mũi tên hướng phải để đưa nội dung qua các trường đã chọn. Sau đó nhấn nút 'Xuất' để đưa các nội dung đã chọn ra tài liệu Excel."
@@ -370,15 +361,15 @@ responses:
   
   utter_button_page_10_huy_don:
   - text: "Nút bấm mang tên 'Hủy đơn' cho phép người dùng hủy đơn yêu cầu trên hệ thống. Lựa chọn những đơn yêu cầu mà người dùng muốn hủy, sau đó nhấn nút 'Hủy đơn' để hoàn thành tác vụ. 
-  \n Chú ý đơn được phép hủy không bao gồm đơn có trạng thái Từ chối. Những đơn bị hủy sẽ chuyển sang trạng thái Từ chối"
+  \n * Chú ý: Đơn được phép hủy không bao gồm đơn có trạng thái Từ chối. Những đơn bị hủy sẽ chuyển sang trạng thái Từ chối"
 
   utter_button_page_10_xoa_don:
   - text: "Nút bấm mang tên 'Xóa đơn' cho phép người dùng xóa đơn yêu cầu. Lựa chọn những đơn yêu cầu mà người dùng muốn xóa, sau đó nhấn nút 'Xóa đơn' để hoàn thành tác vụ. 
-  \n Những đơn bị xóa bỏ sẽ hoàn toàn biến mất khỏi hệ thống."
+  \nNhững đơn bị xóa bỏ sẽ hoàn toàn biến mất khỏi hệ thống."
 
   utter_function_quan_ly_don_yeu_cau_cap_1:
   - text: "Về trang Quản lý đơn yêu cầu cấp 1, trang có chức năng cho phép nhân sự quản lý danh sách đơn yêu cầu cấp 1 trực tuyến trên hệ thống. 
-  \n Bạn có câu hỏi gì về các nút chức năng xuất hiện trên trang Quản lý đơn yêu cầu cấp 1 không?"
+  \n\nBạn có câu hỏi gì về các nút chức năng xuất hiện trên trang Quản lý đơn yêu cầu cấp 1 không?"
 
   utter_button_page_11_export:
   - text: "Nút bấm export có dạng trang giấy với dấu mũi tên ở góc trên bên phải. Người dùng lựa chọn các nội dung cần xuất ra tài liệu và ấn nút mũi tên hướng phải để đưa nội dung qua các trường đã chọn. Sau đó nhấn nút 'Xuất' để đưa các nội dung đã chọn ra tài liệu Excel."
@@ -388,15 +379,15 @@ responses:
   
   utter_button_page_11_huy_don:
   - text: "Nút bấm mang tên 'Hủy đơn' cho phép người dùng hủy đơn yêu cầu trên hệ thống. Lựa chọn những đơn yêu cầu mà người dùng muốn hủy, sau đó nhấn nút 'Hủy đơn' để hoàn thành tác vụ. 
-  \n Chú ý đơn được phép hủy không bao gồm đơn có trạng thái Từ chối. Những đơn bị hủy sẽ chuyển sang trạng thái Từ chối"
+  \n * Chú ý: Đơn được phép hủy không bao gồm đơn có trạng thái Từ chối. Những đơn bị hủy sẽ chuyển sang trạng thái Từ chối"
 
   utter_button_page_11_xoa_don:
   - text: "Nút bấm mang tên 'Xóa đơn' cho phép người dùng xóa đơn yêu cầu. Lựa chọn những đơn yêu cầu mà người dùng muốn xóa, sau đó nhấn nút 'Xóa đơn' để hoàn thành tác vụ. 
-  \n Những đơn bị xóa bỏ sẽ hoàn toàn biến mất khỏi hệ thống."
+  \nNhững đơn bị xóa bỏ sẽ hoàn toàn biến mất khỏi hệ thống."
 
   utter_function_quan_ly_don_yeu_cau_cap_2:
   - text: "Về trang Quản lý đơn yêu cầu cấp 2, trang có chức năng cho phép nhân sự quản lý danh sách đơn yêu cầu cấp 2 trực tuyến trên hệ thống. 
-  \n Bạn có câu hỏi gì về các nút chức năng xuất hiện trên trang Quản lý đơn yêu cầu cấp 2 không?"
+  \nBạn có câu hỏi gì về các nút chức năng xuất hiện trên trang Quản lý đơn yêu cầu cấp 2 không?"
 
   utter_button_page_12_export:
   - text: "Nút bấm export có dạng trang giấy với dấu mũi tên ở góc trên bên phải. Người dùng lựa chọn các nội dung cần xuất ra tài liệu và ấn nút mũi tên hướng phải để đưa nội dung qua các trường đã chọn. Sau đó nhấn nút 'Xuất' để đưa các nội dung đã chọn ra tài liệu Excel."
@@ -406,22 +397,22 @@ responses:
   
   utter_button_page_12_huy_don:
   - text: "Nút bấm mang tên 'Hủy đơn' cho phép người dùng hủy đơn yêu cầu trên hệ thống. Lựa chọn những đơn yêu cầu mà người dùng muốn hủy, sau đó nhấn nút 'Hủy đơn' để hoàn thành tác vụ. 
-  \n Chú ý đơn được phép hủy không bao gồm đơn có trạng thái Từ chối. Những đơn bị hủy sẽ chuyển sang trạng thái Từ chối"
+  \n * Chú ý: Đơn được phép hủy không bao gồm đơn có trạng thái Từ chối. Những đơn bị hủy sẽ chuyển sang trạng thái Từ chối"
 
   utter_button_page_12_xoa_don:
   - text: "Nút bấm mang tên 'Xóa đơn' cho phép người dùng xóa đơn yêu cầu. Lựa chọn những đơn yêu cầu mà người dùng muốn xóa, sau đó nhấn nút 'Xóa đơn' để hoàn thành tác vụ. 
-  \n Những đơn bị xóa bỏ sẽ hoàn toàn biến mất khỏi hệ thống."
+  \nNhững đơn bị xóa bỏ sẽ hoàn toàn biến mất khỏi hệ thống."
 
 # 
   utter_phep_va_bu:
   - text: "Cảm ơn bạn đã hỏi về nội dung chức năng Phép và bù của chúng tôi. Chức năng này cho phép người dùng xem và quản lý các loại đơn phép bù đã tạo. Những chức năng hỗ trợ khả năng quản lý đơn phép, bù bao gồm:
   \n - Quản lý phép.
   \n - Quản lý bù.
-  \n Nếu bạn muốn tìm hiểu rõ về từng chức năng trên vui lòng tiếp tục đặt câu hỏi."
+  \n\nNếu bạn muốn tìm hiểu rõ về từng chức năng trên vui lòng tiếp tục đặt câu hỏi."
 
   utter_function_quan_ly_phep:
   - text: "Về trang Quản lý phép, trang có chức năng cho phép nhân sự quản lý các nội dung nghỉ phép của nhân sự trên hệ thống. Nhân sự quản lý trang qua các thao tác import, xuất báo cáo, tìm kiếm, quản lý các thông tin nhân sự nghỉ bù theo tháng, năm...
-  \n Bạn có câu hỏi gì về các nút chức năng xuất hiện trên trang Quản lý phép không?"
+  \n\nBạn có câu hỏi gì về các nút chức năng xuất hiện trên trang Quản lý phép không?"
 
   utter_button_page_13_export:
   - text: "Nút bấm export có dạng trang giấy với dấu mũi tên ở góc trên bên phải. Người dùng lựa chọn các nội dung cần xuất ra tài liệu và ấn nút mũi tên hướng phải để đưa nội dung qua các trường đã chọn. Sau đó nhấn nút 'Xuất' để đưa các nội dung đã chọn ra tài liệu Excel."
@@ -431,7 +422,7 @@ responses:
 
   utter_function_quan_ly_bu:
   - text: "Về trang Quản lý bù, trang có chức năng cho phép nhân sự quản lý các nội dung nghỉ phép của nhân sự trên hệ thống. Nhân sự quản lý trang qua các thao tác import, xuất báo cáo, tìm kiếm, quản lý các thông tin nhân sự nghỉ bù theo tháng, năm...
-  \n Bạn có câu hỏi gì về các nút chức năng xuất hiện trên trang Quản lý bù không?"
+  \n\nBạn có câu hỏi gì về các nút chức năng xuất hiện trên trang Quản lý bù không?"
 
   utter_button_page_14_export:
   - text: "Nút bấm export có dạng trang giấy với dấu mũi tên ở góc trên bên phải. Người dùng lựa chọn các nội dung cần xuất ra tài liệu và ấn nút mũi tên hướng phải để đưa nội dung qua các trường đã chọn. Sau đó nhấn nút 'Xuất' để đưa các nội dung đã chọn ra tài liệu Excel."
@@ -439,52 +430,52 @@ responses:
   utter_button_page_14_import:
   - text: "Nút bấm mang tên 'Import' cho phép người dùng thêm dữ liệu bằng cách import tài liệu Excel đúng template. Người dùng nhấn 'Tải xuống Template' để lấy mẫu điền dạng file Excel. Sau đó tiến hành sửa dữ liệu trong file, rồi đưa file Excel lên bằng nút 'Click to Upload'. Cuối cùng xác nhận thêm mới bằng việc nhấn nút 'Lưu', hoặc 'Hủy' nếu không muốn cập nhật"
 
-# 
-  utter_kpis:
-  - text: "Cảm ơn bạn đã hỏi về nội dung chức năng KPIs của chúng tôi. Chức năng này cho phép người dùng kiểm soát thông tin KPI tại chi nhánh bằng việc quản lý đầy đủ thông tin, nội dung vi phạm. Những chức năng hỗ trợ khả năng quản lý KPIs bao gồm:
-  \n - KPI báo cáo tuần.
-  \n - Cấu hình vi phạm.
-  \n - Cấu hình KPI.
-  \n Nếu bạn muốn tìm hiểu rõ về từng chức năng trên vui lòng tiếp tục đặt câu hỏi."
+# # 
+#   utter_kpis:
+#   - text: "Cảm ơn bạn đã hỏi về nội dung chức năng KPIs của chúng tôi. Chức năng này cho phép người dùng kiểm soát thông tin KPI tại chi nhánh bằng việc quản lý đầy đủ thông tin, nội dung vi phạm. Những chức năng hỗ trợ khả năng quản lý KPIs bao gồm:
+#   \n - KPI báo cáo tuần.
+#   \n - Cấu hình vi phạm.
+#   \n - Cấu hình KPI.
+#   \n Nếu bạn muốn tìm hiểu rõ về từng chức năng trên vui lòng tiếp tục đặt câu hỏi."
 
-  utter_function_kpi_bao_cao_tuan:
-  - text: "Về trang KPI báo cáo tuần, trang có chức năng cho phép nhân sự quan sát danh sách kpi báo cáo tuần của nhân sự. 
-  \n Bạn có câu hỏi gì về các nút chức năng xuất hiện trên trang KPI báo cáo tuần không?"
+#   utter_function_kpi_bao_cao_tuan:
+#   - text: "Về trang KPI báo cáo tuần, trang có chức năng cho phép nhân sự quan sát danh sách kpi báo cáo tuần của nhân sự. 
+#   \n Bạn có câu hỏi gì về các nút chức năng xuất hiện trên trang KPI báo cáo tuần không?"
 
-  utter_button_page_15_export:
-  - text: "Nút bấm export có dạng trang giấy với dấu mũi tên ở góc trên bên phải. Người dùng lựa chọn các nội dung cần xuất ra tài liệu và ấn nút mũi tên hướng phải để đưa nội dung qua các trường đã chọn. Sau đó nhấn nút 'Xuất' để đưa các nội dung đã chọn ra tài liệu Excel."
+#   utter_button_page_15_export:
+#   - text: "Nút bấm export có dạng trang giấy với dấu mũi tên ở góc trên bên phải. Người dùng lựa chọn các nội dung cần xuất ra tài liệu và ấn nút mũi tên hướng phải để đưa nội dung qua các trường đã chọn. Sau đó nhấn nút 'Xuất' để đưa các nội dung đã chọn ra tài liệu Excel."
 
-  utter_function_cau_hinh_vi_pham:
-  - text: "Về trang Cấu hình vi phạm, trang có chức năng cho phép quản lý các vi phạm trong quá trình làm việc của nhân viên.  Quản trị viên có quyền thêm vi phạm hoặc xóa vi phạm khỏi danh sách.
-  \n Bạn có câu hỏi gì về các nút chức năng xuất hiện trên trang Cấu hình vi phạm không?"
+#   utter_function_cau_hinh_vi_pham:
+#   - text: "Về trang Cấu hình vi phạm, trang có chức năng cho phép quản lý các vi phạm trong quá trình làm việc của nhân viên.  Quản trị viên có quyền thêm vi phạm hoặc xóa vi phạm khỏi danh sách.
+#   \n Bạn có câu hỏi gì về các nút chức năng xuất hiện trên trang Cấu hình vi phạm không?"
 
-  utter_button_page_16_export:
-  - text: "Nút bấm export có dạng trang giấy với dấu mũi tên ở góc trên bên phải. Người dùng lựa chọn các nội dung cần xuất ra tài liệu và ấn nút mũi tên hướng phải để đưa nội dung qua các trường đã chọn. Sau đó nhấn nút 'Xuất' để đưa các nội dung đã chọn ra tài liệu Excel."
+#   utter_button_page_16_export:
+#   - text: "Nút bấm export có dạng trang giấy với dấu mũi tên ở góc trên bên phải. Người dùng lựa chọn các nội dung cần xuất ra tài liệu và ấn nút mũi tên hướng phải để đưa nội dung qua các trường đã chọn. Sau đó nhấn nút 'Xuất' để đưa các nội dung đã chọn ra tài liệu Excel."
 
-  utter_button_page_16_them_moi:
-  - text: "Nút bấm mang tên 'Tạo mới' cho phép người dùng thêm vi phạm của nhân viên trực tiếp trên ứng dụng bằng cách hoàn thiện popup hiện ra sau đó. Sau khi hoàn tất việc điền dữ liệu, người dùng lựa chọn 'Lưu' để thêm mới dữ liệu hoặc nhấn 'Hủy' để từ chối cập nhật."
+#   utter_button_page_16_them_moi:
+#   - text: "Nút bấm mang tên 'Tạo mới' cho phép người dùng thêm vi phạm của nhân viên trực tiếp trên ứng dụng bằng cách hoàn thiện popup hiện ra sau đó. Sau khi hoàn tất việc điền dữ liệu, người dùng lựa chọn 'Lưu' để thêm mới dữ liệu hoặc nhấn 'Hủy' để từ chối cập nhật."
   
-  utter_button_page_16_xoa:
-  - text: "Nút bấm mang tên 'Xóa' cho phép người dùng xóa vi phạm trong danh sách. Lựa chọn những vi phạm mà người dùng muốn xóa, sau đó nhấn nút 'Xóa' để hoàn thành tác vụ. 
-  \n Những nội dung bị xóa bỏ sẽ hoàn toàn biến mất khỏi hệ thống."
+#   utter_button_page_16_xoa:
+#   - text: "Nút bấm mang tên 'Xóa' cho phép người dùng xóa vi phạm trong danh sách. Lựa chọn những vi phạm mà người dùng muốn xóa, sau đó nhấn nút 'Xóa' để hoàn thành tác vụ. 
+#   \n Những nội dung bị xóa bỏ sẽ hoàn toàn biến mất khỏi hệ thống."
 
-  utter_function_cau_hinh_kpi:
-  - text: "Về trang Cấu hình KPI, trang có chức năng cho phép quản lý các nội dung ảnh hưởng tới KPI của nhân viên.  Quản trị viên có quyền thêm hoặc xóa các nội dung khỏi danh sách.
-  \n Bạn có câu hỏi gì về các nút chức năng xuất hiện trên trang Cấu hình KPI không?"
+#   utter_function_cau_hinh_kpi:
+#   - text: "Về trang Cấu hình KPI, trang có chức năng cho phép quản lý các nội dung ảnh hưởng tới KPI của nhân viên.  Quản trị viên có quyền thêm hoặc xóa các nội dung khỏi danh sách.
+#   \n Bạn có câu hỏi gì về các nút chức năng xuất hiện trên trang Cấu hình KPI không?"
 
-  utter_button_page_17_export:
-  - text: "Nút bấm export có dạng trang giấy với dấu mũi tên ở góc trên bên phải. Người dùng lựa chọn các nội dung cần xuất ra tài liệu và ấn nút mũi tên hướng phải để đưa nội dung qua các trường đã chọn. Sau đó nhấn nút 'Xuất' để đưa các nội dung đã chọn ra tài liệu Excel."
+#   utter_button_page_17_export:
+#   - text: "Nút bấm export có dạng trang giấy với dấu mũi tên ở góc trên bên phải. Người dùng lựa chọn các nội dung cần xuất ra tài liệu và ấn nút mũi tên hướng phải để đưa nội dung qua các trường đã chọn. Sau đó nhấn nút 'Xuất' để đưa các nội dung đã chọn ra tài liệu Excel."
 
-  utter_button_page_17_them_moi:
-  - text: "Nút bấm mang tên 'Tạo mới' cho phép người dùng thêm nội dung của nhân viên trực tiếp trên ứng dụng bằng cách hoàn thiện popup hiện ra sau đó. Sau khi hoàn tất việc điền dữ liệu, người dùng lựa chọn 'Lưu' để thêm mới dữ liệu hoặc nhấn 'Hủy' để từ chối cập nhật."
+#   utter_button_page_17_them_moi:
+#   - text: "Nút bấm mang tên 'Tạo mới' cho phép người dùng thêm nội dung của nhân viên trực tiếp trên ứng dụng bằng cách hoàn thiện popup hiện ra sau đó. Sau khi hoàn tất việc điền dữ liệu, người dùng lựa chọn 'Lưu' để thêm mới dữ liệu hoặc nhấn 'Hủy' để từ chối cập nhật."
   
-  utter_button_page_17_xoa:
-  - text: "Nút bấm mang tên 'Xóa' cho phép người dùng xóa nội dung trong danh sách. Lựa chọn những phần mà người dùng muốn xóa, sau đó nhấn nút 'Xóa' để hoàn thành tác vụ. 
-  \n Những nội dung bị xóa bỏ sẽ hoàn toàn biến mất khỏi hệ thống."
+#   utter_button_page_17_xoa:
+#   - text: "Nút bấm mang tên 'Xóa' cho phép người dùng xóa nội dung trong danh sách. Lựa chọn những phần mà người dùng muốn xóa, sau đó nhấn nút 'Xóa' để hoàn thành tác vụ. 
+#   \n Những nội dung bị xóa bỏ sẽ hoàn toàn biến mất khỏi hệ thống."
 # 
   utter_cau_hinh_khoa:
   - text: "Về trang Cấu hình khóa, trang có chức năng cho phép người dùng khóa hoặc mở khóa các trường nội dung của website. 
-  \n Bạn có câu hỏi gì về các nút chức năng xuất hiện trên trang Cấu hình khóa không?"
+  \n\nBạn có câu hỏi gì về các nút chức năng xuất hiện trên trang Cấu hình khóa không?"
 
   utter_button_page_18_export:
   - text: "Nút bấm export có dạng trang giấy với dấu mũi tên ở góc trên bên phải. Người dùng lựa chọn các nội dung cần xuất ra tài liệu và ấn nút mũi tên hướng phải để đưa nội dung qua các trường đã chọn. Sau đó nhấn nút 'Xuất' để đưa các nội dung đã chọn ra tài liệu Excel."
@@ -494,11 +485,11 @@ responses:
   
   utter_button_page_18_xoa:
   - text: "Nút bấm mang tên 'Xóa' cho phép người dùng xóa nội dung trong danh sách. Lựa chọn những phần mà người dùng muốn xóa, sau đó nhấn nút 'Xóa' để hoàn thành tác vụ. 
-  \n Những nội dung bị xóa bỏ sẽ hoàn toàn biến mất khỏi hệ thống."
+  \n * Chú ý: Những nội dung bị xóa bỏ sẽ hoàn toàn biến mất khỏi hệ thống."
 # 
   utter_cau_hinh_ngay_le:
   - text: "Về trang Cấu hình ngày lễ, trang có chức năng cho phép người thiết lập các ngày nghỉ lễ tùy thuộc vào đặc thù từng đơn vị. 
-  \n Bạn có câu hỏi gì về các nút chức năng xuất hiện trên trang Cấu hình ngày lễ không?"
+  \n\nBạn có câu hỏi gì về các nút chức năng xuất hiện trên trang Cấu hình ngày lễ không?"
 
   utter_button_page_19_export:
   - text: "Nút bấm export có dạng trang giấy với dấu mũi tên ở góc trên bên phải. Người dùng lựa chọn các nội dung cần xuất ra tài liệu và ấn nút mũi tên hướng phải để đưa nội dung qua các trường đã chọn. Sau đó nhấn nút 'Xuất' để đưa các nội dung đã chọn ra tài liệu Excel."
@@ -508,12 +499,12 @@ responses:
   
   utter_button_page_19_xoa:
   - text: "Nút bấm mang tên 'Xóa' cho phép người dùng xóa nội dung nghỉ lễ trong danh sách. Lựa chọn những phần mà người dùng muốn xóa, sau đó nhấn nút 'Xóa' để hoàn thành tác vụ. 
-  \n Những nội dung bị xóa bỏ sẽ hoàn toàn biến mất khỏi hệ thống." 
+  \n * Chú ý: Những nội dung bị xóa bỏ sẽ hoàn toàn biến mất khỏi hệ thống." 
 
 # 
   utter_don_xin_van_phong_pham:
   - text: "Về trang Đơn xin văn phòng phẩm, trang có chức năng cho phép người thiết lập các ngày nghỉ lễ tùy thuộc vào đặc thù từng đơn vị. 
-  \n Bạn có câu hỏi gì về các nút chức năng xuất hiện trên trang Đơn xin văn phòng phẩm?"
+  \n\nBạn có câu hỏi gì về các nút chức năng xuất hiện trên trang Đơn xin văn phòng phẩm?"
 
   utter_button_page_20_export:
   - text: "Nút bấm export có dạng trang giấy với dấu mũi tên ở góc trên bên phải. Người dùng lựa chọn các nội dung cần xuất ra tài liệu và ấn nút mũi tên hướng phải để đưa nội dung qua các trường đã chọn. Sau đó nhấn nút 'Xuất' để đưa các nội dung đã chọn ra tài liệu Excel."
@@ -526,11 +517,11 @@ responses:
 
   utter_button_page_20_huy_don:
   - text: "Nút bấm mang tên 'Từ chối' cho phép người dùng hủy đơn yêu cầu trên hệ thống. Lựa chọn những đơn yêu cầu mà người dùng muốn hủy, sau đó nhấn nút 'Từ chối' để hoàn thành tác vụ. 
-  \n Chú ý đơn được phép hủy không bao gồm đơn có trạng thái Từ chối. Những đơn bị hủy sẽ chuyển sang trạng thái Từ chối"
+  \n * Chú ý: Đơn được phép hủy không bao gồm đơn có trạng thái Từ chối. Những đơn bị hủy sẽ chuyển sang trạng thái Từ chối"
   
   utter_button_page_20_xoa_don:
   - text: "Nút bấm mang tên 'Xóa' cho phép người dùng xóa đơn yêu cầu. Lựa chọn những đơn yêu cầu mà người dùng muốn xóa, sau đó nhấn nút 'Xóa' để hoàn thành tác vụ. 
-  \n Những đơn bị xóa bỏ sẽ hoàn toàn biến mất khỏi hệ thống."
+  \n * Chú ý: Những đơn bị xóa bỏ sẽ hoàn toàn biến mất khỏi hệ thống."
   
   utter_button_page_20_tao_don:
   - text: "Nút bấm mang tên 'Tạo đơn' cho phép người dùng tạo yêu cầu xin văn phòng phẩm lên hệ thống bằng cách hoàn thiện popup hiện ra sau đó. Sau khi hoàn tất việc điền dữ liệu, người dùng lựa chọn 'Lưu' để thêm mới dữ liệu hoặc nhấn 'Hủy' để từ chối cập nhật "
@@ -538,7 +529,7 @@ responses:
 # 
   utter_dat_phong_hop:
   - text: "Về trang Đặt phòng họp, trang có chức năng cho phép người thiết lập các ngày nghỉ lễ tùy thuộc vào đặc thù từng đơn vị. 
-  \n Bạn có câu hỏi gì về các nút chức năng xuất hiện trên trang Đặt phòng họp không?"
+  \n\nBạn có câu hỏi gì về các nút chức năng xuất hiện trên trang Đặt phòng họp không?"
 
   utter_button_page_21_export:
   - text: "Nút bấm export có dạng trang giấy với dấu mũi tên ở góc trên bên phải. Người dùng lựa chọn các nội dung cần xuất ra tài liệu và ấn nút mũi tên hướng phải để đưa nội dung qua các trường đã chọn. Sau đó nhấn nút 'Xuất' để đưa các nội dung đã chọn ra tài liệu Excel."
@@ -551,11 +542,11 @@ responses:
 
   utter_button_page_21_huy_don:
   - text: "Nút bấm mang tên 'Từ chối' cho phép người dùng hủy đơn yêu cầu trên hệ thống. Lựa chọn những đơn yêu cầu mà người dùng muốn hủy, sau đó nhấn nút 'Từ chối' để hoàn thành tác vụ. 
-  \n Chú ý đơn được phép hủy không bao gồm đơn có trạng thái Từ chối. Những đơn bị hủy sẽ chuyển sang trạng thái Từ chối"
+  \n * Chú ý: Đơn được phép hủy không bao gồm đơn có trạng thái Từ chối. Những đơn bị hủy sẽ chuyển sang trạng thái Từ chối"
   
   utter_button_page_21_xoa_don:
   - text: "Nút bấm mang tên 'Xóa' cho phép người dùng xóa đơn yêu cầu. Lựa chọn những đơn yêu cầu mà người dùng muốn xóa, sau đó nhấn nút 'Xóa' để hoàn thành tác vụ. 
-  \n Những đơn bị xóa bỏ sẽ hoàn toàn biến mất khỏi hệ thống."
+  \n * Chú ý: Những đơn bị xóa bỏ sẽ hoàn toàn biến mất khỏi hệ thống."
   
   utter_button_page_21_tao_don:
   - text: "Nút bấm mang tên 'Tạo mới' cho phép người dùng tạo yêu cầu xin văn phòng phẩm lên hệ thống bằng cách hoàn thiện popup hiện ra sau đó. Sau khi hoàn tất việc điền dữ liệu, người dùng lựa chọn 'Lưu' để thêm mới dữ liệu hoặc nhấn 'Hủy' để từ chối cập nhật "

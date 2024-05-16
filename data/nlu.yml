@@ -206,28 +206,14 @@ nlu:
     - Xóa của cấu hình chức vụ
     - Nút bấm Xóa của cấu hình chức vụ
 # --------------------------------------------------------------------------
-- intent: phan_ca_xuat_bao_cao
-  examples: |
-    - Phân ca xuất báo cáo
-    - Phân ca và xuất báo cáo
-    - Cho mình hỏi về trang Phân ca và xuất báo cáo
-    - Chức năng Phân ca và xuất báo cáo là gì
-    - Phân ca xuất báo cáo ở lề bên trái Website
-    - Mình không rõ các nội dung của trang Phân ca và xuất báo cáo  
-
-- intent: function_xuat_bao_cao
-  examples: |
-    - Xuất báo cáo
-    - Mình muốn hỏi về chức năng con Xuất báo cáo
-    - Chức năng Xuất báo cáo là gì
-    - Trang Xuất báo cáo làm được gì
-
-- intent: function_phan_ca
+- intent: phan_ca_nhan_vien
   examples: |
     - Phân ca nhân viên
-    - Mình muốn hỏi về chức năng con Phân ca nhân viên
-    - Chức năng Phân ca nhân viên là gì
-    - Trang Phân ca nhân viên làm được gì
+    - Cho mình hỏi về trang Phân ca nhân viên
+    - Chức năng Phân ca nhân viên cáo là gì
+    - Phân ca nhân viên ở lề bên trái Website
+    - Mình không rõ các nội dung của trang Phân ca nhân viên 
+
 # --------------------------------------------------------------------------
 - intent: bao_cao_cham_cong
   examples: |
@@ -338,18 +324,18 @@ nlu:
     - Đơn của Báo cáo theo tháng
     - Nút bấm Đơn của Báo cáo theo tháng
 # --------------------------------------------------------------------------
-- intent: function_danh_sach_cham_cong
-  examples: |
-    - Danh sách chấm công
-    - Mình muốn hỏi về chức năng con Danh sách chấm công
-    - Chức năng Danh sách chấm công là gì
-    - Trang Danh sách chấm công làm được gì
+# - intent: function_danh_sach_cham_cong
+#   examples: |
+#     - Danh sách chấm công
+#     - Mình muốn hỏi về chức năng con Danh sách chấm công
+#     - Chức năng Danh sách chấm công là gì
+#     - Trang Danh sách chấm công làm được gì
   
-- intent: button_page_9_export
-  examples: |
-    - Mình muốn hỏi về nút Export của Danh sách chấm công
-    - Export của Danh sách chấm công
-    - Nút bấm Export của Danh sách chấm công
+# - intent: button_page_9_export
+#   examples: |
+#     - Mình muốn hỏi về nút Export của Danh sách chấm công
+#     - Export của Danh sách chấm công
+#     - Nút bấm Export của Danh sách chấm công
 # --------------------------------------------------------------------------
 - intent: don_va_giai_trinh
   examples: |
@@ -499,76 +485,76 @@ nlu:
     - Nút bấm Import của Quản lý bù
 
 # --------------------------------------------------------------------------
-- intent: kpis
-  examples: |
-    - KPIs
-    - Cho mình hỏi về trang KPIs
-    - Chức năng KPIs là gì
-    - KPIs ở lề bên trái Website
-    - Mình không rõ các nội dung của trang KPIs
+# - intent: kpis
+#   examples: |
+#     - KPIs
+#     - Cho mình hỏi về trang KPIs
+#     - Chức năng KPIs là gì
+#     - KPIs ở lề bên trái Website
+#     - Mình không rõ các nội dung của trang KPIs
 
-- intent: function_kpi_bao_cao_tuan
-  examples: |
-    - KPI báo cáo tuần
-    - Mình muốn hỏi về chức năng con KPI báo cáo tuần
-    - Chức năng KPI báo cáo tuần là gì
-    - Trang KPI báo cáo tuần làm được gì
+# - intent: function_kpi_bao_cao_tuan
+#   examples: |
+#     - KPI báo cáo tuần
+#     - Mình muốn hỏi về chức năng con KPI báo cáo tuần
+#     - Chức năng KPI báo cáo tuần là gì
+#     - Trang KPI báo cáo tuần làm được gì
 
-- intent: button_page_15_export
-  examples: |
-    - Mình muốn hỏi về nút Export của KPI báo cáo tuần
-    - Export của KPI báo cáo tuần
-    - Nút bấm Export của KPI báo cáo tuần
+# - intent: button_page_15_export
+#   examples: |
+#     - Mình muốn hỏi về nút Export của KPI báo cáo tuần
+#     - Export của KPI báo cáo tuần
+#     - Nút bấm Export của KPI báo cáo tuần
   
-- intent: function_cau_hinh_vi_pham
-  examples: |
-    - Cấu hình vi phạm
-    - Mình muốn hỏi về chức năng con Cấu hình vi phạm
-    - Chức năng Cấu hình vi phạm là gì
-    - Trang Cấu hình vi phạm làm được gì
+# - intent: function_cau_hinh_vi_pham
+#   examples: |
+#     - Cấu hình vi phạm
+#     - Mình muốn hỏi về chức năng con Cấu hình vi phạm
+#     - Chức năng Cấu hình vi phạm là gì
+#     - Trang Cấu hình vi phạm làm được gì
 
-- intent: button_page_16_export
-  examples: |
-    - Mình muốn hỏi về nút Export của Cấu hình vi phạm
-    - Export của Cấu hình vi phạm
-    - Nút bấm Export của Cấu hình vi phạm
+# - intent: button_page_16_export
+#   examples: |
+#     - Mình muốn hỏi về nút Export của Cấu hình vi phạm
+#     - Export của Cấu hình vi phạm
+#     - Nút bấm Export của Cấu hình vi phạm
   
-- intent: button_page_16_them_moi
-  examples: |
-    - Mình muốn hỏi về nút tạo mới của Cấu hình vi phạm
-    - Tạo mới của Cấu hình vi phạm
-    - Nút bấm Tạo mới của Cấu hình vi phạm
+# - intent: button_page_16_them_moi
+#   examples: |
+#     - Mình muốn hỏi về nút tạo mới của Cấu hình vi phạm
+#     - Tạo mới của Cấu hình vi phạm
+#     - Nút bấm Tạo mới của Cấu hình vi phạm
 
-- intent: button_page_16_xoa
-  examples: |
-    - Mình muốn hỏi về nút Xóa của Cấu hình vi phạm
-    - Xóa của Cấu hình vi phạm
-    - Nút bấm Xóa của Cấu hình vi phạm
+# - intent: button_page_16_xoa
+#   examples: |
+#     - Mình muốn hỏi về nút Xóa của Cấu hình vi phạm
+#     - Xóa của Cấu hình vi phạm
+#     - Nút bấm Xóa của Cấu hình vi phạm
   
-- intent: function_cau_hinh_kpi
-  examples: |
-    - Cấu hình KPI
-    - Mình muốn hỏi về chức năng con Cấu hình KPI
-    - Chức năng Cấu hình KPI là gì
-    - Trang Cấu hình KPI làm được gì
+# - intent: function_cau_hinh_kpi
+#   examples: |
+#     - Cấu hình KPI
+#     - Mình muốn hỏi về chức năng con Cấu hình KPI
+#     - Chức năng Cấu hình KPI là gì
+#     - Trang Cấu hình KPI làm được gì
 
-- intent: button_page_17_export
-  examples: |
-    - Mình muốn hỏi về nút Export của Cấu hình KPI
-    - Export của Cấu hình KPI
-    - Nút bấm Export của Cấu hình KPI
+# - intent: button_page_17_export
+#   examples: |
+#     - Mình muốn hỏi về nút Export của Cấu hình KPI
+#     - Export của Cấu hình KPI
+#     - Nút bấm Export của Cấu hình KPI
   
-- intent: button_page_17_them_moi
-  examples: |
-    - Mình muốn hỏi về nút tạo mới của Cấu hình KPI
-    - Tạo mới của Cấu hình KPI
-    - Nút bấm Tạo mới của Cấu hình KPI
+# - intent: button_page_17_them_moi
+#   examples: |
+#     - Mình muốn hỏi về nút tạo mới của Cấu hình KPI
+#     - Tạo mới của Cấu hình KPI
+#     - Nút bấm Tạo mới của Cấu hình KPI
 
-- intent: button_page_17_xoa
-  examples: |
-    - Mình muốn hỏi về nút Xóa của Cấu hình KPI
-    - Xóa của Cấu hình KPI
-    - Nút bấm Xóa của Cấu hình KPI
+# - intent: button_page_17_xoa
+#   examples: |
+#     - Mình muốn hỏi về nút Xóa của Cấu hình KPI
+#     - Xóa của Cấu hình KPI
+#     - Nút bấm Xóa của Cấu hình KPI
 
 # --------------------------------------------------------------------------
 - intent: cau_hinh_khoa
