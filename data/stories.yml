@@ -187,19 +187,10 @@ stories:
   - intent: button_page_5_xoa
   - action: utter_button_page_5_xoa
 # 
-- story: path 8 question ve xuat bao cao
+- story: path 8 question ve phan ca nhan vien
   steps:
-  - intent: phan_ca_xuat_bao_cao
-  - action: utter_phan_ca_xuat_bao_cao
-  - intent: function_xuat_bao_cao
-  - action: utter_function_xuat_bao_cao
-
-- story: path 9 question ve phan ca
-  steps:
-  - intent: phan_ca_xuat_bao_cao
-  - action: utter_phan_ca_xuat_bao_cao
-  - intent: function_phan_ca
-  - action: utter_function_phan_ca
+  - intent: phan_ca_nhan_vien
+  - action: utter_phan_ca_nhan_vien
 # 
 - story: path 10 question ve bao cao tuan
   steps:
@@ -313,20 +304,20 @@ stories:
   - action: utter_function_bao_cao_thang
   - intent: button_page_8_tao_don
   - action: utter_button_page_8_tao_don
-  # 
-- story: path 13 question ve danh sach cham cong
-  steps:
-  - intent: bao_cao_cham_cong
-  - action: utter_bao_cao_cham_cong
-  - intent: function_danh_sach_cham_cong
-  - action: utter_function_danh_sach_cham_cong
+#   # 
+# - story: path 13 question ve danh sach cham cong
+#   steps:
+#   - intent: bao_cao_cham_cong
+#   - action: utter_bao_cao_cham_cong
+#   - intent: function_danh_sach_cham_cong
+#   - action: utter_function_danh_sach_cham_cong
 
-- story: path 13.1 question ve nut 1
-  steps:
-  - intent: function_danh_sach_cham_cong
-  - action: utter_function_danh_sach_cham_cong
-  - intent: button_page_9_export
-  - action: utter_button_page_9_export
+# - story: path 13.1 question ve nut 1
+#   steps:
+#   - intent: function_danh_sach_cham_cong
+#   - action: utter_function_danh_sach_cham_cong
+#   - intent: button_page_9_export
+#   - action: utter_button_page_9_export
   # 
 - story: path 14 question ve quan ly don yeu cau
   steps:
@@ -475,76 +466,76 @@ stories:
   - intent: button_page_14_import
   - action: utter_button_page_14_import
 
-#
-- story: path 18 question ve kpi bao cao tuan
-  steps:
-  - intent: kpis
-  - action: utter_kpis
-  - intent: function_kpi_bao_cao_tuan
-  - action: utter_function_kpi_bao_cao_tuan
+# #
+# - story: path 18 question ve kpi bao cao tuan
+#   steps:
+#   - intent: kpis
+#   - action: utter_kpis
+#   - intent: function_kpi_bao_cao_tuan
+#   - action: utter_function_kpi_bao_cao_tuan
 
-- story: path 18.1 question ve nut 1
-  steps:
-  - intent: function_kpi_bao_cao_tuan
-  - action: utter_function_kpi_bao_cao_tuan
-  - intent: button_page_15_export
-  - action: utter_button_page_15_export
+# - story: path 18.1 question ve nut 1
+#   steps:
+#   - intent: function_kpi_bao_cao_tuan
+#   - action: utter_function_kpi_bao_cao_tuan
+#   - intent: button_page_15_export
+#   - action: utter_button_page_15_export
 
-- story: path 19 question ve cau hinh vi pham
-  steps:
-  - intent: kpis
-  - action: utter_kpis
-  - intent: function_cau_hinh_vi_pham
-  - action: utter_function_cau_hinh_vi_pham
+# - story: path 19 question ve cau hinh vi pham
+#   steps:
+#   - intent: kpis
+#   - action: utter_kpis
+#   - intent: function_cau_hinh_vi_pham
+#   - action: utter_function_cau_hinh_vi_pham
 
-- story: path 19.1 question ve nut 1
-  steps:
-  - intent: function_cau_hinh_vi_pham
-  - action: utter_function_cau_hinh_vi_pham
-  - intent: button_page_16_export
-  - action: utter_button_page_16_export
+# - story: path 19.1 question ve nut 1
+#   steps:
+#   - intent: function_cau_hinh_vi_pham
+#   - action: utter_function_cau_hinh_vi_pham
+#   - intent: button_page_16_export
+#   - action: utter_button_page_16_export
 
-- story: path 19.2 question ve nut 2
-  steps:
-  - intent: function_cau_hinh_vi_pham
-  - action: utter_function_cau_hinh_vi_pham
-  - intent: button_page_16_them_moi
-  - action: utter_button_page_16_them_moi
+# - story: path 19.2 question ve nut 2
+#   steps:
+#   - intent: function_cau_hinh_vi_pham
+#   - action: utter_function_cau_hinh_vi_pham
+#   - intent: button_page_16_them_moi
+#   - action: utter_button_page_16_them_moi
 
-- story: path 19.3 question ve nut 3
-  steps:
-  - intent: function_cau_hinh_vi_pham
-  - action: utter_function_cau_hinh_vi_pham
-  - intent: button_page_16_xoa
-  - action: utter_button_page_16_xoa
+# - story: path 19.3 question ve nut 3
+#   steps:
+#   - intent: function_cau_hinh_vi_pham
+#   - action: utter_function_cau_hinh_vi_pham
+#   - intent: button_page_16_xoa
+#   - action: utter_button_page_16_xoa
 
-- story: path 20 question ve cau hinh kpi
-  steps:
-  - intent: kpis
-  - action: utter_kpis
-  - intent: function_cau_hinh_kpi
-  - action: utter_function_cau_hinh_kpi
+# - story: path 20 question ve cau hinh kpi
+#   steps:
+#   - intent: kpis
+#   - action: utter_kpis
+#   - intent: function_cau_hinh_kpi
+#   - action: utter_function_cau_hinh_kpi
 
-- story: path 20.1 question ve nut 1
-  steps:
-  - intent: function_cau_hinh_kpi
-  - action: utter_function_cau_hinh_kpi
-  - intent: button_page_17_export
-  - action: utter_button_page_17_export
+# - story: path 20.1 question ve nut 1
+#   steps:
+#   - intent: function_cau_hinh_kpi
+#   - action: utter_function_cau_hinh_kpi
+#   - intent: button_page_17_export
+#   - action: utter_button_page_17_export
 
-- story: path 20.2 question ve nut 2
-  steps:
-  - intent: function_cau_hinh_kpi
-  - action: utter_function_cau_hinh_kpi
-  - intent: button_page_17_them_moi
-  - action: utter_button_page_17_them_moi
+# - story: path 20.2 question ve nut 2
+#   steps:
+#   - intent: function_cau_hinh_kpi
+#   - action: utter_function_cau_hinh_kpi
+#   - intent: button_page_17_them_moi
+#   - action: utter_button_page_17_them_moi
 
-- story: path 20.3 question ve nut 3
-  steps:
-  - intent: function_cau_hinh_kpi
-  - action: utter_function_cau_hinh_kpi
-  - intent: button_page_17_xoa
-  - action: utter_button_page_17_xoa
+# - story: path 20.3 question ve nut 3
+#   steps:
+#   - intent: function_cau_hinh_kpi
+#   - action: utter_function_cau_hinh_kpi
+#   - intent: button_page_17_xoa
+#   - action: utter_button_page_17_xoa
 #
 - story: path 21.1 question ve nut 1
   steps:
